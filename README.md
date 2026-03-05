@@ -1,68 +1,92 @@
-🏙️ Sanal Şehir Keşfi (Virtual City Exploration)
+# 🏙️ Sanal Şehir Keşfi (Virtual City Exploration)
 
-🎓 Fırat Üniversitesi – Yazılım Mühendisliği
-📚 Yazılım Mühendisliği Temelleri Dersi Projesi
+🎓 **Fırat Üniversitesi – Yazılım Mühendisliği**  
+📚 *Yazılım Mühendisliği Temelleri Dersi Projesi*
 
-✨ Kullanıcıların tarihi ve kültürel mekanları sanal gerçeklik ortamında keşfedebileceği bir simülasyon uygulaması geliştirmeyi amaçlayan bir projedir.
+---
+
+## 📖 Proje Hakkında
+
+Bu proje, kullanıcıların **tarihi ve kültürel mekanları sanal gerçeklik ortamında keşfedebileceği** bir simülasyon uygulaması geliştirmeyi amaçlamaktadır.
 
 Kullanıcılar sanal bir şehir ortamında dolaşarak önemli yapılar hakkında bilgi edinebilecek ve etkileşimli bir keşif deneyimi yaşayacaktır.
 
-🎯 Projenin Amacı
+---
 
-🌍 Kullanıcıların sanal ortamda şehirleri keşfetmesini sağlamak
-🏛️ Tarihi ve kültürel mekanları tanıtmak
-🕶️ Sanal gerçeklik teknolojileri ile etkileşimli bir deneyim sunmak
+## 🎯 Projenin Amacı
 
-⚙️ Kullanılan Teknolojiler
+- 🌍 Sanal ortamda şehir keşfi deneyimi sunmak  
+- 🏛️ Tarihi ve kültürel mekanları tanıtmak  
+- 🕶️ Sanal gerçeklik teknolojileri ile etkileşim sağlamak  
 
-🎮 Unity – Oyun motoru
-💻 C# – Programlama dili
-🧱 Blender / 3D Modelleme Araçları
-🛠️ Git & GitHub – Versiyon kontrol sistemi
+---
 
-🧩 Proje Özellikleri
+## ⚙️ Kullanılan Teknolojiler
 
-🏙️ Sanal şehir ortamı
-🚶 Kullanıcı hareket sistemi
-🏛️ Tarihi mekanlar ve bilgi panelleri
-🎮 Etkileşimli kullanıcı arayüzü
-🕶️ VR destekli keşif deneyimi
+- 🎮 **Unity**
+- 💻 **C#**
+- 🧱 **Blender / 3D Modelleme**
+- 🛠️ **Git & GitHub**
 
-👥 Proje Ekibi
+---
 
-👨‍💼 Proje Yöneticisi
-👤 Mehmet Talha Kaya
+## 🧩 Proje Özellikleri
 
-📋 Gereksinim Analizi
+- 🏙️ **Sanal şehir ortamı**
+- 🚶 **Kullanıcı hareket sistemi**
+- 🏛️ **Tarihi mekanlar ve bilgi panelleri**
+- 🎮 **Etkileşimli kullanıcı arayüzü**
+- 🕶️ **VR destekli keşif deneyimi**
+
+---
+
+# 👥 Proje Ekibi
+
+## 👨‍💼 Proje Yöneticisi
+👤 **Mehmet Talha Kaya**
+
+---
+
+## 📋 Gereksinim Analizi
 👤 Mustafa Murat Hilaloğlu
 
-🔎 Teknoloji Araştırması
+---
+
+## 🔎 Teknoloji Araştırması
 👤 Mehmet Talha Kaya
 
-⚙️ Geliştirme Ortamı Kurulumu
+---
+
+## ⚙️ Geliştirme Ortamı Kurulumu
 👤 Cemre Yurtsever
 
-🛠️ Proje Yönetimi ve İşbirliği Araçları
+---
+
+## 🛠️ Proje Yönetimi ve İşbirliği Araçları
 👤 Furkan Durkaç
 
-📊 Proje Analizi ve Kapsam Belirleme
+---
+
+## 📊 Proje Analizi ve Kapsam Belirleme
 👤 Fırat Seçkin
 
-📅 Proje Süreci
-📌 Hafta 1
+---
 
-Gereksinim analizi
+# 📅 Proje Süreci
 
-Teknoloji araştırması
+## 📌 Hafta 1
+- Gereksinim analizi  
+- Teknoloji araştırması  
+- Geliştirme ortamı kurulumu  
+- Proje yönetim araçlarının kurulması  
+- Proje kapsamının belirlenmesi  
 
-Geliştirme ortamı kurulumu
+---
 
-Proje yönetim araçlarının kurulması
+# 🚀 Proje Durumu
 
-Proje kapsamının belirlenmesi
+🛠️ **Geliştirme Aşamasında**
 
-🚀 Proje Durumu
+---
 
-🛠️ Geliştirme Aşamasında
-
-⭐ Bu proje Fırat Üniversitesi Yazılım Mühendisliği Temelleri dersi kapsamında geliştirilmektedir.
+> ⭐ Bu proje **Fırat Üniversitesi Yazılım Mühendisliği Temelleri dersi kapsamında geliştirilmektedir.**
