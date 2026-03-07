@@ -63,7 +63,7 @@ Kullanıcılar sanal bir şehir ortamında dolaşarak önemli yapılar hakkında
 ---
 
 ## 🛠️ Proje Yönetimi ve İşbirliği Araçları
-👤 Furkan Durkaç
+👤 Melike Gücin
 
 ---
 
