@@ -47,6 +47,11 @@ Kullanıcılar sanal bir şehir ortamında dolaşarak önemli yapılar hakkında
 
 ---
 
+## 🛠️ Proje Yönetimi ve İşbirliği Araçları
+👤 Melike Gücin
+
+---
+
 ## 📋 Gereksinim Analizi
 👤 Mustafa Murat Hilaloğlu
 
@@ -59,11 +64,6 @@ Kullanıcılar sanal bir şehir ortamında dolaşarak önemli yapılar hakkında
 
 ## ⚙️ Geliştirme Ortamı Kurulumu
 👤 Cemre Yurtsever
-
----
-
-## 🛠️ Proje Yönetimi ve İşbirliği Araçları
-👤 Melike Gücin
 
 ---
 
