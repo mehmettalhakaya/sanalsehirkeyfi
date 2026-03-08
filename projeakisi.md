@@ -5,7 +5,7 @@ Her hafta ekip üyeleri yaptıkları çalışmaları bu dosyaya ekleyerek projen
 
 ---
 
-## 📅 1. Hafta (9 – 15 Mart)
+## 📅 1. Hafta (6 – 12 Mart)
 
 ### 👨‍💼 Mehmet Talha Kaya (Scrum Master / Proje Yöneticisi)
 - GitHub reposu oluşturuldu.
