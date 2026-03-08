@@ -57,12 +57,12 @@ Kullanıcılar sanal bir şehir ortamında dolaşarak önemli yapılar hakkında
 
 ---
 
-## ⚠️ Risk Analizi
+## 🔎 Teknoloji Araştırması
 👤 Mehmet Talha Kaya
 
 ---
 
-## 🔎 Teknoloji Araştırması
+## ⚠️ Risk Analizi
 👤 Mehmet Talha Kaya
 
 ---
