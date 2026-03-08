@@ -5,36 +5,53 @@ Her hafta ekip üyeleri yaptıkları çalışmaları bu dosyaya ekleyerek projen
 
 ---
 
-## 📅 1. Hafta (6 – 12 Mart)
+# 📅 1. Hafta (6 – 12 Mart)
 
-### 👨‍💼 Mehmet Talha Kaya (Scrum Master / Proje Yöneticisi)
+## 👨‍💼 Mehmet Talha Kaya (Scrum Master / Proje Yöneticisi)
 - GitHub reposu oluşturuldu.
-- `main` branch için **branch protection** ayarları yapıldı.
-- Takım üyeleri repo’ya **collaborator** olarak eklendi.
+- `main` branch için branch koruma kuralları ayarlandı.
+- Takım üyeleri repo’ya collaborator olarak eklendi.
 - GitHub Desktop ve Git iş akışı hakkında ekip bilgilendirildi.
-- Proje akışı dokümanı (`projeakisi.md`) oluşturuldu.
+- Proje akışı dokümanı (**projeakisi.md**) oluşturuldu.
 
-### 🛠️ Melike Gücin (Proje Yönetimi ve İşbirliği Araçları)
+---
+
+## 🛠️ Melike Gücin (Proje Yönetimi ve İşbirliği Araçları)
 - Proje yönetimi ve görev takibi için kullanılabilecek araçlar incelendi.
 - GitHub üzerinden ekip iş akışı planlandı.
 - Proje görevlerinin takibi için pano sistemi hazırlandı.
 
-### 📋 Mustafa Murat Hilaloğlu (Gereksinim Analizi)
-- Proje için gerekli **kullanıcı ve sistem gereksinimleri** araştırıldı.
+---
+
+## 📋 Mustafa Murat Hilaloğlu (Gereksinim Analizi)
+- Proje için kullanıcı ve sistem gereksinimleri araştırıldı.
 - Sanal şehir keşfi uygulamasının temel özellikleri belirlendi.
 - Gereksinim dokümanı için taslak hazırlandı.
 
-### 🔎 Mehmet Talha Kaya (Teknoloji Araştırması)
+---
+
+## 🔎 Mehmet Talha Kaya (Teknoloji Araştırması)
 - Projede kullanılabilecek teknolojiler araştırıldı.
-- **Unity, C#, Blender ve Oculus SDK** araçları incelendi.
+- Unity, C#, Blender ve Oculus SDK araçları incelendi.
 - VR simülasyon projeleri için uygun geliştirme araçları değerlendirildi.
 
-### ⚙️ Cemre Yurtsever (Geliştirme Ortamı Kurulumu)
+---
+
+## ⚠️ Mehmet Talha Kaya (Risk Analizi)
+- Proje sürecinde ortaya çıkabilecek teknik ve organizasyonel riskler belirlendi.
+- VR teknolojileri, yazılım araçları ve ekip koordinasyonu ile ilgili olası riskler değerlendirildi.
+- Bu risklere karşı alınabilecek önlemler ve çözüm önerileri planlandı.
+
+---
+
+## ⚙️ Cemre Yurtsever (Geliştirme Ortamı Kurulumu)
 - Unity geliştirme ortamı kurulumu araştırıldı.
 - Gerekli yazılım araçları ve bağımlılıklar belirlendi.
 - Proje için temel geliştirme ortamı hazırlık çalışmaları yapıldı.
 
-### 📊 Fırat Seçkin (Proje Analizi ve Kapsam Belirleme)
+---
+
+## 📊 Fırat Seçkin (Proje Analizi ve Kapsam Belirleme)
 - Projenin temel amacı ve hedef kullanıcı kitlesi belirlendi.
 - Sanal şehir keşfi uygulamasının kapsamı tanımlandı.
 - Proje vizyonu ve genel işlevleri üzerine analiz yapıldı.
