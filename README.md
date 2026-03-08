@@ -81,7 +81,8 @@ Kullanıcılar sanal bir şehir ortamında dolaşarak önemli yapılar hakkında
 
 ## 📌 Hafta 1
 - Gereksinim analizi  
-- Teknoloji araştırması  
+- Teknoloji araştırması
+- Risk Analizi
 - Geliştirme ortamı kurulumu  
 - Proje yönetim araçlarının kurulması  
 - Proje kapsamının belirlenmesi  
