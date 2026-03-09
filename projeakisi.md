@@ -121,4 +121,3 @@ Proje geliştirme sürecinde ortaya çıkabilecek teknik ve organizasyonel riskl
 - Görevler **haftalık olarak planlanacaktır.**  
 - Ekip iletişimi **GitHub ve proje panosu üzerinden sağlanacaktır.**
 
----
