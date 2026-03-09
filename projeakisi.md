@@ -161,5 +161,3 @@ Ekip üyelerine aşağıdaki konularda kısa bir bilgilendirme yapılmıştır:
 - Proje panosu üzerinden görev takibi  
 
 📌 Bu sayede ekip üyelerinin proje yönetim araçlarını etkin bir şekilde kullanması sağlanmıştır.
-
----
