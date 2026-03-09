@@ -121,3 +121,45 @@ Proje geliştirme sürecinde ortaya çıkabilecek teknik ve organizasyonel riskl
 - Görevler **haftalık olarak planlanacaktır.**  
 - Ekip iletişimi **GitHub ve proje panosu üzerinden sağlanacaktır.**
 
+---
+
+## 🛠 Proje Yönetimi ve İşbirliği Araçları Kurulumu  
+**Sorumlu:** Melike Gücin  
+
+Proje sürecinde ekip içi koordinasyonu sağlamak ve görev takibini kolaylaştırmak amacıyla proje yönetimi ve işbirliği araçları araştırılmış ve kurulmuştur.
+
+### 📋 Proje Yönetim Araçları
+
+| Araç | Amaç |
+|-----|------|
+| **Jira / Proje Panosu** | Görevlerin haftalık olarak planlanması ve takip edilmesi |
+| **GitHub Issues** | Proje görevlerinin ve ilerlemenin kayıt altına alınması |
+
+📌 Bu araçlar sayesinde ekip üyeleri görevlerini takip edebilmekte ve proje süreci düzenli bir şekilde yönetilebilmektedir.
+
+---
+
+### 🤝 İşbirliği Araçları
+
+| Araç | Amaç |
+|-----|------|
+| **GitHub** | Proje kodlarının merkezi bir depoda tutulması |
+| **Git** | Versiyon kontrolü ve ekip üyelerinin aynı proje üzerinde çalışabilmesi |
+| **GitHub Desktop** | Git işlemlerinin görsel arayüz ile daha kolay yapılabilmesi |
+
+📌 GitHub üzerinde proje deposu oluşturulmuş ve ekip üyeleri **collaborator** olarak eklenmiştir.
+
+---
+
+### 👥 Ekip Bilgilendirmesi
+
+Ekip üyelerine aşağıdaki konularda kısa bir bilgilendirme yapılmıştır:
+
+- GitHub reposunun kullanımı  
+- Commit ve push işlemleri  
+- Pull request oluşturma süreci  
+- Proje panosu üzerinden görev takibi  
+
+📌 Bu sayede ekip üyelerinin proje yönetim araçlarını etkin bir şekilde kullanması sağlanmıştır.
+
+---
