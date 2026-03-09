@@ -122,6 +122,7 @@ Proje geliştirme sürecinde ortaya çıkabilecek teknik ve organizasyonel riskl
 - Ekip iletişimi **GitHub ve proje panosu üzerinden sağlanacaktır.**
 
 ---
+
 ## 🛠 Proje Yönetimi ve İşbirliği Araçları Kurulumu  
 **Sorumlu:** Melike Gücin  
 
@@ -160,3 +161,5 @@ Ekip üyelerine aşağıdaki konularda kısa bir bilgilendirme yapılmıştır:
 - Proje panosu üzerinden görev takibi  
 
 📌 Bu sayede ekip üyelerinin proje yönetim araçlarını etkin bir şekilde kullanması sağlanmıştır.
+
+---
