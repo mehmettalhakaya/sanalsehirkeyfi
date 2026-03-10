@@ -45,10 +45,10 @@ Her hafta ekip üyeleri yaptıkları çalışmaları bu dosyaya ekleyerek projen
 ---
 
 ## ⚙️ Cemre Yurtsever (Geliştirme Ortamı Kurulumu)
-- Unity geliştirme ortamı kurulumu araştırıldı.
-- Gerekli yazılım araçları ve bağımlılıklar belirlendi.
-- Proje için temel geliştirme ortamı hazırlık çalışmaları yapıldı.
-
+- Projede kullanılacak geliştirme ortamı ve yazılım araçları araştırıldı.
+- Unity oyun motoru ve gerekli geliştirme araçlarının kurulumu gerçekleştirildi.
+- Projede kullanılacak bağımlılıklar (Unity, Visual Studio, Blender ve Oculus SDK) belirlendi ve ortam yapılandırması hazırlandı.
+- Geliştirme sürecinin sorunsuz ilerleyebilmesi için temel proje ortamı oluşturuldu.
 ---
 
 ## 📊 Fırat Seçkin (Proje Analizi ve Kapsam Belirleme)
