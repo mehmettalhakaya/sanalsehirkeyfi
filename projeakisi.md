@@ -48,7 +48,7 @@ Her hafta ekip üyeleri yaptıkları çalışmaları bu dosyaya ekleyerek projen
 - Projede kullanılacak geliştirme ortamı ve yazılım araçları araştırıldı.
 - Unity oyun motoru ve gerekli geliştirme araçlarının kurulumu gerçekleştirildi.
 - Projede kullanılacak bağımlılıklar (Unity, Visual Studio, Blender ve Oculus SDK) belirlendi ve ortam yapılandırması hazırlandı.
-- Geliştirme sürecinin sorunsuz ilerleyebilmesi için temel proje ortamı oluşturuldu.
+- Geliştirme sürecinin sorunsuz ilerleyebilmesi için temel proje ortamları oluşturuldu.
 ---
 
 ## 📊 Fırat Seçkin (Proje Analizi ve Kapsam Belirleme)
