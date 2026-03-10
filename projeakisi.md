@@ -163,3 +163,72 @@ Ekip üyelerine aşağıdaki konularda kısa bir bilgilendirme yapılmıştır:
 📌 Bu sayede ekip üyelerinin proje yönetim araçlarını etkin bir şekilde kullanması sağlanmıştır.
 
 ---
+
+## Gereksinim Analizi
+
+**Sorumlu:** Mustafa Murat Hilaloğlu
+
+### Proje Tanımı
+- Sanal Şehir Keşfi, kullanıcıların tarihi ve kültürel mekanları sanal gerçeklik (VR) ortamında etkileşimli olarak keşfetmesini sağlayan bir uygulamadır.
+- Kullanıcılar VR gözlüğü aracılığıyla sanal şehir içerisinde dolaşabilir ve çeşitli mekanları inceleyebilir.
+- Sistem, kullanıcıların tarihi yapılar hakkında bilgi almasını ve etkileşimli içeriklerle deneyimini zenginleştirmesini amaçlamaktadır.
+
+### Proje Amaçları
+- Tarihi ve kültürel mirası dijital ortamda tanıtmak.
+- Kullanıcıya immersive (içine alan) bir VR deneyimi sunmak.
+- VR teknolojisi aracılığıyla eğitim ve turizm alanlarına katkı sağlamak.
+- Kullanıcıların etkileşimli ve görsel bir öğrenme deneyimi yaşamasını sağlamak.
+
+### Fonksiyonel Gereksinimler
+- Kullanıcı VR gözlüğü ile sanal şehir ortamına giriş yapabilmelidir.
+- Kullanıcı sanal şehir içerisinde serbest şekilde dolaşabilmelidir.
+- Kullanıcı şehirde bulunan tarihi yapılar ile etkileşime geçebilmelidir.
+- Kullanıcı tarihi yapılar hakkında bilgi panellerini görüntüleyebilmelidir.
+- Kullanıcı şehir içindeki farklı noktalara navigasyon sistemi ile ulaşabilmelidir.
+- Sistem kullanıcıya görsel ve sesli bilgilendirme sunabilmelidir.
+
+### Fonksiyonel Olmayan Gereksinimler
+- Sistem VR ortamında akıcı bir deneyim sunmalıdır.
+- Uygulama minimum 72 FPS performans ile çalışmalıdır.
+- Sistem düşük gecikme süresi ile çalışmalıdır.
+- Kullanıcı arayüzü anlaşılır ve kullanıcı dostu olmalıdır.
+- Sistem farklı VR cihazları ile uyumlu çalışabilmelidir.
+
+### Donanım Gereksinimleri
+- VR gözlüğü (Oculus Quest 2, Oculus Quest 3 veya benzeri).
+- VR kontrol cihazları.
+- Minimum 16 GB RAM'e sahip bir bilgisayar.
+- VR destekli ekran kartı (NVIDIA GTX 1060 veya üzeri).
+- Motion tracking sensörleri.
+
+### Yazılım Gereksinimleri
+- Unity Game Engine (Unity 2021 LTS veya Unity 2022 LTS).
+- Programlama dili olarak C#.
+- 3D modelleme için Blender.
+- VR entegrasyonu için Oculus SDK.
+- Versiyon kontrol sistemi olarak Git.
+- Kod geliştirme için Visual Studio.
+
+### Kullanıcı Etkileşimleri
+- Kullanıcı şehir içerisinde teleport veya joystick ile hareket edebilmelidir.
+- Kullanıcı nesnelerle etkileşime geçebilmelidir.
+- Kullanıcı bilgi panellerini aktive edebilmelidir.
+- Kullanıcı şehir içerisindeki belirli noktalara navigasyon sistemi ile ulaşabilmelidir.
+
+### Kullanıcı Arayüzü Gereksinimleri
+- VR ortamına uygun 3D panel sistemi kullanılmalıdır.
+- Menü sistemi kullanıcı tarafından kolay anlaşılabilir olmalıdır.
+- Ana menüde başlat, şehir haritası, ayarlar, yardım ve çıkış seçenekleri bulunmalıdır.
+- Arayüzde okunabilir büyük fontlar ve yüksek kontrast kullanılmalıdır.
+
+### Performans Gereksinimleri
+- Uygulama 72–90 FPS aralığında çalışmalıdır.
+- Gecikme süresi 20 ms altında olmalıdır.
+- Model ve sahneler performans açısından optimize edilmelidir.
+- LOD sistemi ve occlusion culling gibi optimizasyon teknikleri kullanılmalıdır.
+
+### Gelecek Geliştirmeler
+- Multiplayer VR tur özelliği eklenmesi.
+- Yapay zeka rehberi eklenmesi.
+- Artırılmış gerçeklik (AR) entegrasyonu.
+- Gerçek şehir verilerinin sisteme entegre edilmesi.
