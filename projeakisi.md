@@ -233,6 +233,8 @@ Ekip üyelerine aşağıdaki konularda kısa bir bilgilendirme yapılmıştır:
 - Artırılmış gerçeklik (AR) entegrasyonu.
 - Gerçek şehir verilerinin sisteme entegre edilmesi.
 
+---
+
 ## 🛠️ Geliştirme Ortamı Kurulumu
 
 **Sorumlu:** Cemre Yurtsever
@@ -257,3 +259,4 @@ Proje geliştirme sürecinin sorunsuz, hızlı ve standartlara uygun bir şekild
 
 📌 *Bu kurulumlar ve ortam yapılandırmaları sayesinde, projenin teknik iskeleti sağlam bir zemine oturtulmuş ve tüm ekibin ortak, stabil ve hatasız bir altyapı üzerinde kod geliştirip tasarım yapabilmesi güvence altına alınmıştır.* 🎯
 
+---
