@@ -232,3 +232,5 @@ Ekip üyelerine aşağıdaki konularda kısa bir bilgilendirme yapılmıştır:
 - Yapay zeka rehberi eklenmesi.
 - Artırılmış gerçeklik (AR) entegrasyonu.
 - Gerçek şehir verilerinin sisteme entegre edilmesi.
+
+test
