@@ -233,4 +233,27 @@ Ekip üyelerine aşağıdaki konularda kısa bir bilgilendirme yapılmıştır:
 - Artırılmış gerçeklik (AR) entegrasyonu.
 - Gerçek şehir verilerinin sisteme entegre edilmesi.
 
----
+## 🛠️ Geliştirme Ortamı Kurulumu
+
+**Sorumlu:** Cemre Yurtsever
+
+Proje geliştirme sürecinin sorunsuz, hızlı ve standartlara uygun bir şekilde ilerleyebilmesi adına projede kullanılacak yazılım araçlarının kapsamlı bir araştırması yapılmıştır.  Ekip üyelerinin uyum içinde çalışabilmesi için temel proje ortamları oluşturulmuş, olası versiyon uyuşmazlıklarını önleyecek geliştirme ortamı yapılandırması detaylı bir şekilde tamamlanmıştır. 
+
+💻 **Kullanılan Geliştirme Araçları ve Bağımlılıklar**
+
+| Yazılım / Araç | Kullanım Amacı |
+| :--- | :--- |
+| 🎮 **Unity (LTS)** | Projenin temel oyun motoru altyapısının kurulması, 3D ortam tasarımı, fizik motoru ayarları ve genel sahne yönetimi. |
+| ⌨️ **Visual Studio** | Nesne yönelimli programlama (OOP) prensiplerine uygun, sürdürülebilir C# scriptlerinin yazılması, hata ayıklama (debugging) ve derlenmesi. |
+| 🧊 **Blender** | Sanal şehirde kullanılacak 3D mimari modellerin ve objelerin oluşturulması, kaplama (dokulandırma) işlemleri ve Unity için optimizasyonu. |
+| 🥽 **Oculus SDK** | VR donanımı ile projenin sorunsuz etkileşimi, başlık (headset) ve el kontrolcüsü (controller) girdilerinin sanal gerçeklik ortamına entegrasyonu. |
+
+⚙️ **Ortam Yapılandırması ve Kurulum Adımları**
+
+* ✅ Projenin uzun vadeli stabilitesini sağlamak amacıyla Unity oyun motorunun en uygun Uzun Süreli Destek (LTS - Long Term Support) sürümü belirlenmiş ve kurulumu gerçekleştirilmiştir.
+* 📦 Sanal gerçeklik deneyiminin temelini oluşturan Oculus SDK ve gerekli VR eklenti paketleri, Unity Package Manager üzerinden projeye sorunsuz bir şekilde entegre edilmiştir.
+* 🔗 Geliştirme sürecinde yazılacak C# kodları için Visual Studio ile Unity arasındaki derleyici bağlantısı kurularak akıcı bir programlama ortamı hazır hale getirilmiştir.
+* 🐙 GitHub entegrasyonu göz önünde bulundurularak projenin yapılandırma dosyaları (`.gitignore` vb.) Unity altyapısına uygun şekilde ayarlanmış, gereksiz dosyaların depoya gitmesi engellenerek temiz bir çalışma alanı sunulmuştur.
+
+📌 *Bu kurulumlar ve ortam yapılandırmaları sayesinde, projenin teknik iskeleti sağlam bir zemine oturtulmuş ve tüm ekibin ortak, stabil ve hatasız bir altyapı üzerinde kod geliştirip tasarım yapabilmesi güvence altına alınmıştır.* 🎯
+
