@@ -260,3 +260,40 @@ Proje geliştirme sürecinin sorunsuz, hızlı ve standartlara uygun bir şekild
 📌 *Bu kurulumlar ve ortam yapılandırmaları sayesinde, projenin teknik iskeleti sağlam bir zemine oturtulmuş ve tüm ekibin ortak, stabil ve hatasız bir altyapı üzerinde kod geliştirip tasarım yapabilmesi güvence altına alınmıştır.* 🎯
 
 ---
+
+**Proje Analizi ve Kapsam Belirleme**
+**Sorumlu:** Fırat Seçkin
+
+Projenin başarılı bir şekilde hayata geçirilebilmesi için temel hedeflerin, kullanıcı kitlesinin ve genel kapsamın net biçimde tanımlanması gerekmektedir. Bu doğrultuda "Sanal Şehir Keşfi" projesine ilişkin kapsamlı bir analiz çalışması yürütülmüş; projenin amacı, sınırları ve başarı kriterleri belirlenmiştir.
+
+---
+
+**Proje Tanımı ve Hedefler**
+
+"Sanal Şehir Keşfi", kullanıcıların tarihi ve kültürel mekânları sanal gerçeklik ortamında deneyimlemesini sağlayan etkileşimli bir uygulamadır. Proje; erişim engellerini ortadan kaldırmak, etkileşimli bir eğitim deneyimi sunmak ve kullanıcılarda kalıcı izlenimler bırakmak olmak üzere üç temel ilke üzerine inşa edilmiştir.
+
+---
+
+**Hedef Kullanıcı Kitlesi**
+
+Proje dört birincil kullanıcı grubuna hitap etmektedir: tarihi mekânları etkileşimli biçimde keşfetmek isteyen öğrenciler ve akademisyenler; fiziksel olarak ulaşamadıkları yerleri sanal ortamda deneyimlemek isteyen kültür ve tarih turistleri; fiziksel erişim engeli bulunan bireyler; ve ders materyali olarak kullanılabilecek etkileşimli içerik arayan öğretmenler ile eğitimciler.
+
+---
+
+**Proje Kapsamı**
+
+Proje kapsamında dört temel teslim edilecek unsur belirlenmiştir: Blender ile oluşturulmuş yüksek doğruluklu sanal şehir modeli, Unity ve C# ile geliştirilmiş etkileşimli kullanıcı arayüzü, Oculus SDK entegrasyonuyla sağlanan immersive VR deneyimi ve hedef gruplarla yürütülecek kullanılabilirlik testlerine dayalı kullanıcı test raporları.
+
+Çok oyunculu kullanım, mobil platform desteği ve yapay zeka destekli rehber karakter gibi özellikler ise kapsam dışında tutulmuş olup ilerleyen fazlarda değerlendirilebilir.
+
+---
+
+**Risk Değerlendirmesi**
+
+Analiz sürecinde öne çıkan başlıca riskler şunlardır: ekip üye başına VR donanımı temin edilememesi (yüksek), Blender model optimizasyonunda geç teslim veya performans sorunları yaşanması (orta), Unity ile Oculus SDK arasında uyum sorunları çıkması (orta) ve kapsam genişlemesine yol açacak yeni özellik taleplerinin gündeme gelmesi (düşük).
+
+---
+
+**Vizyon Belgesi**
+
+Yürütülen analiz çalışmalarının çıktısı olarak tüm paydaşlar için rehber niteliğinde bir vizyon belgesi hazırlanmıştır. Bu belge; projenin hedeflerini, kapsamını, hedef kitlesini, başarı kriterlerini ve risk matrisini bir arada sunmakta olup ekibin ortak bir vizyonla çalışmasına zemin hazırlamaktadır.
