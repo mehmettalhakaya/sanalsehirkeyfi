@@ -297,3 +297,89 @@ Analiz sürecinde öne çıkan başlıca riskler şunlardır: ekip üye başına
 **Vizyon Belgesi**
 
 Yürütülen analiz çalışmalarının çıktısı olarak tüm paydaşlar için rehber niteliğinde bir vizyon belgesi hazırlanmıştır. Bu belge; projenin hedeflerini, kapsamını, hedef kitlesini, başarı kriterlerini ve risk matrisini bir arada sunmakta olup ekibin ortak bir vizyonla çalışmasına zemin hazırlamaktadır.
+
+---
+
+# 2. Hafta (21 – 28 Mart)
+
+## Mehmet Talha Kaya (Mimari Tasarım)
+- Uygulamanın genel yazılım mimarisi planlandı.
+- Projede kullanılacak ana modüller belirlendi.
+- Modüller arası veri akışı ve sistem ilişkileri dokümante edildi.
+- Mimari tasarım dokümanı hazırlandı.
+
+---
+
+## Mustafa Murat Hilaloğlu (Veritabanı Tasarımı)
+- Sanal Şehir Keşfi uygulaması için veritabanı yapısı planlandı.
+- Kullanılacak tablolar, alanlar ve ilişkiler belirlendi.
+- Veritabanı şeması ve ER diyagramı oluşturuldu.
+- Veritabanı tasarım dokümanı hazırlandı.
+
+---
+
+## Cemre Yurtsever (UI/UX Wireframe Tasarımı)
+- Uygulamanın kullanıcı arayüzü için temel wireframe yapıları planlandı.
+- Ana menü, mekan seçimi ve bilgi ekranları için taslak arayüzler oluşturuldu.
+- VR ortamına uygun kullanıcı deneyimi prensipleri değerlendirildi.
+- Arayüz tasarım süreci için başlangıç dokümantasyonu hazırlandı.
+
+---
+
+# ✅ 2. Hafta Gerçekleştirilen Çalışmalar
+
+## Mimari Tasarım
+**Sorumlu:** Mehmet Talha Kaya
+
+Sanal Şehir Keşfi projesinin genel yazılım mimarisi belirlenmiştir. Projede kullanılacak temel teknolojiler, modüler yapı yaklaşımı, sistem bileşenleri ve veri akışı detaylandırılmıştır.
+
+### Belirlenen Ana Bileşenler
+- **Kullanıcı Arayüzü (UI)**: Ana menü, bilgi ekranları ve kullanıcı yönlendirmeleri
+- **Sahne Yönetimi**: Mekanların yüklenmesi ve sahne geçişlerinin kontrol edilmesi
+- **VR Etkileşim Sistemi**: Kullanıcı hareketleri, nesne etkileşimleri ve VR kontrolleri
+- **3D Model ve Ortam Yönetimi**: Blender ile hazırlanan modellerin Unity ortamına aktarılması
+- **Veri ve Geri Bildirim Yönetimi**: Kullanıcı deneyimi sonrası alınan kayıtların tutulması
+
+### Mimari Yaklaşım
+Proje, bakım ve geliştirme süreçlerini kolaylaştırmak amacıyla **modüler bir yapıda** planlanmıştır. Her ana işlev ayrı bir modül olarak ele alınmış, böylece ekip üyelerinin paralel çalışabilmesine uygun bir yapı hedeflenmiştir.
+
+### Veri Akışı
+- Kullanıcı uygulamayı başlatır.
+- Ana menü üzerinden mekan seçimi yapar.
+- Sahne yönetimi ilgili ortamı yükler.
+- VR etkileşim sistemi devreye girer.
+- Kullanıcı etkileşimleri ve geri bildirimler kayıt altına alınır.
+
+### Doküman
+Detaylar: [docs/mimari-tasarim.md](docs/mimari-tasarim.md)
+
+---
+
+## Veritabanı Tasarımı
+**Sorumlu:** Mustafa Murat Hilaloğlu
+
+Sanal Şehir Keşfi uygulamasında kullanılacak veritabanı şeması oluşturulmuştur. Uygulamanın veri ihtiyaçları analiz edilerek tablolar, alanlar ve ilişkiler belirlenmiştir.
+
+### Belirlenen Tablolar
+| Tablo | Amaç |
+|------|------|
+| **Users** | Kullanıcı bilgilerini tutmak |
+| **Categories** | Mekan kategorilerini sınıflandırmak |
+| **Locations** | Sanal şehirdeki mekanları saklamak |
+| **Visits** | Kullanıcı ziyaret kayıtlarını tutmak |
+| **Interactions** | Kullanıcı etkileşimlerini kaydetmek |
+| **Feedback** | Kullanıcı geri bildirimlerini toplamak |
+
+### İlişkiler
+- Bir kategori birden fazla mekana sahip olabilir.
+- Bir kullanıcı birden fazla ziyaret kaydına sahip olabilir.
+- Bir mekan birden fazla etkileşim ve ziyaret kaydına sahip olabilir.
+- Kullanıcı geri bildirimleri ayrı bir yapı ile tutulmuştur.
+
+### Tasarım Yaklaşımı
+İlk sürüm için sade ama geliştirilebilir bir ilişkisel veritabanı yapısı planlanmıştır. Böylece sistemin ilerleyen aşamalarda yeni özelliklerle genişletilmesi kolaylaştırılmıştır.
+
+### Doküman
+Detaylar: [docs/veritabani-tasarimi.md](docs/veritabani-tasarimi.md)
+
+---
