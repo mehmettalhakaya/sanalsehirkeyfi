@@ -233,6 +233,42 @@ Ekip üyelerine aşağıdaki konularda kısa bir bilgilendirme yapılmıştır:
 - Artırılmış gerçeklik (AR) entegrasyonu.
 - Gerçek şehir verilerinin sisteme entegre edilmesi.
 
+## 🗄️ Veritabanı Tasarımı
+**👤 Sorumlu:** Mustafa Murat Hilaloğlu
+
+Sanal Şehir Keşfi uygulamasında kullanılacak veritabanı şeması oluşturulmuştur. Hazırlanan ER diyagramı doğrultusunda tablolar, alanlar ve tablolar arası ilişkiler belirlenmiştir.
+
+### 🔹 Belirlenen Tablolar
+| Tablo | Amaç |
+|------|------|
+| **BOLUMLER** | Eserlerin bulunduğu bölüm bilgilerini tutmak |
+| **KATEGORILER** | Eserleri türlerine göre sınıflandırmak |
+| **ESERLER** | Sistemde yer alan ana içerikleri saklamak |
+| **MEDYALAR** | Eserlere ait görsel, ses veya diğer medya kayıtlarını tutmak |
+| **KULLANICILAR** | Kullanıcı bilgilerini tutmak |
+| **ZIYARETLER** | Kullanıcıların ziyaret kayıtlarını saklamak |
+| **FAVORILER** | Kullanıcıların favori eserlerini kaydetmek |
+| **GERI_BILDIRIMLER** | Kullanıcı puan ve yorumlarını toplamak |
+
+### 🔹 İlişkiler
+- Bir **bölüm** birden fazla **esere** sahip olabilir.
+- Bir **kategori** birden fazla **esere** sahip olabilir.
+- Bir **eser** birden fazla **medya** kaydına sahip olabilir.
+- Bir **kullanıcı** birden fazla **ziyaret** kaydı oluşturabilir.
+- Bir **kullanıcı** birden fazla **favori** kaydı oluşturabilir.
+- Bir **kullanıcı** birden fazla **geri bildirim** bırakabilir.
+- Bir **eser** ziyaret, favori ve geri bildirim tabloları ile ilişkilidir.
+
+### 🔹 Tasarım Yaklaşımı
+Veritabanı yapısı, ER diyagramına uygun olacak şekilde **ilişkisel veritabanı modeli** ile tasarlanmıştır. Eserler merkezi tablo olarak ele alınmış, bölüm ve kategori bilgileri ayrı tablolarda tutulmuş, kullanıcı işlemleri ise ziyaret, favori ve geri bildirim tabloları üzerinden yönetilmiştir. Böylece hem veri tekrarının azaltılması hem de ilerleyen aşamalarda sistemin genişletilmesi hedeflenmiştir.
+
+### 📄 Doküman
+Detaylar: [veritabani-tasarimi.md](veritabani-tasarimi.md)
+
+---
+=======
+---
+
 ## 🛠️ Geliştirme Ortamı Kurulumu
 
 **Sorumlu:** Cemre Yurtsever
@@ -257,3 +293,135 @@ Proje geliştirme sürecinin sorunsuz, hızlı ve standartlara uygun bir şekild
 
 📌 *Bu kurulumlar ve ortam yapılandırmaları sayesinde, projenin teknik iskeleti sağlam bir zemine oturtulmuş ve tüm ekibin ortak, stabil ve hatasız bir altyapı üzerinde kod geliştirip tasarım yapabilmesi güvence altına alınmıştır.* 🎯
 
+---
+
+**Proje Analizi ve Kapsam Belirleme**
+**Sorumlu:** Fırat Seçkin
+
+Projenin başarılı bir şekilde hayata geçirilebilmesi için temel hedeflerin, kullanıcı kitlesinin ve genel kapsamın net biçimde tanımlanması gerekmektedir. Bu doğrultuda "Sanal Şehir Keşfi" projesine ilişkin kapsamlı bir analiz çalışması yürütülmüş; projenin amacı, sınırları ve başarı kriterleri belirlenmiştir.
+
+---
+
+**Proje Tanımı ve Hedefler**
+
+"Sanal Şehir Keşfi", kullanıcıların tarihi ve kültürel mekânları sanal gerçeklik ortamında deneyimlemesini sağlayan etkileşimli bir uygulamadır. Proje; erişim engellerini ortadan kaldırmak, etkileşimli bir eğitim deneyimi sunmak ve kullanıcılarda kalıcı izlenimler bırakmak olmak üzere üç temel ilke üzerine inşa edilmiştir.
+
+---
+
+**Hedef Kullanıcı Kitlesi**
+
+Proje dört birincil kullanıcı grubuna hitap etmektedir: tarihi mekânları etkileşimli biçimde keşfetmek isteyen öğrenciler ve akademisyenler; fiziksel olarak ulaşamadıkları yerleri sanal ortamda deneyimlemek isteyen kültür ve tarih turistleri; fiziksel erişim engeli bulunan bireyler; ve ders materyali olarak kullanılabilecek etkileşimli içerik arayan öğretmenler ile eğitimciler.
+
+---
+
+**Proje Kapsamı**
+
+Proje kapsamında dört temel teslim edilecek unsur belirlenmiştir: Blender ile oluşturulmuş yüksek doğruluklu sanal şehir modeli, Unity ve C# ile geliştirilmiş etkileşimli kullanıcı arayüzü, Oculus SDK entegrasyonuyla sağlanan immersive VR deneyimi ve hedef gruplarla yürütülecek kullanılabilirlik testlerine dayalı kullanıcı test raporları.
+
+Çok oyunculu kullanım, mobil platform desteği ve yapay zeka destekli rehber karakter gibi özellikler ise kapsam dışında tutulmuş olup ilerleyen fazlarda değerlendirilebilir.
+
+---
+
+**Risk Değerlendirmesi**
+
+Analiz sürecinde öne çıkan başlıca riskler şunlardır: ekip üye başına VR donanımı temin edilememesi (yüksek), Blender model optimizasyonunda geç teslim veya performans sorunları yaşanması (orta), Unity ile Oculus SDK arasında uyum sorunları çıkması (orta) ve kapsam genişlemesine yol açacak yeni özellik taleplerinin gündeme gelmesi (düşük).
+
+---
+
+**Vizyon Belgesi**
+
+Yürütülen analiz çalışmalarının çıktısı olarak tüm paydaşlar için rehber niteliğinde bir vizyon belgesi hazırlanmıştır. Bu belge; projenin hedeflerini, kapsamını, hedef kitlesini, başarı kriterlerini ve risk matrisini bir arada sunmakta olup ekibin ortak bir vizyonla çalışmasına zemin hazırlamaktadır.
+
+---
+
+# 📅 2. Hafta (21 – 28 Mart)
+
+## 👨‍💻 Mehmet Talha Kaya
+### 🏗️ Mimari Tasarım
+- Uygulamanın genel yazılım mimarisi planlandı.
+- Projede kullanılacak ana modüller belirlendi.
+- Modüller arası veri akışı ve sistem ilişkileri dokümante edildi.
+- Mimari tasarım dokümanı hazırlandı.
+
+---
+
+## 👨‍💻 Mustafa Murat Hilaloğlu
+### 🗄️ Veritabanı Tasarımı
+- Sanal Şehir Keşfi uygulaması için veritabanı yapısı planlandı.
+- Kullanılacak tablolar, alanlar ve ilişkiler belirlendi.
+- Veritabanı şeması ve ER diyagramı oluşturuldu.
+- Veritabanı tasarım dokümanı hazırlandı.
+
+---
+
+## 👩‍💻 Cemre Yurtsever
+### 🎨 UI/UX Wireframe Tasarımı
+- Uygulamanın kullanıcı arayüzü için temel wireframe yapıları planlandı.
+- Ana menü, mekan seçimi ve bilgi ekranları için taslak arayüzler oluşturuldu.
+- VR ortamına uygun kullanıcı deneyimi prensipleri değerlendirildi.
+- Arayüz tasarım süreci için başlangıç dokümantasyonu hazırlandı.
+
+---
+
+# ✅ 2. Hafta Gerçekleştirilen Çalışmalar
+
+## 🏗️ Mimari Tasarım
+**👤 Sorumlu:** Mehmet Talha Kaya
+
+Sanal Şehir Keşfi projesinin genel yazılım mimarisi belirlenmiştir. Projede kullanılacak temel teknolojiler, modüler yapı yaklaşımı, sistem bileşenleri ve veri akışı detaylandırılmıştır.
+
+### 🔹 Belirlenen Ana Bileşenler
+- **🖥️ Kullanıcı Arayüzü (UI):** Ana menü, bilgi ekranları ve kullanıcı yönlendirmeleri
+- **🎬 Sahne Yönetimi:** Mekanların yüklenmesi ve sahne geçişlerinin kontrol edilmesi
+- **🥽 VR Etkileşim Sistemi:** Kullanıcı hareketleri, nesne etkileşimleri ve VR kontrolleri
+- **🏛️ 3D Model ve Ortam Yönetimi:** Blender ile hazırlanan modellerin Unity ortamına aktarılması
+- **💾 Veri ve Geri Bildirim Yönetimi:** Kullanıcı deneyimi sonrası alınan kayıtların tutulması
+
+### 🔹 Mimari Yaklaşım
+Proje, bakım ve geliştirme süreçlerini kolaylaştırmak amacıyla **modüler bir yapıda** planlanmıştır. Her ana işlev ayrı bir modül olarak ele alınmış, böylece ekip üyelerinin paralel çalışabilmesine uygun bir yapı hedeflenmiştir.
+
+### 🔹 Veri Akışı
+- Kullanıcı uygulamayı başlatır.
+- Ana menü üzerinden mekan seçimi yapar.
+- Sahne yönetimi ilgili ortamı yükler.
+- VR etkileşim sistemi devreye girer.
+- Kullanıcı etkileşimleri ve geri bildirimler kayıt altına alınır.
+
+### 📄 Doküman
+Detaylar: [mimari-tasarim/mimari-tasarim.md](mimari-tasarim/mimari-tasarim.md)
+
+---
+
+## 🗄️ Veritabanı Tasarımı
+**👤 Sorumlu:** Mustafa Murat Hilaloğlu
+
+Sanal Şehir Keşfi uygulamasında kullanılacak veritabanı şeması oluşturulmuştur. Hazırlanan ER diyagramı doğrultusunda tablolar, alanlar ve tablolar arası ilişkiler belirlenmiştir.
+
+### 🔹 Belirlenen Tablolar
+| Tablo | Amaç |
+|------|------|
+| **BOLUMLER** | Eserlerin bulunduğu bölüm bilgilerini tutmak |
+| **KATEGORILER** | Eserleri türlerine göre sınıflandırmak |
+| **ESERLER** | Sistemde yer alan ana içerikleri saklamak |
+| **MEDYALAR** | Eserlere ait görsel, ses veya diğer medya kayıtlarını tutmak |
+| **KULLANICILAR** | Kullanıcı bilgilerini tutmak |
+| **ZIYARETLER** | Kullanıcıların ziyaret kayıtlarını saklamak |
+| **FAVORILER** | Kullanıcıların favori eserlerini kaydetmek |
+| **GERI_BILDIRIMLER** | Kullanıcı puan ve yorumlarını toplamak |
+
+### 🔹 İlişkiler
+- Bir **bölüm** birden fazla **esere** sahip olabilir.
+- Bir **kategori** birden fazla **esere** sahip olabilir.
+- Bir **eser** birden fazla **medya** kaydına sahip olabilir.
+- Bir **kullanıcı** birden fazla **ziyaret** kaydı oluşturabilir.
+- Bir **kullanıcı** birden fazla **favori** kaydı oluşturabilir.
+- Bir **kullanıcı** birden fazla **geri bildirim** bırakabilir.
+- Bir **eser** ziyaret, favori ve geri bildirim tabloları ile ilişkilidir.
+
+### 🔹 Tasarım Yaklaşımı
+Veritabanı yapısı, ER diyagramına uygun olacak şekilde **ilişkisel veritabanı modeli** ile tasarlanmıştır. Eserler merkezi tablo olarak ele alınmış, bölüm ve kategori bilgileri ayrı tablolarda tutulmuş, kullanıcı işlemleri ise ziyaret, favori ve geri bildirim tabloları üzerinden yönetilmiştir. Böylece hem veri tekrarının azaltılması hem de ilerleyen aşamalarda sistemin genişletilmesi hedeflenmiştir.
+
+### 📄 Doküman
+Detaylar: [veritabani-tasarimi/veritabani-tasarimi.md](veritabani-tasarimi/veritabani-tasarimi.md)
+
+---
