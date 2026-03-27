@@ -388,7 +388,7 @@ Proje, bakım ve geliştirme süreçlerini kolaylaştırmak amacıyla **modüler
 - Kullanıcı etkileşimleri ve geri bildirimler kayıt altına alınır.
 
 ### 📄 Doküman
-Detaylar: [mimari-tasarim/mimari-tasarim.md](mimari-tasarim/mimari-tasarim.md)
+Detaylar: [Mimari Tasarım](mimari-tasarim/mimari-tasarim.md)
 
 ---
 
