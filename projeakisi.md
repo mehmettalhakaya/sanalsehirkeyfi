@@ -45,10 +45,10 @@ Her hafta ekip üyeleri yaptıkları çalışmaları bu dosyaya ekleyerek projen
 ---
 
 ## ⚙️ Cemre Yurtsever (Geliştirme Ortamı Kurulumu)
-- Unity geliştirme ortamı kurulumu araştırıldı.
-- Gerekli yazılım araçları ve bağımlılıklar belirlendi.
-- Proje için temel geliştirme ortamı hazırlık çalışmaları yapıldı.
-
+- Projede kullanılacak geliştirme ortamı ve yazılım araçları araştırıldı.
+- Unity oyun motoru ve gerekli geliştirme araçlarının kurulumu gerçekleştirildi.
+- Projede kullanılacak bağımlılıklar (Unity, Visual Studio, Blender ve Oculus SDK) belirlendi ve ortam yapılandırması hazırlandı.
+- Geliştirme sürecinin sorunsuz ilerleyebilmesi için temel proje ortamları oluşturuldu.
 ---
 
 ## 📊 Fırat Seçkin (Proje Analizi ve Kapsam Belirleme)
@@ -233,9 +233,6 @@ Ekip üyelerine aşağıdaki konularda kısa bir bilgilendirme yapılmıştır:
 - Artırılmış gerçeklik (AR) entegrasyonu.
 - Gerçek şehir verilerinin sisteme entegre edilmesi.
 
-
-
-
 ## 🗄️ Veritabanı Tasarımı
 **👤 Sorumlu:** Mustafa Murat Hilaloğlu
 
@@ -267,5 +264,130 @@ Veritabanı yapısı, ER diyagramına uygun olacak şekilde **ilişkisel veritab
 
 ### 📄 Doküman
 Detaylar: [veritabani-tasarimi.md](veritabani-tasarimi.md)
+
+---
+=======
+---
+
+## 🛠️ Geliştirme Ortamı Kurulumu
+
+**Sorumlu:** Cemre Yurtsever
+
+Proje geliştirme sürecinin sorunsuz, hızlı ve standartlara uygun bir şekilde ilerleyebilmesi adına projede kullanılacak yazılım araçlarının kapsamlı bir araştırması yapılmıştır.  Ekip üyelerinin uyum içinde çalışabilmesi için temel proje ortamları oluşturulmuş, olası versiyon uyuşmazlıklarını önleyecek geliştirme ortamı yapılandırması detaylı bir şekilde tamamlanmıştır. 
+
+💻 **Kullanılan Geliştirme Araçları ve Bağımlılıklar**
+
+| Yazılım / Araç | Kullanım Amacı |
+| :--- | :--- |
+| 🎮 **Unity (LTS)** | Projenin temel oyun motoru altyapısının kurulması, 3D ortam tasarımı, fizik motoru ayarları ve genel sahne yönetimi. |
+| ⌨️ **Visual Studio** | Nesne yönelimli programlama (OOP) prensiplerine uygun, sürdürülebilir C# scriptlerinin yazılması, hata ayıklama (debugging) ve derlenmesi. |
+| 🧊 **Blender** | Sanal şehirde kullanılacak 3D mimari modellerin ve objelerin oluşturulması, kaplama (dokulandırma) işlemleri ve Unity için optimizasyonu. |
+| 🥽 **Oculus SDK** | VR donanımı ile projenin sorunsuz etkileşimi, başlık (headset) ve el kontrolcüsü (controller) girdilerinin sanal gerçeklik ortamına entegrasyonu. |
+
+⚙️ **Ortam Yapılandırması ve Kurulum Adımları**
+
+* ✅ Projenin uzun vadeli stabilitesini sağlamak amacıyla Unity oyun motorunun en uygun Uzun Süreli Destek (LTS - Long Term Support) sürümü belirlenmiş ve kurulumu gerçekleştirilmiştir.
+* 📦 Sanal gerçeklik deneyiminin temelini oluşturan Oculus SDK ve gerekli VR eklenti paketleri, Unity Package Manager üzerinden projeye sorunsuz bir şekilde entegre edilmiştir.
+* 🔗 Geliştirme sürecinde yazılacak C# kodları için Visual Studio ile Unity arasındaki derleyici bağlantısı kurularak akıcı bir programlama ortamı hazır hale getirilmiştir.
+* 🐙 GitHub entegrasyonu göz önünde bulundurularak projenin yapılandırma dosyaları (`.gitignore` vb.) Unity altyapısına uygun şekilde ayarlanmış, gereksiz dosyaların depoya gitmesi engellenerek temiz bir çalışma alanı sunulmuştur.
+
+📌 *Bu kurulumlar ve ortam yapılandırmaları sayesinde, projenin teknik iskeleti sağlam bir zemine oturtulmuş ve tüm ekibin ortak, stabil ve hatasız bir altyapı üzerinde kod geliştirip tasarım yapabilmesi güvence altına alınmıştır.* 🎯
+
+---
+
+**Proje Analizi ve Kapsam Belirleme**
+**Sorumlu:** Fırat Seçkin
+
+Projenin başarılı bir şekilde hayata geçirilebilmesi için temel hedeflerin, kullanıcı kitlesinin ve genel kapsamın net biçimde tanımlanması gerekmektedir. Bu doğrultuda "Sanal Şehir Keşfi" projesine ilişkin kapsamlı bir analiz çalışması yürütülmüş; projenin amacı, sınırları ve başarı kriterleri belirlenmiştir.
+
+---
+
+**Proje Tanımı ve Hedefler**
+
+"Sanal Şehir Keşfi", kullanıcıların tarihi ve kültürel mekânları sanal gerçeklik ortamında deneyimlemesini sağlayan etkileşimli bir uygulamadır. Proje; erişim engellerini ortadan kaldırmak, etkileşimli bir eğitim deneyimi sunmak ve kullanıcılarda kalıcı izlenimler bırakmak olmak üzere üç temel ilke üzerine inşa edilmiştir.
+
+---
+
+**Hedef Kullanıcı Kitlesi**
+
+Proje dört birincil kullanıcı grubuna hitap etmektedir: tarihi mekânları etkileşimli biçimde keşfetmek isteyen öğrenciler ve akademisyenler; fiziksel olarak ulaşamadıkları yerleri sanal ortamda deneyimlemek isteyen kültür ve tarih turistleri; fiziksel erişim engeli bulunan bireyler; ve ders materyali olarak kullanılabilecek etkileşimli içerik arayan öğretmenler ile eğitimciler.
+
+---
+
+**Proje Kapsamı**
+
+Proje kapsamında dört temel teslim edilecek unsur belirlenmiştir: Blender ile oluşturulmuş yüksek doğruluklu sanal şehir modeli, Unity ve C# ile geliştirilmiş etkileşimli kullanıcı arayüzü, Oculus SDK entegrasyonuyla sağlanan immersive VR deneyimi ve hedef gruplarla yürütülecek kullanılabilirlik testlerine dayalı kullanıcı test raporları.
+
+Çok oyunculu kullanım, mobil platform desteği ve yapay zeka destekli rehber karakter gibi özellikler ise kapsam dışında tutulmuş olup ilerleyen fazlarda değerlendirilebilir.
+
+---
+
+**Risk Değerlendirmesi**
+
+Analiz sürecinde öne çıkan başlıca riskler şunlardır: ekip üye başına VR donanımı temin edilememesi (yüksek), Blender model optimizasyonunda geç teslim veya performans sorunları yaşanması (orta), Unity ile Oculus SDK arasında uyum sorunları çıkması (orta) ve kapsam genişlemesine yol açacak yeni özellik taleplerinin gündeme gelmesi (düşük).
+
+---
+
+**Vizyon Belgesi**
+
+Yürütülen analiz çalışmalarının çıktısı olarak tüm paydaşlar için rehber niteliğinde bir vizyon belgesi hazırlanmıştır. Bu belge; projenin hedeflerini, kapsamını, hedef kitlesini, başarı kriterlerini ve risk matrisini bir arada sunmakta olup ekibin ortak bir vizyonla çalışmasına zemin hazırlamaktadır.
+
+---
+
+# 📅 2. Hafta (21 – 28 Mart)
+
+## 👨‍💻 Mehmet Talha Kaya
+### 🏗️ Mimari Tasarım
+- Uygulamanın genel yazılım mimarisi planlandı.
+- Projede kullanılacak ana modüller belirlendi.
+- Modüller arası veri akışı ve sistem ilişkileri dokümante edildi.
+- Mimari tasarım dokümanı hazırlandı.
+
+---
+
+## 👨‍💻 Mustafa Murat Hilaloğlu
+### 🗄️ Veritabanı Tasarımı
+- Sanal Şehir Keşfi uygulaması için veritabanı yapısı planlandı.
+- Kullanılacak tablolar, alanlar ve ilişkiler belirlendi.
+- Veritabanı şeması ve ER diyagramı oluşturuldu.
+- Veritabanı tasarım dokümanı hazırlandı.
+
+---
+
+## 👩‍💻 Cemre Yurtsever
+### 🎨 UI/UX Wireframe Tasarımı
+- Uygulamanın kullanıcı arayüzü için temel wireframe yapıları planlandı.
+- Ana menü, mekan seçimi ve bilgi ekranları için taslak arayüzler oluşturuldu.
+- VR ortamına uygun kullanıcı deneyimi prensipleri değerlendirildi.
+- Arayüz tasarım süreci için başlangıç dokümantasyonu hazırlandı.
+
+---
+
+# ✅ 2. Hafta Gerçekleştirilen Çalışmalar
+
+## 🏗️ Mimari Tasarım
+**👤 Sorumlu:** Mehmet Talha Kaya
+
+Sanal Şehir Keşfi projesinin genel yazılım mimarisi belirlenmiştir. Projede kullanılacak temel teknolojiler, modüler yapı yaklaşımı, sistem bileşenleri ve veri akışı detaylandırılmıştır.
+
+### 🔹 Belirlenen Ana Bileşenler
+- **🖥️ Kullanıcı Arayüzü (UI):** Ana menü, bilgi ekranları ve kullanıcı yönlendirmeleri
+- **🎬 Sahne Yönetimi:** Mekanların yüklenmesi ve sahne geçişlerinin kontrol edilmesi
+- **🥽 VR Etkileşim Sistemi:** Kullanıcı hareketleri, nesne etkileşimleri ve VR kontrolleri
+- **🏛️ 3D Model ve Ortam Yönetimi:** Blender ile hazırlanan modellerin Unity ortamına aktarılması
+- **💾 Veri ve Geri Bildirim Yönetimi:** Kullanıcı deneyimi sonrası alınan kayıtların tutulması
+
+### 🔹 Mimari Yaklaşım
+Proje, bakım ve geliştirme süreçlerini kolaylaştırmak amacıyla **modüler bir yapıda** planlanmıştır. Her ana işlev ayrı bir modül olarak ele alınmış, böylece ekip üyelerinin paralel çalışabilmesine uygun bir yapı hedeflenmiştir.
+
+### 🔹 Veri Akışı
+- Kullanıcı uygulamayı başlatır.
+- Ana menü üzerinden mekan seçimi yapar.
+- Sahne yönetimi ilgili ortamı yükler.
+- VR etkileşim sistemi devreye girer.
+- Kullanıcı etkileşimleri ve geri bildirimler kayıt altına alınır.
+
+### 📄 Doküman
+Detaylar: [mimaritasarim.md](mimaritasarim.md)
 
 ---

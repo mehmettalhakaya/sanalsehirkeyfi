@@ -40,40 +40,21 @@ Kullanıcılar sanal bir şehir ortamında dolaşarak önemli yapılar hakkında
 
 ---
 
-# 👥 Proje Ekibi
+## 👥 Proje Ekibi
 
-## 👨‍💼 Proje Yöneticisi
-👤 **Mehmet Talha Kaya**
-
----
-
-## 🛠️ Proje Yönetimi ve İşbirliği Araçları
-👤 Melike Gücin
+- 👨‍💼 **Proje Yöneticisi:** Mehmet Talha Kaya
+- 👤 **Ekip Üyesi:** Melike Gücin
+- 👤 **Ekip Üyesi:** Mustafa Murat Hilaloğlu
+- 👤 **Ekip Üyesi:** Cemre Yurtsever
+- 👤 **Ekip Üyesi:** Fırat Seçkin
 
 ---
 
-## 📋 Gereksinim Analizi
-👤 Mustafa Murat Hilaloğlu
+## 📂 Proje Dokümanları
 
----
-
-## 🔎 Teknoloji Araştırması
-👤 Mehmet Talha Kaya
-
----
-
-## ⚠️ Risk Analizi
-👤 Mehmet Talha Kaya
-
----
-
-## ⚙️ Geliştirme Ortamı Kurulumu
-👤 Cemre Yurtsever
-
----
-
-## 📊 Proje Analizi ve Kapsam Belirleme
-👤 Fırat Seçkin
+- 📄 [Proje Akışı](projeakisi.md)
+- 🏗️ [Mimari Tasarım](mimaritasarim.md)
+- 🗄️ [Veritabanı Tasarımı](veritabani-tasarimi.md)
 
 ---
 
@@ -81,11 +62,18 @@ Kullanıcılar sanal bir şehir ortamında dolaşarak önemli yapılar hakkında
 
 ## 📌 Hafta 1
 - Gereksinim analizi  
-- Teknoloji araştırması
-- Risk Analizi
+- Teknoloji araştırması  
+- Risk analizi  
 - Geliştirme ortamı kurulumu  
 - Proje yönetim araçlarının kurulması  
 - Proje kapsamının belirlenmesi  
+
+---
+
+## 📌 Hafta 2
+- Mimari tasarım  
+- Veritabanı tasarımı  
+- UI/UX wireframe tasarımı  
 
 ---
 
