@@ -300,7 +300,7 @@ Yürütülen analiz çalışmalarının çıktısı olarak tüm paydaşlar için
 
 ---
 
-# 📅 2. Hafta (13 – 19 Mart)
+# 📅 2. Hafta (21 – 28 Mart)
 
 ## 👨‍💻 Mehmet Talha Kaya
 ### 🏗️ Mimari Tasarım
