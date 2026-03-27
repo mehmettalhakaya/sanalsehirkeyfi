@@ -422,6 +422,6 @@ Sanal Şehir Keşfi uygulamasında kullanılacak veritabanı şeması oluşturul
 Veritabanı yapısı, ER diyagramına uygun olacak şekilde **ilişkisel veritabanı modeli** ile tasarlanmıştır. Eserler merkezi tablo olarak ele alınmış, bölüm ve kategori bilgileri ayrı tablolarda tutulmuş, kullanıcı işlemleri ise ziyaret, favori ve geri bildirim tabloları üzerinden yönetilmiştir. Böylece hem veri tekrarının azaltılması hem de ilerleyen aşamalarda sistemin genişletilmesi hedeflenmiştir.
 
 ### 📄 Doküman
-Detaylar: ![Veritabanı Tasarımı](veritabani-tasarimi/veritabani-tasarimi.md)
+Detaylar: [Veritabanı Tasarımı](veritabani-tasarimi/veritabani-tasarimi.md)
 
 ---
