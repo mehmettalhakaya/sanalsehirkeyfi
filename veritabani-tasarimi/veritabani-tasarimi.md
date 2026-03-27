@@ -310,3 +310,11 @@ Bu veritabanı yapısı oluşturulurken şu kararlar dikkate alınmıştır:
 Bu veritabanı tasarımı, paylaşılan ER diyagramına uygun şekilde güncellenmiştir. Sistem; eserler, bölümler, kategoriler, medya kayıtları, kullanıcı işlemleri ve geri bildirimler etrafında yapılandırılmıştır.
 
 Bu yapı, Sanal Şehir Keşfi projesinin ilk sürümü için yeterli bir temel sunmakta ve ilerleyen aşamalarda geliştirilmeye uygun bir veritabanı altyapısı oluşturmaktadır.
+
+---
+
+## 🖼️ Diyagram Burada
+
+Aşağıda veritabanı tasarım diyagramı yer almaktadır:
+
+![Veritabanı Tasarımı Diyagramı](veritabani-tasarimi.jpeg)
