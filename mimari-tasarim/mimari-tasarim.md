@@ -254,3 +254,11 @@ Bu mimari yapının sağlayacağı başlıca avantajlar şunlardır:
 Sanal Şehir Keşfi projesi için önerilen bu mimari yapı, uygulamanın temel bileşenlerini net şekilde ayırmakta ve geliştirme sürecine rehberlik etmektedir. Bu yapı sayesinde proje daha düzenli, sürdürülebilir ve ekip çalışmasına uygun biçimde geliştirilebilecektir.
 
 Bu doküman, proje ilerledikçe güncellenebilir ve yeni ihtiyaçlara göre genişletilebilir.
+
+---
+
+## 🖼️ Diyagram Burada
+
+Aşağıda mimari tasarım diyagramı yer almaktadır:
+
+![Mimari Tasarım Diyagramı](mimari-tasarim.jpeg)
