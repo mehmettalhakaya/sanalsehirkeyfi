@@ -232,3 +232,40 @@ Ekip üyelerine aşağıdaki konularda kısa bir bilgilendirme yapılmıştır:
 - Yapay zeka rehberi eklenmesi.
 - Artırılmış gerçeklik (AR) entegrasyonu.
 - Gerçek şehir verilerinin sisteme entegre edilmesi.
+
+
+
+
+## 🗄️ Veritabanı Tasarımı
+**👤 Sorumlu:** Mustafa Murat Hilaloğlu
+
+Sanal Şehir Keşfi uygulamasında kullanılacak veritabanı şeması oluşturulmuştur. Hazırlanan ER diyagramı doğrultusunda tablolar, alanlar ve tablolar arası ilişkiler belirlenmiştir.
+
+### 🔹 Belirlenen Tablolar
+| Tablo | Amaç |
+|------|------|
+| **BOLUMLER** | Eserlerin bulunduğu bölüm bilgilerini tutmak |
+| **KATEGORILER** | Eserleri türlerine göre sınıflandırmak |
+| **ESERLER** | Sistemde yer alan ana içerikleri saklamak |
+| **MEDYALAR** | Eserlere ait görsel, ses veya diğer medya kayıtlarını tutmak |
+| **KULLANICILAR** | Kullanıcı bilgilerini tutmak |
+| **ZIYARETLER** | Kullanıcıların ziyaret kayıtlarını saklamak |
+| **FAVORILER** | Kullanıcıların favori eserlerini kaydetmek |
+| **GERI_BILDIRIMLER** | Kullanıcı puan ve yorumlarını toplamak |
+
+### 🔹 İlişkiler
+- Bir **bölüm** birden fazla **esere** sahip olabilir.
+- Bir **kategori** birden fazla **esere** sahip olabilir.
+- Bir **eser** birden fazla **medya** kaydına sahip olabilir.
+- Bir **kullanıcı** birden fazla **ziyaret** kaydı oluşturabilir.
+- Bir **kullanıcı** birden fazla **favori** kaydı oluşturabilir.
+- Bir **kullanıcı** birden fazla **geri bildirim** bırakabilir.
+- Bir **eser** ziyaret, favori ve geri bildirim tabloları ile ilişkilidir.
+
+### 🔹 Tasarım Yaklaşımı
+Veritabanı yapısı, ER diyagramına uygun olacak şekilde **ilişkisel veritabanı modeli** ile tasarlanmıştır. Eserler merkezi tablo olarak ele alınmış, bölüm ve kategori bilgileri ayrı tablolarda tutulmuş, kullanıcı işlemleri ise ziyaret, favori ve geri bildirim tabloları üzerinden yönetilmiştir. Böylece hem veri tekrarının azaltılması hem de ilerleyen aşamalarda sistemin genişletilmesi hedeflenmiştir.
+
+### 📄 Doküman
+Detaylar: [veritabani-tasarimi.md](veritabani-tasarimi.md)
+
+---
