@@ -425,3 +425,63 @@ Veritabanı yapısı, ER diyagramına uygun olacak şekilde **ilişkisel veritab
 Detaylar: [Veritabanı Tasarımı](veritabani-tasarimi/veritabani-tasarimi.md)
 
 ---
+## 🎨 Kullanıcı Arayüzü ve Wireframe Tasarımı
+**👤 Sorumlu:** Cemre Yurtsever
+
+Sanal Şehir Keşfi projesi kapsamında kullanıcı deneyimini iyileştirmek ve uygulamanın kullanımını daha sezgisel hale getirmek amacıyla temel kullanıcı arayüzü (UI) tasarımları ve ekran akışları planlanmıştır. Bu süreçte, kullanıcıların uygulama içerisindeki hareketlerini kolaylaştıracak, anlaşılır ve sade bir tasarım dili benimsenmiştir.
+
+Projenin erken aşamalarında, geliştirme sürecine yön verebilmek amacıyla wireframe taslakları oluşturulmuş ve uygulamanın genel yapısı görselleştirilmiştir. Böylece hem ekip içi iletişim kolaylaştırılmış hem de geliştirme sürecinde referans alınabilecek bir tasarım altyapısı oluşturulmuştur.
+
+---
+
+### 🔹 Tasarlanan Ekranlar
+
+- **🏠 Ana Giriş Ekranı:**  
+  Kullanıcıyı karşılayan ve uygulamaya giriş yapılmasını sağlayan başlangıç ekranıdır. Bu ekranda kullanıcıya projenin amacı kısa ve anlaşılır bir şekilde sunulmuş ve deneyime başlama butonu ile yönlendirme yapılmıştır.
+
+- **🏛️ Müze Tanıtım Ekranı:**  
+  Kullanıcının seçtiği mekan hakkında genel bilgilerin sunulduğu ekrandır. Bu bölümde mekanın tarihi ve kültürel önemi hakkında bilgilendirici içerik yer almakta ve kullanıcıyı sanal geziye hazırlamaktadır.
+
+- **🎮 Sanal Gezi Ekranı:**  
+  Kullanıcının 3D ortam içerisinde aktif olarak gezinebileceği ana deneyim alanıdır. Bu ekran, projenin temel işlevini temsil etmekte olup kullanıcı etkileşimlerinin en yoğun olduğu bölümdür.
+
+- **ℹ️ Bilgi Paneli:**  
+  Kullanıcının gezinti sırasında seçtiği obje veya yapılar hakkında detaylı bilgi almasını sağlayan yardımcı arayüz bileşenidir. Bu panel sayesinde kullanıcı deneyimi zenginleştirilmiştir.
+
+---
+
+### 🔹 Tasarım Yaklaşımı
+
+Arayüz tasarımı oluşturulurken **kullanıcı odaklı tasarım (User-Centered Design)** yaklaşımı benimsenmiştir. Tasarımlarda sadelik, okunabilirlik ve erişilebilirlik ön planda tutulmuştur.  
+
+Renk paleti seçilirken tarihi ve kültürel temaya uygun doğal tonlar tercih edilmiş, tipografi seçiminde ise okunabilirliği yüksek fontlar kullanılmıştır. Ayrıca kullanıcıyı yormayan, dikkat dağıtmayan bir arayüz oluşturulması hedeflenmiştir.
+
+Wireframe çalışmaları sayesinde ekran yerleşimleri, buton konumları ve içerik dağılımları önceden planlanarak geliştirme sürecinde oluşabilecek tasarım problemlerinin önüne geçilmiştir.
+
+---
+
+### 🔹 Kullanıcı Akışı
+
+- Kullanıcı uygulamayı başlatır.
+- Ana giriş ekranında proje hakkında genel bilgi edinir.
+- “Deneyime Başla” seçeneği ile uygulamaya giriş yapar.
+- Müze tanıtım ekranında seçilen mekan hakkında bilgi alır.
+- Sanal gezi ekranına geçerek 3D ortamı keşfeder.
+- Etkileşimli noktalar üzerinden bilgi panelini açarak detaylı içeriklere ulaşır.
+- Kullanıcı deneyimi boyunca etkileşimler sistem tarafından izlenir.
+
+---
+
+### 🖼️ Wireframe Taslakları
+
+#### Ana Giriş Ekranı
+![Ana Giriş Ekranı](Wireframes/louvre-muzesi-ana-ekran.jpeg)
+
+#### Müze Tanıtım Ekranı
+![Müze Tanıtım Ekranı](Wireframes/louvre-muzesi-tanitim-ekrani.jpeg)
+
+#### Sanal Gezi Ekranı
+![Sanal Gezi Ekranı](Wireframes/sanal-gezi-ekrani.jpeg)
+
+#### Bilgi Paneli
+![Bilgi Paneli](Wireframes/bilgi-ekrani.jpeg)
