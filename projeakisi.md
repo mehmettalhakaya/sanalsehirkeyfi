@@ -485,3 +485,87 @@ Wireframe çalışmaları sayesinde ekran yerleşimleri, buton konumları ve iç
 
 #### Bilgi Paneli
 ![Bilgi Paneli](Wireframes/bilgi-ekrani.jpeg)
+
+---
+
+# 📅 3. Hafta (2 Nisan – 9 Nisan)
+
+## 👨‍💻 Mehmet Talha Kaya
+### ⚙️ 3D Model Optimizasyon Teknikleri Araştırması ve Raporlama
+- Unity ortamında 3D model optimizasyonunda kullanılan temel teknikler araştırıldı.
+- Polygon azaltma, LOD (Level of Detail), texture optimizasyonu, occlusion culling ve draw call azaltma yöntemleri incelendi.
+- Farklı optimizasyon tekniklerinin avantaj ve dezavantajları karşılaştırıldı.
+- Projenin ihtiyaçlarına uygun optimizasyon stratejileri değerlendirildi.
+- Elde edilen bulgular doğrultusunda teknik rapor hazırlandı.
+
+### 🥽 VR Cihazı Entegrasyonu ve Temel Kontrol Şemasının Uygulanması
+- Oculus SDK kullanılarak uygulamanın VR cihazı ile entegrasyonu planlandı.
+- VR kontrol cihazları için temel kontrol şeması belirlendi.
+- Navigasyon, etkileşim ve UI işlemleri için temel giriş yapıları değerlendirildi.
+- Kontrol şemasının kullanıcı testleriyle geliştirilmesine yönelik hazırlık yapıldı.
+
+---
+
+## 👩‍💻 Melike Gücin
+### 🧪 Temel Kullanıcı Testlerinin Planlanması ve Yürütülmesi
+- Geliştirilen temel özelliklerin test edilmesi için kullanıcı test planı hazırlandı.
+- Hedef kullanıcı kitlesini temsil edecek katılımcılar ve test senaryoları belirlendi.
+- Test sürecinde kullanılacak geri bildirim toplama yaklaşımı planlandı.
+- Test bulgularının raporlanmasına yönelik yapı oluşturuldu.
+
+---
+
+## 👩‍💻 Cemre Yurtsever
+### 🏙️ Sanal Şehir Modelinin Optimizasyonu ve Temel Etkileşimlerin Eklenmesi
+- Blender’da oluşturulan sanal şehir modelinin Unity’ye aktarım süreci planlandı.
+- Model performansını artırmak için polygon ve doku optimizasyonu değerlendirildi.
+- Şehirdeki belirli nesnelere temel etkileşimlerin eklenmesi planlandı.
+- Bilgi panelleri ve basit animasyonlarla kullanıcı deneyiminin geliştirilmesi hedeflendi.
+
+### 🚶 Sanal Şehirde Temel Navigasyon Mekaniklerinin Geliştirilmesi
+- Kullanıcının sanal şehirde rahat hareket edebilmesi için temel navigasyon yapıları planlandı.
+- Yürüme, koşma ve teleport gibi hareket seçenekleri değerlendirildi.
+- Karakter kontrolcüsü ile çarpışma ve fizik etkileşimlerinin yönetimi incelendi.
+- Oculus SDK destekli hareket izleme özelliklerinin entegrasyonu planlandı.
+
+---
+
+## 👨‍💻 Fırat Seçkin
+### 🖥️ Etkileşimli Kullanıcı Arayüzü (UI) Tasarımı ve Entegrasyonu
+- Kullanıcının şehirde gezinmesini ve etkileşime girmesini sağlayacak UI öğeleri planlandı.
+- Navigasyon kontrolleri, etkileşim butonları ve ayarlar menüsü tasarlandı.
+- UI tasarımının proje estetiğiyle uyumlu olması hedeflendi.
+- C# scriptleri ile UI işlevselliğinin sağlanmasına yönelik hazırlık yapıldı.
+
+### 📖 Kullanıcı Hikayeleri ve Kabul Kriterleri Tanımlama
+- Proje paydaşlarının beklentileri doğrultusunda kullanıcı hikayeleri oluşturuldu.
+- Her özellik için kabul kriterleri tanımlanmaya başlandı.
+- Kullanıcı ihtiyaçlarının dokümante edilmesi için temel yapı hazırlandı.
+- Hikayelerin ve kriterlerin geri bildirimlerle iyileştirilmesi planlandı.
+
+---
+
+## 👨‍💻 Mustafa Murat Hilaloğlu
+### ⚠️ Teknik Risk Analizi ve Mitigasyon Planı Oluşturma
+- Projede karşılaşılabilecek teknik riskler belirlendi.
+- VR cihaz uyumluluğu, performans optimizasyonu ve Unity-Oculus SDK entegrasyonu gibi alanlar değerlendirildi.
+- Risklerin olasılık ve etki düzeyleri analiz edildi.
+- Yüksek öncelikli riskler için önleyici ve azaltıcı aksiyonlar planlandı.
+
+---
+
+# ✅ 3. Hafta Gerçekleştirilen Çalışmalar
+
+## ⚙️ 3D Model Optimizasyon Teknikleri Araştırması ve Raporlama
+**👤 Sorumlu:** Mehmet Talha Kaya
+
+Sanal şehir modelinin performansı ve VR deneyiminin akıcılığı açısından 3D model optimizasyon teknikleri araştırılmıştır. Bu kapsamda Unity ortamında yaygın olarak kullanılan polygon azaltma, LOD (Level of Detail), texture optimizasyonu, occlusion culling, draw call azaltma ve mesh compression gibi yöntemler incelenmiştir.
+
+Yapılan araştırmada her tekniğin performans üzerindeki etkisi, uygulama zorluğu ve görsel kaliteye katkısı değerlendirilmiştir. Özellikle sanal şehir gibi çok sayıda bina, çevre objesi ve tekrar eden varlık içeren sahnelerde LOD, occlusion culling ve draw call azaltma tekniklerinin daha yüksek verim sağladığı sonucuna ulaşılmıştır.
+
+Hazırlanan raporda, bu tekniklerin avantaj ve dezavantajları karşılaştırılmış; proje için uygulanabilecek en uygun optimizasyon stratejileri önerilmiştir. Buna göre sahnedeki nesnelerin önem derecesine göre sınıflandırılması, uzaktaki objelerde düşük detaylı modeller kullanılması, görünmeyen nesnelerin render sürecinden çıkarılması ve tekrar eden objelerde instancing yaklaşımının değerlendirilmesi önerilmiştir.
+
+### 📄 Doküman
+Detaylar: [3D Model Optimizasyon Raporu](3d-model-optimizasyon-raporu.md)
+
+---
