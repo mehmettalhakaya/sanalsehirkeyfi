@@ -167,7 +167,7 @@ Yapılan optimizasyonlar sonucunda:
 
 - GPU yükü azaltıldı
 - Bellek kullanımı düşürüldü
-- Render süresi iyileştirildi
+- Render süresi belli bir süreye kadar iyileştirildi
 - FPS değerlerinde artış sağlandı
 - Sahne geçiş süreleri kısaltıldı
 
