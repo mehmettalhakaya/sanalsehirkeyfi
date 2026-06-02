@@ -11,7 +11,7 @@ Bu çalışma, Blender ortamında oluşturulan sanal şehir modelinin Unity oyun
 - Collider sistemi
 - Sahne yerleşimi
 
-analiz edilerek performans odaklı iyileştirmeler yapılmıştır. Bunun yanında sahnede fizik hesaplamalarını azaltmak için collider yapıları yeniden düzenlenmiş ve yüksek çözünürlüklü dokular sıkıştırılarak GPU yükü azaltılmıştır.
+analiz edilerek performans odaklı iyileştirmeler yapılmıştır. Bunun yanında sahnede fizik hesaplamalarını azaltmak için collider yapıları yeniden düzenlenmiştir ve yüksek çözünürlüklü dokular sıkıştırılarak GPU yükü azaltılmıştır.
 
 ---
 
