@@ -4,6 +4,9 @@
 
 Bu çalışma, Blender ortamında oluşturulan sanal şehir modelinin detay seviyesini artırmak ve performans açısından optimize etmek amacıyla hazırlanmıştır. Model üzerinde doku çözünürlüğü, poligon yoğunluğu ve malzeme kullanımı analiz edilerek optimizasyon işlemleri gerçekleştirilmiştir.  
 
+Çalışma kapsamında özellikle **LOD (Level of Detail)** teknikleri kullanılarak farklı uzaklıklarda gösterilecek model varyasyonları planlanmıştır. Ayrıca:
+
+- Gereksiz poligonların temizlenmesi
 - Mesh optimizasyonu
 - Texture sıkıştırma işlemleri
 - Collider düzenlemeleri
@@ -90,8 +93,9 @@ Kapı geçişleri için özel trigger alanları oluşturulmuştur. Oyuncu bu bö
 
 - [x] Louvre iç mekan modeli temin edildi (hazır asset kullanıldı)
 - [x] Unity'e import edildi ve sahneye yerleştirildi
-- [x] Dış duvar için Mesh Collider eklendi
-- [x] Tablo ve iç duvar collider ayarları yapıldı
+- [x] Dış duvar için Mesh Collider eklendi (**LouvreScene_30**)
+- [x] Tablo ve iç duvar collider ayarları yapıldı (**LouvreScene_11**)
+- [x] Karakter geçiş ve sıkışma sorunları giderildi
 - [x] Texture çözünürlükleri düşürülerek performans optimizasyonu sağlandı
 
 ---
