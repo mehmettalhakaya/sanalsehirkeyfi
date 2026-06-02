@@ -82,7 +82,6 @@ Kapı geçişleri için özel trigger alanları oluşturulmuştur. Oyuncu bu bö
 - 4K texture’lar 2K ve 1K seviyelerine düşürüldü
 - Görsel kalite korunmaya çalışıldı
 - Bellek kullanımı azaltıldı
-- FPS performansı iyileştirildi
 
 ---
 
