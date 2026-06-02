@@ -28,6 +28,7 @@ Louvre Müzesi’nin dış cephesi; tarihi saray yapısını, avlu düzenini ve 
 - Cam piramit yapısı
 - Avlu ve çevresel düzenlemeler
 - Cephe dokuları ve mimari detaylar
+- Işıklandırma detayları
 
 Model, Unity içerisinde **Outside_Museum** sahnesi altında konumlandırılmıştır. Oyuncu bu alandan müzeye giriş yapabilmektedir.
 
@@ -50,6 +51,7 @@ Müze iç mekanı toplam **28 ayrı mesh parçasından** oluşmaktadır.
 - Kapı çerçeveleri
 - Zemin yapıları
 - Tavan detayları
+- Işık detayları
 
 İç mekan modeli Unity içerisinde **LouvreInteriorOptimized** sahnesi altında yapılandırılmıştır.
 
