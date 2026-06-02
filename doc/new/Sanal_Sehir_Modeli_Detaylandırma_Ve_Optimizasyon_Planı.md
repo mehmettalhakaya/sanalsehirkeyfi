@@ -1,102 +1,248 @@
-# Louvre Sanal Şehir Modeli Optimizasyon Çalışması
+# Louvre Sanal Müze Modeli Optimizasyon Çalışması
 
-## Açıklama
+## Proje Açıklaması
 
-Bu çalışma, Blender ortamında oluşturulan sanal şehir modelinin detay seviyesini artırmak ve performans açısından optimize etmek amacıyla hazırlanmıştır. Model üzerinde doku çözünürlüğü, poligon yoğunluğu ve malzeme kullanımı analiz edilerek optimizasyon işlemleri gerçekleştirilmiştir.  
+Bu çalışma, Blender ortamında oluşturulan sanal şehir modelinin Unity oyun motoruna entegre edilerek performanslı ve oynanabilir bir sanal müze deneyimine dönüştürülmesi amacıyla hazırlanmıştır. Projede kullanılan Louvre modeli yüksek detay seviyesine sahip olduğundan dolayı sahne içerisinde render maliyetini artırmakta ve oyuncu hareketleri sırasında performans problemlerine neden olmaktadır. Bu sebeple model üzerinde kapsamlı optimizasyon çalışmaları gerçekleştirilmiştir.
 
-- Mesh optimizasyonu,
-- Texture sıkıştırma işlemleri,
-- Collider düzenlemeleri
+Çalışma kapsamında modelin:
 
-uygulanarak sahnenin performansı artırılmıştır.
+- Poligon yoğunluğu
+- Texture çözünürlüğü
+- Mesh yapısı
+- Collider sistemi
+- Sahne yerleşimi
+- Render maliyeti
+
+analiz edilerek performans odaklı iyileştirmeler yapılmıştır.
+
+Optimizasyon sürecinde özellikle uzak mesafelerde gereksiz detayların azaltılması amacıyla **LOD (Level of Detail)** yaklaşımı değerlendirilmiştir. Bunun yanında sahnede fizik hesaplamalarını azaltmak için collider yapıları yeniden düzenlenmiş ve yüksek çözünürlüklü dokular sıkıştırılarak GPU yükü azaltılmıştır.
+
+---
+
+# Kullanılan Teknolojiler
+
+| Teknoloji | Kullanım Amacı |
+|---|---|
+| Blender | 3D model düzenleme ve mesh kontrolü |
+| Unity | Oyun motoru ve sahne yönetimi |
+| C# | Karakter kontrolü ve sahne geçiş sistemleri |
+| Mesh Collider | Karmaşık yüzeylerde fizik çarpışması |
+| Box Collider | Basit fizik sınırlandırmaları |
+| Texture Compression | Bellek ve render optimizasyonu |
 
 ---
 
 # Model Hakkında
 
-Projede kullanılan model, Paris'teki **Louvre Müzesi'nin iç ve dış mekanını belirli bir kısmını** temsil etmektedir. Modellerin bir kısmı hazır bir 3D asset olarak temin edilmiş ve Unity oyun motoruna entegre edilerek oynanabilir bir sanal gezi deneyimine dönüştürülmüş, gerekli eklemeler yapılmıştır.
+Projede kullanılan model, Paris'te bulunan **Louvre Müzesi'nin** hem dış hem de iç mekanını temsil eden detaylı bir mimari yapıdır. Model hazır bir 3D asset olarak temin edilmiş ve Unity ortamına aktarılmıştır.
+
+Modelin temel amacı kullanıcıya gerçek müze deneyimine yakın bir sanal gezi ortamı sunmaktır. Oyuncu müzenin dış alanında serbest şekilde dolaşabilmekte, ardından iç mekana geçiş yaparak farklı salonları keşfedebilmektedir.
+
+Model genel olarak iki ana bölümden oluşmaktadır:
+
+1. Dış Mekan Modeli
+2. İç Mekan Modeli
 
 ---
 
-# Dış Model
+# Dış Mekan Modeli
 
-Louvre Müzesi’nin dış cephesi; tarihi saray yapısını, avlu düzenini ve ünlü cam piramidi kapsayan detaylı bir mimari modelden oluşmaktadır.
+Louvre Müzesi’nin dış modeli; tarihi saray yapısı, geniş avlu sistemi ve müzenin simgesi olan cam piramit yapısını kapsamaktadır.
 
-## İçerdiği Yapılar
+## Dış Model İçeriği
 
-- Tarihi dış cephe mimarisi,
-- Cam piramit yapısı,
-- Avlu ve çevresel düzenlemeler,
-- Cephe dokuları ve mimari detaylar,
-- Işıklandırma detayları
+Dış model içerisinde:
 
-Model, Unity içerisinde **Outside_Museum** sahnesi altında konumlandırılmıştır. Oyuncu bu alandaki cam piramitten müzeye giriş yapabilmektedir.
+- Ana bina cephesi
+- Cam piramit
+- Avlu taş döşemeleri
+- Sütun ve pencere detayları
+- Dış duvar yapıları
+- Giriş alanları
 
-## Yapılan Optimizasyonlar
+yer almaktadır.
 
-- Yüksek çözünürlüklü texture’lar sıkıştırıldı
-- Uzak mesafede görünmeyen detaylar azaltıldı
-- Gereksiz mesh yoğunluğu optimize edildi
-
----
-
-# İç Model
-
-Müze iç mekanı toplam **28 ayrı mesh parçasından** oluşmaktadır.
-
-## İç Mekan Öğeleri
-
-- Duvarlar
-- Tablolar
-- Zemin yapıları
-- Tavan detayları
-- Işık detayları
-
-İç mekan modeli Unity içerisinde **LouvreInteriorOptimized** sahnesi altında yapılandırılmıştır.
+Model Unity içerisinde **Outside_Museum** sahnesi altında yapılandırılmıştır. Oyuncu oyuna bu bölgede başlamakta ve müze girişine yönlendirilmektedir.
 
 ---
 
-# Fizik ve Collider Düzenlemeleri
+## Dış Mekan Optimizasyonları
 
-Oyuncu etkileşimini iyileştirmek amacıyla çeşitli collider optimizasyonları yapılmıştır.
+Dış model yüksek poligon sayısına sahip olduğundan dolayı çeşitli optimizasyon teknikleri uygulanmıştır.
+
+### Yapılan İşlemler
+
+- Kullanılmayan mesh parçaları temizlendi
+- Görünmeyen yüzeyler sahneden kaldırıldı
+- Texture sıkıştırma işlemleri uygulandı
+- Uzak mesafelerde gereksiz detaylar azaltıldı
+- Bazı objelerde collider sayısı düşürüldü
+
+Bu işlemler sonucunda sahnenin yüklenme süresi azaltılmış ve daha stabil FPS değerleri elde edilmiştir.
+
+---
+
+# İç Mekan Modeli
+
+İç mekan modeli müzenin koridorlarını, sergi alanlarını ve sanat eserlerini temsil etmektedir. Yapı toplamda **28 farklı mesh parçasından** oluşmaktadır.
+
+Bu parçalar:
+
+- LouvreScene_05
+- LouvreScene_06
+- ...
+- LouvreScene_32
+
+şeklinde organize edilmiştir.
+
+İç model Unity içerisinde **LouvreInteriorOptimized** sahnesi altında yapılandırılmıştır.
+
+---
+
+## İç Mekan Yapıları
+
+İç model aşağıdaki mimari öğeleri içermektedir:
+
+### Mimari Öğeler
+
+- Duvar sistemleri
+- Kapı çerçeveleri
+- Tavan yapıları
+- Zemin kaplamaları
+- Sergi tabloları
+- Koridor bölmeleri
+- Geçiş alanları
+
+---
+
+# Collider ve Fizik Sistemi
+
+Oyuncunun sahne içerisinde gerçekçi şekilde hareket edebilmesi için çeşitli fizik ve çarpışma sistemleri uygulanmıştır.
+
+---
 
 ## Mesh Collider Kullanımı
 
-Dış duvar modeli üzerinde **Mesh Collider** kullanılmıştır. Böylece karmaşık geometriye sahip yüzeylerde oyuncunun model içerisinden geçmesi engellenmiştir.
+Dış duvar sistemi üzerinde bulunan karmaşık geometri nedeniyle standart Box Collider yapıları yeterli olmamıştır. Bu sebeple **LouvreScene_30** objesi üzerinde **Mesh Collider** kullanılmıştır.
+
+### Sağlanan Avantajlar
+
+- Oyuncunun duvar içinden geçmesi engellendi
+- Karmaşık yüzeylerde daha doğru çarpışma hesaplandı
+- Duvar köşelerinde oluşan fizik hataları azaltıldı
+
+---
 
 ## Box Collider Kullanımı
 
-**LouvreScene_11** üzerinde bulunan tablo ve iç duvar bölmeleri için **Box Collider** tercih edilmiştir. Bu sayede karakter hareketi oda sınırları içerisinde tutulmuştur.
+İç mekan içerisindeki tablolar ve bazı düz duvar bölmeleri için performans açısından daha uygun olan **Box Collider** yapısı tercih edilmiştir.
 
-## Trigger Bölgeleri
+Özellikle:
 
-Kapı geçişleri için özel trigger alanları oluşturulmuştur. Oyuncu bu bölgeler aracılığıyla sahneler arasında geçiş yapabilmektedir.
+- LouvreScene_11
+- İç bölme duvarları
+- Tablo alanları
 
----
+üzerinde Box Collider kullanılmıştır.
 
-# Texture Optimizasyonu
+### Sağlanan Avantajlar
 
-İç mekana ait yüksek çözünürlüklü texture’lar optimize edilerek sahnenin render maliyeti azaltılmıştır.
-
-## Yapılan İşlemler
-
-- 4K texture’lar 2K ve 1K seviyelerine düşürüldü
-- Görsel kalite korunmaya çalışıldı
-- Bellek kullanımı azaltıldı
+- Fizik hesaplama maliyeti düşürüldü
+- Daha stabil karakter hareketi sağlandı
+- Gereksiz mesh fizik hesaplamaları azaltıldı
 
 ---
 
-# Tamamlanan İşler
+## Karakter Hareket Problemleri
 
-- [x] Louvre iç mekan modeli temin edildi.
-- [x] Unity'e import edildi ve sahneye yerleştirildi.
-- [x] Dış duvar için Mesh Collider eklendi.
-- [x] Tablo ve iç duvar collider ayarları yapıldı.
-- [x] Karakter geçiş ve sıkışma sorunları giderildi.
-- [x] Texture çözünürlükleri düşürülerek performans optimizasyonu sağlandı.
+İlk aşamada oyuncu karakterinin:
+
+- Duvar içerisine girme
+- Collider kenarlarında sıkışma
+- Köşelerde takılma
+- Zemin altına düşme
+
+gibi problemler yaşadığı gözlemlenmiştir.
+
+Bu sorunların çözümü için:
+
+- Collider boyutları yeniden düzenlenmiş
+- Gereksiz collider çakışmaları kaldırılmış
+- Karakter capsule yapısı optimize edilmiş
+- Duvar collider hizalamaları düzeltilmiştir
+
+Bu düzenlemeler sonucunda karakter hareket sistemi daha stabil hale getirilmiştir.
+
+---
+
+# Trigger Sistemi ve Sahne Geçişleri
+
+Müze girişleri ve bazı koridor geçişlerinde trigger bölgeleri kullanılmıştır.
+
+Bu sistem sayesinde:
+
+- Oyuncu belirli bölgelere geldiğinde sahne geçişleri yapılabilmekte
+- Kapı sistemleri kontrol edilebilmekte
+- Bölgesel olaylar tetiklenebilmektedir
+
+Trigger bölgeleri fiziksel çarpışma yerine yalnızca algılama amacıyla kullanılmaktadır.
+
+---
+
+# Texture ve Render Optimizasyonu
+
+Projede kullanılan bazı texture dosyaları başlangıçta yüksek çözünürlüklü olduğu için GPU kullanımını artırmıştır. Bu durum özellikle düşük sistemlerde FPS düşüşlerine neden olmuştur.
+
+Bu problemi çözmek amacıyla texture optimizasyonu uygulanmıştır.
+
+---
+
+## Yapılan Texture İşlemleri
+
+- 4K çözünürlüklü texture’lar 2K ve 1K seviyelerine düşürüldü
+- Gereksiz normal map kullanımları kaldırıldı
+- Texture compression aktif edildi
+- Tekrarlayan texture kullanımları optimize edildi
+
+---
+
+## Sağlanan Kazanımlar
+
+Yapılan optimizasyonlar sonucunda:
+
+- GPU yükü azaltıldı
+- Bellek kullanımı düşürüldü
+- Render süresi iyileştirildi
+- FPS değerlerinde artış sağlandı
+- Sahne geçiş süreleri kısaltıldı
+
+---
+
+# Tamamlanan Çalışmalar
+
+- [x] Louvre iç mekan modeli temin edildi
+- [x] Model Unity ortamına aktarıldı
+- [x] Outside_Museum sahnesi oluşturuldu
+- [x] LouvreInteriorOptimized sahnesi oluşturuldu
+- [x] Mesh Collider sistemi uygulandı
+- [x] Box Collider düzenlemeleri yapıldı
+- [x] Trigger geçiş sistemi kuruldu
+- [x] Karakter sıkışma problemleri giderildi
+- [x] Texture optimizasyonları gerçekleştirildi
+- [x] Sahne performansı iyileştirildi
 
 ---
 
 # Sonuç
 
-Gerçekleştirilen optimizasyon çalışmaları sonucunda Louvre sanal müze modeli daha akıcı ve performanslı bir hale getirilmiştir. Özellikle collider düzenlemeleri ve texture optimizasyonları sayesinde oyuncu deneyimi iyileştirilmiş, sahne render maliyeti azaltılmıştır.
+Gerçekleştirilen optimizasyon çalışmaları sonucunda Louvre sanal müze modeli daha akıcı, performanslı ve oynanabilir bir yapıya dönüştürülmüştür. Özellikle collider düzenlemeleri, texture optimizasyonları ve fizik sistemi iyileştirmeleri sayesinde kullanıcı deneyimi önemli ölçüde geliştirilmiştir.
+
+Bu çalışma ilerleyen aşamalarda:
+
+- Dinamik ışık optimizasyonları
+- Occlusion Culling sistemi
+- Gelişmiş LOD yapıları
+- Asset Bundle kullanımı
+- Streaming tabanlı sahne yükleme sistemleri
+
+ile daha da geliştirilebilir.
