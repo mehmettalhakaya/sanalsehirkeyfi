@@ -257,7 +257,7 @@ Risk:
 Bu Veri Yönetim Planı;
 
 - Ölçeklenebilirlik
-- Performans...
+- Performans
 - Güvenlik
 
 hedeflerini desteklemektedir
