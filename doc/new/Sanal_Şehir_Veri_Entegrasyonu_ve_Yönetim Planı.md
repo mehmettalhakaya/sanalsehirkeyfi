@@ -246,7 +246,7 @@ Risk:
 
 - Rol Tabanlı Erişim Kontrolü (RBAC)
 - TLS 1.3 şifreleme
-- Günlük artımlı yedekleme
+- Günlük artımlı yedekleme..
 
 
 
