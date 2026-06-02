@@ -224,7 +224,7 @@ Risk:
 Risk:
 
 - Yüz ve plaka bilgileri
-- Mülkiyet verileri....
+- Mülkiyet verileri
 
 Önlem:
 
