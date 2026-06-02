@@ -260,6 +260,6 @@ Bu Veri Yönetim Planı;
 - Performans
 - Güvenlik
 
-hedeflerini desteklemektedir.
+hedeflerini desteklemektedir..
 
 Kurulan entegrasyon hattı, LOD yapıları ve optimizasyon mekanizmaları sayesinde sistem donanım kaynaklarını verimli kullanarak sürdürülebilir ve kesintisiz bir kullanıcı deneyimi sunacaktır.
