@@ -262,4 +262,4 @@ Bu Veri Yönetim Planı;
 
 hedeflerini desteklemektedir.
 
-Kurulan entegrasyon hattı, LOD yapıları ve optimizasyon mekanizmaları sayesinde sistem donanım kaynaklarını verimli kullanarak sürdürülebilir ve kesintisiz bir kullanıcı deneyimi sunacaktır.
+Kurulan entegrasyon hattı, LOD yapıları ve optimizasyon mekanizmaları sayesinde sistem donanım kaynaklarını verimli kullanarak sürdürülebilir ve kesintisiz bir kullanıcı deneyimi sunacaktır
