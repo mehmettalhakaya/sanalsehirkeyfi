@@ -87,12 +87,12 @@ Kapı geçişleri için özel trigger alanları oluşturulmuştur. Oyuncu bu bö
 
 # Tamamlanan İşler
 
-- [x] Louvre iç mekan modeli temin edildi (hazır asset kullanıldı)
-- [x] Unity'e import edildi ve sahneye yerleştirildi
-- [x] Dış duvar için Mesh Collider eklendi
-- [x] Tablo ve iç duvar collider ayarları yapıldı 
-- [x] Karakter geçiş ve sıkışma sorunları giderildi
-- [x] Texture çözünürlükleri düşürülerek performans optimizasyonu sağlandı
+- [x] Louvre iç mekan modeli temin edildi.
+- [x] Unity'e import edildi ve sahneye yerleştirildi.
+- [x] Dış duvar için Mesh Collider eklendi.
+- [x] Tablo ve iç duvar collider ayarları yapıldı.
+- [x] Karakter geçiş ve sıkışma sorunları giderildi.
+- [x] Texture çözünürlükleri düşürülerek performans optimizasyonu sağlandı.
 
 ---
 
