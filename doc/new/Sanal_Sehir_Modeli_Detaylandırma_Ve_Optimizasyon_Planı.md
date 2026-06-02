@@ -4,9 +4,9 @@
 
 Bu çalışma, Blender ortamında oluşturulan sanal şehir modelinin detay seviyesini artırmak ve performans açısından optimize etmek amacıyla hazırlanmıştır. Model üzerinde doku çözünürlüğü, poligon yoğunluğu ve malzeme kullanımı analiz edilerek optimizasyon işlemleri gerçekleştirilmiştir.  
 
-- Mesh optimizasyonu.
-- Texture sıkıştırma işlemleri.
-- Collider düzenlemeleri.
+- Mesh optimizasyonu,
+- Texture sıkıştırma işlemleri,
+- Collider düzenlemeleri
 
 uygulanarak sahnenin performansı artırılmıştır.
 
@@ -24,13 +24,13 @@ Louvre Müzesi’nin dış cephesi; tarihi saray yapısını, avlu düzenini ve 
 
 ## İçerdiği Yapılar
 
-- Tarihi dış cephe mimarisi
-- Cam piramit yapısı
-- Avlu ve çevresel düzenlemeler
-- Cephe dokuları ve mimari detaylar
+- Tarihi dış cephe mimarisi,
+- Cam piramit yapısı,
+- Avlu ve çevresel düzenlemeler,
+- Cephe dokuları ve mimari detaylar,
 - Işıklandırma detayları
 
-Model, Unity içerisinde **Outside_Museum** sahnesi altında konumlandırılmıştır. Oyuncu bu alandan müzeye giriş yapabilmektedir.
+Model, Unity içerisinde **Outside_Museum** sahnesi altında konumlandırılmıştır. Oyuncu bu alandaki cam piramitten müzeye giriş yapabilmektedir.
 
 ## Yapılan Optimizasyonlar
 
@@ -48,7 +48,6 @@ Müze iç mekanı toplam **28 ayrı mesh parçasından** oluşmaktadır.
 
 - Duvarlar
 - Tablolar
-- Kapı çerçeveleri
 - Zemin yapıları
 - Tavan detayları
 - Işık detayları
