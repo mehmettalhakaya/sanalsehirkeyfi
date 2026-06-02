@@ -4,9 +4,9 @@
 
 Bu çalışma, Blender ortamında oluşturulan sanal şehir modelinin detay seviyesini artırmak ve performans açısından optimize etmek amacıyla hazırlanmıştır. Model üzerinde doku çözünürlüğü, poligon yoğunluğu ve malzeme kullanımı analiz edilerek optimizasyon işlemleri gerçekleştirilmiştir.  
 
-- Mesh optimizasyonu
-- Texture sıkıştırma işlemleri
-- Collider düzenlemeleri
+- Mesh optimizasyonu.
+- Texture sıkıştırma işlemleri.
+- Collider düzenlemeleri.
 
 uygulanarak sahnenin performansı artırılmıştır.
 
@@ -14,7 +14,7 @@ uygulanarak sahnenin performansı artırılmıştır.
 
 # Model Hakkında
 
-Projede kullanılan model, Paris'teki **Louvre Müzesi'nin iç ve dış mekanını** temsil etmektedir. Model hazır bir 3D asset olarak temin edilmiş ve Unity oyun motoruna entegre edilerek oynanabilir bir sanal gezi deneyimine dönüştürülmüştür.
+Projede kullanılan model, Paris'teki **Louvre Müzesi'nin iç ve dış mekanını belirli bir kısmını** temsil etmektedir. Modellerin bir kısmı hazır bir 3D asset olarak temin edilmiş ve Unity oyun motoruna entegre edilerek oynanabilir bir sanal gezi deneyimine dönüştürülmüş, gerekli eklemeler yapılmıştır.
 
 ---
 
