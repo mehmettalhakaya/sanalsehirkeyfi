@@ -229,7 +229,7 @@ Risk:
 Önlem:
 
 - Yapay zekâ ile bulanıklaştırma
-- Anonimleştirme
+- Anonimleştirme..
 
 
 
