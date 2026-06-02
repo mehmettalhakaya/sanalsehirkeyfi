@@ -6,16 +6,12 @@ Bu çalışma, Blender ortamında oluşturulan sanal şehir modelinin Unity oyun
 
 Çalışma kapsamında modelin:
 
-- Poligon yoğunluğu
 - Texture çözünürlüğü
 - Mesh yapısı
 - Collider sistemi
 - Sahne yerleşimi
-- Render maliyeti
 
-analiz edilerek performans odaklı iyileştirmeler yapılmıştır.
-
-Optimizasyon sürecinde özellikle uzak mesafelerde gereksiz detayların azaltılması amacıyla **LOD (Level of Detail)** yaklaşımı değerlendirilmiştir. Bunun yanında sahnede fizik hesaplamalarını azaltmak için collider yapıları yeniden düzenlenmiş ve yüksek çözünürlüklü dokular sıkıştırılarak GPU yükü azaltılmıştır.
+analiz edilerek performans odaklı iyileştirmeler yapılmıştır. Bunun yanında sahnede fizik hesaplamalarını azaltmak için collider yapıları yeniden düzenlenmiş ve yüksek çözünürlüklü dokular sıkıştırılarak GPU yükü azaltılmıştır.
 
 ---
 
@@ -28,13 +24,12 @@ Optimizasyon sürecinde özellikle uzak mesafelerde gereksiz detayların azaltı
 | C# | Karakter kontrolü ve sahne geçiş sistemleri |
 | Mesh Collider | Karmaşık yüzeylerde fizik çarpışması |
 | Box Collider | Basit fizik sınırlandırmaları |
-| Texture Compression | Bellek ve render optimizasyonu |
 
 ---
 
 # Model Hakkında
 
-Projede kullanılan model, Paris'te bulunan **Louvre Müzesi'nin** hem dış hem de iç mekanını temsil eden detaylı bir mimari yapıdır. Model hazır bir 3D asset olarak temin edilmiş ve Unity ortamına aktarılmıştır.
+Projede kullanılan model, Paris'te bulunan **Louvre Müzesi'nin** hem dış hem de iç mekanınının belirli kısımlarını temsil etmektedir. Model hazır bir 3D asset olarak temin edilmiş ve Unity ortamına aktarılmıştır.
 
 Modelin temel amacı kullanıcıya gerçek müze deneyimine yakın bir sanal gezi ortamı sunmaktır. Oyuncu müzenin dış alanında serbest şekilde dolaşabilmekte, ardından iç mekana geçiş yaparak farklı salonları keşfedebilmektedir.
 
