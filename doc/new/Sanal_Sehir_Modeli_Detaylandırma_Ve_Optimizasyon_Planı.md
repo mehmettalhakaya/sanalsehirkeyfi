@@ -29,9 +29,9 @@ analiz edilerek performans odaklı iyileştirmeler yapılmıştır. Bunun yanın
 
 # Model Hakkında
 
-Projede kullanılan model, Paris'te bulunan **Louvre Müzesi'nin** hem dış hem de iç mekanınının belirli kısımlarını temsil etmektedir. Model hazır bir 3D asset olarak temin edilmiş ve Unity ortamına aktarılmıştır.
+Projede kullanılan model, Paris'te bulunan **Louvre Müzesi'nin** hem dış hem de iç mekanınının belirli kısımlarını temsil etmektedir. Modelin bir kısmı hazır bir 3D asset olarak temin edilmiş ve Unity ortamına aktarılmış, gerekli eklemeler yapılmıştır.
 
-Modelin temel amacı kullanıcıya gerçek müze deneyimine yakın bir sanal gezi ortamı sunmaktır. Oyuncu müzenin dış alanında serbest şekilde dolaşabilmekte, ardından iç mekana geçiş yaparak farklı salonları keşfedebilmektedir.
+Modelin temel amacı kullanıcıya gerçek müze deneyimine yakın bir sanal gezi ortamı sunmaktır. Oyuncu müzenin dış alanında serbest şekilde dolaşabilmekte, ardından iç mekana geçiş yaparak farklı tabloları keşfedebilmektedir.
 
 Model genel olarak iki ana bölümden oluşmaktadır:
 
@@ -54,10 +54,11 @@ Dış model içerisinde:
 - Sütun ve pencere detayları
 - Dış duvar yapıları
 - Giriş alanları
+- Işıklandırma sistemleri
 
 yer almaktadır.
 
-Model Unity içerisinde **Outside_Museum** sahnesi altında yapılandırılmıştır. Oyuncu oyuna bu bölgede başlamakta ve müze girişine yönlendirilmektedir.
+Model Unity içerisinde **Outside_Museum** sahnesi altında yapılandırılmıştır. Oyuncu oyuna bu bölgede başlamakta ve müze girişine (cam piramit) yönlendirilmektedir.
 
 ---
 
@@ -67,19 +68,16 @@ Dış model yüksek poligon sayısına sahip olduğundan dolayı çeşitli optim
 
 ### Yapılan İşlemler
 
-- Kullanılmayan mesh parçaları temizlendi
 - Görünmeyen yüzeyler sahneden kaldırıldı
 - Texture sıkıştırma işlemleri uygulandı
 - Uzak mesafelerde gereksiz detaylar azaltıldı
 - Bazı objelerde collider sayısı düşürüldü
 
-Bu işlemler sonucunda sahnenin yüklenme süresi azaltılmış ve daha stabil FPS değerleri elde edilmiştir.
-
 ---
 
 # İç Mekan Modeli
 
-İç mekan modeli müzenin koridorlarını, sergi alanlarını ve sanat eserlerini temsil etmektedir. Yapı toplamda **28 farklı mesh parçasından** oluşmaktadır.
+Yapı toplamda **28 farklı mesh parçasından** oluşmaktadır.
 
 Bu parçalar:
 
@@ -101,12 +99,10 @@ Bu parçalar:
 ### Mimari Öğeler
 
 - Duvar sistemleri
-- Kapı çerçeveleri
 - Tavan yapıları
 - Zemin kaplamaları
 - Sergi tabloları
-- Koridor bölmeleri
-- Geçiş alanları
+- Işıklandırma sistemleri
 
 ---
 
@@ -145,42 +141,6 @@ Dış duvar sistemi üzerinde bulunan karmaşık geometri nedeniyle standart Box
 - Fizik hesaplama maliyeti düşürüldü
 - Daha stabil karakter hareketi sağlandı
 - Gereksiz mesh fizik hesaplamaları azaltıldı
-
----
-
-## Karakter Hareket Problemleri
-
-İlk aşamada oyuncu karakterinin:
-
-- Duvar içerisine girme
-- Collider kenarlarında sıkışma
-- Köşelerde takılma
-- Zemin altına düşme
-
-gibi problemler yaşadığı gözlemlenmiştir.
-
-Bu sorunların çözümü için:
-
-- Collider boyutları yeniden düzenlenmiş
-- Gereksiz collider çakışmaları kaldırılmış
-- Karakter capsule yapısı optimize edilmiş
-- Duvar collider hizalamaları düzeltilmiştir
-
-Bu düzenlemeler sonucunda karakter hareket sistemi daha stabil hale getirilmiştir.
-
----
-
-# Trigger Sistemi ve Sahne Geçişleri
-
-Müze girişleri ve bazı koridor geçişlerinde trigger bölgeleri kullanılmıştır.
-
-Bu sistem sayesinde:
-
-- Oyuncu belirli bölgelere geldiğinde sahne geçişleri yapılabilmekte
-- Kapı sistemleri kontrol edilebilmekte
-- Bölgesel olaylar tetiklenebilmektedir
-
-Trigger bölgeleri fiziksel çarpışma yerine yalnızca algılama amacıyla kullanılmaktadır.
 
 ---
 
@@ -225,19 +185,3 @@ Yapılan optimizasyonlar sonucunda:
 - [x] Karakter sıkışma problemleri giderildi
 - [x] Texture optimizasyonları gerçekleştirildi
 - [x] Sahne performansı iyileştirildi
-
----
-
-# Sonuç
-
-Gerçekleştirilen optimizasyon çalışmaları sonucunda Louvre sanal müze modeli daha akıcı, performanslı ve oynanabilir bir yapıya dönüştürülmüştür. Özellikle collider düzenlemeleri, texture optimizasyonları ve fizik sistemi iyileştirmeleri sayesinde kullanıcı deneyimi önemli ölçüde geliştirilmiştir.
-
-Bu çalışma ilerleyen aşamalarda:
-
-- Dinamik ışık optimizasyonları
-- Occlusion Culling sistemi
-- Gelişmiş LOD yapıları
-- Asset Bundle kullanımı
-- Streaming tabanlı sahne yükleme sistemleri
-
-ile daha da geliştirilebilir.
