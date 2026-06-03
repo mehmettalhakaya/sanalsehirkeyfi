@@ -185,3 +185,10 @@ Bu görev sonunda aşağıdaki çıktılar hazırlanmış olacaktır:
 
 ---
 
+## Sonuç
+
+Bu çalışma ile Sanal Şehir Keşfi projesinin Oculus VR cihazlarında sorunsuz çalışabilmesi için gerekli entegrasyon ve optimizasyon planı hazırlanmıştır.
+
+Oculus SDK entegrasyonu, kontrolcü takibi, baş takibi ve render ayarları incelenmiştir. Ayrıca uygulamanın yüksek performansla çalışabilmesi için model optimizasyonu, gölgelendirici optimizasyonu, ışıklandırma düzenlemeleri ve çizim çağrısı azaltma yöntemleri belirlenmiştir.
+
+
