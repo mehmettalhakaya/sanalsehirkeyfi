@@ -60,3 +60,95 @@ Kullanıcı zorlanmadan uygulamayı başlatmalı ve şehir ortamına geçebilmel
 Kullanıcı hareket kontrollerini anlayabilmeli ve çevrede rahatça gezinebilmelidir.
 
 ---
+
+### Senaryo 3: Tarihi Mekana Yaklaşma
+
+**Amaç:** Kullanıcının tarihi yapıları fark edip onlara yaklaşmasını test etmek.
+
+**Adımlar:**
+1. Kullanıcı şehirde yer alan tarihi bir yapıyı bulur.
+2. Yapıya belirli bir mesafeye kadar yaklaşır.
+3. Bilgi panelinin açılıp açılmadığını kontrol eder.
+
+**Beklenen Sonuç:**  
+Kullanıcı tarihi yapıya yaklaştığında bilgi paneli otomatik olarak açılmalıdır.
+
+---
+
+### Senaryo 4: Bilgi Panelini Kullanma
+
+**Amaç:** Bilgi panellerinin okunabilirliğini ve anlaşılabilirliğini değerlendirmek.
+
+**Adımlar:**
+1. Kullanıcı bilgi panelini görüntüler.
+2. Paneldeki yapı adını ve açıklamayı okur.
+3. Panelin tasarımını ve okunabilirliğini değerlendirir.
+
+**Beklenen Sonuç:**  
+Bilgi paneli açık, sade ve okunabilir olmalıdır.
+
+---
+
+### Senaryo 5: VR Etkileşim Deneyimi
+
+**Amaç:** Kullanıcının uygulamadaki etkileşimleri kolay anlayıp anlayamadığını ölçmek.
+
+**Adımlar:**
+1. Kullanıcı menü veya panel gibi etkileşimli alanları kullanır.
+2. Butonlara basar veya seçim yapar.
+3. Sistemden geri bildirim alır.
+
+**Beklenen Sonuç:**  
+Etkileşimler anlaşılır olmalı ve kullanıcı ne yaptığını kolayca fark edebilmelidir.
+
+---
+
+### Senaryo 6: Uygulamadan Çıkış
+
+**Amaç:** Kullanıcının uygulamadan kolayca çıkıp çıkamadığını test etmek.
+
+**Adımlar:**
+1. Kullanıcı ana menüye döner.
+2. “Çıkış” veya “Ayrıl” butonuna basar.
+3. Uygulamadan çıkış yapar.
+
+**Beklenen Sonuç:**  
+Kullanıcı uygulamadan sorunsuz şekilde çıkabilmelidir.
+
+---
+
+## 5. Değerlendirme Metrikleri
+
+Test sürecinde uygulama üç ana başlık altında değerlendirilecektir:
+
+1. Kullanılabilirlik metrikleri
+2. Performans metrikleri
+3. Kullanıcı memnuniyeti metrikleri
+
+---
+
+## 6. Kullanılabilirlik Metrikleri
+
+| Metrik | Açıklama |
+|---|---|
+| Görev Tamamlama Oranı | Kullanıcının verilen görevi başarıyla tamamlayıp tamamlamadığı |
+| Görev Tamamlama Süresi | Kullanıcının görevi ne kadar sürede tamamladığı |
+| Hata Sayısı | Kullanıcının test sırasında yaptığı yanlış işlemler |
+| Yardım İhtiyacı | Kullanıcının görevi yaparken yardım isteyip istemediği |
+| Menü Anlaşılabilirliği | Menülerin kullanıcı tarafından kolay anlaşılması |
+| Bilgi Paneli Okunabilirliği | Yazıların, başlıkların ve açıklamaların rahat okunabilmesi |
+
+---
+
+## 7. Performans Metrikleri
+
+| Metrik | Açıklama |
+|---|---|
+| FPS Değeri | Uygulamanın saniyedeki kare hızı |
+| Yükleme Süresi | Sahnenin veya uygulamanın açılma süresi |
+| Gecikme | Kullanıcı hareketleri ile sistem tepkisi arasındaki gecikme |
+| Donma / Takılma | Uygulamada yaşanan performans sorunları |
+| VR Rahatlığı | Kullanıcının baş dönmesi veya rahatsızlık yaşayıp yaşamadığı |
+
+---
+
