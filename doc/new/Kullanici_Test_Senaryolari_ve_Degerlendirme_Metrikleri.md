@@ -193,3 +193,16 @@ Kullanıcılar her soruya 1 ile 5 arasında puan verecektir.
 
 ---
 
+## 10. Test Sonuçları Tablosu
+
+Test sonuçları aşağıdaki tabloya göre kayıt altına alınacaktır.
+
+| Test No | Kullanıcı Profili | Görev Tamamlandı mı? | Süre | Hata Sayısı | Memnuniyet Puanı | Notlar |
+|---|---|---|---|---|---|---|
+| 1 | Öğrenci | Evet / Hayır | ... sn | ... | ... / 5 | ... |
+| 2 | Turist | Evet / Hayır | ... sn | ... | ... / 5 | ... |
+| 3 | İlk kez VR kullanan | Evet / Hayır | ... sn | ... | ... / 5 | ... |
+| 4 | Deneyimli VR kullanıcısı | Evet / Hayır | ... sn | ... | ... / 5 | ... |
+
+---
+
