@@ -182,6 +182,7 @@ Tablolara yaklaşıp tıklandığında açılan bilgi paneli — eser adı, ress
 | 💾 [Sanal Şehir Veri Entegrasyonu ve Yönetim Planı](doc/new/Sanal_Şehir_Veri_Entegrasyonu_ve_Yönetim%20Planı.md) | REST API + MySQL veri akışı |
 | 🥽 [Oculus Entegrasyonu ve Performans Optimizasyonu Planlaması](doc/new/Oculus_Entegrasyonu_ve_Performans_Optimizasyonu_Planlaması) | XR Plugin + 72/90 FPS hedefleri |
 | 🎮 [VR Etkileşimleri ve UX Analiz Raporu](doc/new/VR_UX_Analiz_Raporu_FiratSeckin.md) | Teleport, snap turn, motion sickness analizi |
+| 📄 [Proje Dokümantasyonu](doc/documentation.docx) | Proje dokümantasyonu |
 
 ---
 
