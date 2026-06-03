@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 39a3d813dc4ac674ca04ab221406ddd1
+timeCreated: 1514911754
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 15600000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102334
+  packageName: Easy-Population
+  packageVersion: 1.0
+  assetPath: Assets/Terrain.asset
+  uploadId: 222219
