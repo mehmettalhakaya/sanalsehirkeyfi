@@ -60,3 +60,16 @@ Kullanıcı zorlanmadan uygulamayı başlatmalı ve şehir ortamına geçebilmel
 Kullanıcı hareket kontrollerini anlayabilmeli ve çevrede rahatça gezinebilmelidir.
 
 ---
+### Senaryo 3: Tarihi Mekana Yaklaşma
+
+**Amaç:** Kullanıcının tarihi yapıları fark edip onlara yaklaşmasını test etmek.
+
+**Adımlar:**
+1. Kullanıcı şehirde yer alan tarihi bir yapıyı bulur.
+2. Yapıya belirli bir mesafeye kadar yaklaşır.
+3. Bilgi panelinin açılıp açılmadığını kontrol eder.
+
+**Beklenen Sonuç:**  
+Kullanıcı tarihi yapıya yaklaştığında bilgi paneli otomatik olarak açılmalıdır.
+
+---
