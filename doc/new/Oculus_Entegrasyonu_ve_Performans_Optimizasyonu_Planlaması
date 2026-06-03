@@ -131,4 +131,17 @@ Bu yüzden:
 
 ---
 
+### 5. Çizim Çağrısı Azaltma
+
+Çizim çağrıları arttıkça performans düşer. Bu yüzden draw call sayısı azaltılmalıdır.
+
+Bunun için:
+
+- Benzer materyaller birleştirilecektir.
+- Static batching kullanılacaktır.
+- Gereksiz objeler sahneden kaldırılacaktır.
+- Uzakta kalan objeler için LOD sistemi kullanılacaktır.
+
+---
+
 
