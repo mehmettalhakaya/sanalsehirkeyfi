@@ -52,4 +52,17 @@ Bunun için:
 - Kullanıcının baş hareketleri kameraya aktarılacaktır.
 - Kontrol cihazları ile etkileşim sağlanacaktır.
 
+### 4. Kontrolcü Entegrasyonu
+
+Oculus kontrol cihazları ile kullanıcının sahne içerisinde etkileşim kurması sağlanacaktır.
+
+Kontrolcü ile yapılabilecek işlemler:
+
+- Nesnelere bakma
+- Menüleri seçme
+- Butonlara basma
+- Teleport veya yürüme hareketi
+- Bilgi panellerini açma
+
+---
 
