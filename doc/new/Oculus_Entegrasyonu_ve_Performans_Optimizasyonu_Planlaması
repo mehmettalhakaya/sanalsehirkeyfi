@@ -79,3 +79,17 @@ olarak belirlenmiştir.
 ---
 
 ## Optimizasyon Stratejileri
+
+### 1. Model Optimizasyonu
+
+Sanal şehir ortamında kullanılan 3D modellerin performansı düşürmemesi için model optimizasyonu yapılacaktır.
+
+Yapılacak işlemler:
+
+- Gereksiz polygon sayıları azaltılacaktır.
+- Low-poly modeller tercih edilecektir.
+- Kullanılmayan objeler sahneden kaldırılacaktır.
+- Aynı tür objelerde tekrar kullanılabilir prefab yapısı oluşturulacaktır.
+
+---
+
