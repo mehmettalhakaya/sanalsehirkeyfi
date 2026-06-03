@@ -60,6 +60,7 @@ Kullanıcı zorlanmadan uygulamayı başlatmalı ve şehir ortamına geçebilmel
 Kullanıcı hareket kontrollerini anlayabilmeli ve çevrede rahatça gezinebilmelidir.
 
 ---
+
 ### Senaryo 3: Tarihi Mekana Yaklaşma
 
 **Amaç:** Kullanıcının tarihi yapıları fark edip onlara yaklaşmasını test etmek.
@@ -85,6 +86,20 @@ Kullanıcı tarihi yapıya yaklaştığında bilgi paneli otomatik olarak açıl
 
 **Beklenen Sonuç:**  
 Bilgi paneli açık, sade ve okunabilir olmalıdır.
+
+---
+
+### Senaryo 5: VR Etkileşim Deneyimi
+
+**Amaç:** Kullanıcının uygulamadaki etkileşimleri kolay anlayıp anlayamadığını ölçmek.
+
+**Adımlar:**
+1. Kullanıcı menü veya panel gibi etkileşimli alanları kullanır.
+2. Butonlara basar veya seçim yapar.
+3. Sistemden geri bildirim alır.
+
+**Beklenen Sonuç:**  
+Etkileşimler anlaşılır olmalı ve kullanıcı ne yaptığını kolayca fark edebilmelidir.
 
 ---
 
