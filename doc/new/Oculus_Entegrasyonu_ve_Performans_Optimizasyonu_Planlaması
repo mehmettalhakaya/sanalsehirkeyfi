@@ -42,4 +42,14 @@ Kurulumdan sonra şu sistemler kontrol edilecektir:
 - Kullanıcı hareket sistemi
 - Etkileşim sistemi
 
+### 3. Kamera ve Oyuncu Kontrolü
+
+VR ortamında kullanıcının sahneyi gerçekçi şekilde deneyimleyebilmesi için kamera sistemi Oculus cihazına uygun hale getirilecektir.
+
+Bunun için:
+
+- OVR Camera Rig veya XR Rig kullanılacaktır.
+- Kullanıcının baş hareketleri kameraya aktarılacaktır.
+- Kontrol cihazları ile etkileşim sağlanacaktır.
+
 
