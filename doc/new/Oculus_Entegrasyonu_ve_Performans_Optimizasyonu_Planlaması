@@ -144,4 +144,19 @@ Bunun için:
 
 ---
 
+## Performans Test Planı
+
+Uygulamanın Oculus cihazında düzgün çalışıp çalışmadığını anlamak için performans testleri yapılacaktır.
+
+Testlerde kontrol edilecek noktalar:
+
+- FPS değeri
+- Sahne geçiş performansı
+- Kullanıcı hareketlerinde gecikme olup olmadığı
+- Kontrolcülerin düzgün çalışması
+- Bilgi panellerinin sorunsuz açılması
+- VR cihazında baş takibinin doğru çalışması
+
+---
+
 
