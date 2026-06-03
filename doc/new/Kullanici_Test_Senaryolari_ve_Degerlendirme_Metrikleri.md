@@ -249,3 +249,10 @@ Test sonuçlarına göre aşağıdaki alanlarda iyileştirme yapılabilir:
 
 ---
 
+## 14. Sonuç
+
+Bu test planı, **Sanal Şehir Keşfi** uygulamasının kullanılabilirlik, performans ve kullanıcı memnuniyeti açısından değerlendirilmesi için hazırlanmıştır.
+
+Belirlenen test senaryoları ve metrikler sayesinde kullanıcıların uygulama deneyimi ölçülecek, eksik veya geliştirilmesi gereken noktalar belirlenecektir.
+
+Elde edilen geri bildirimler doğrultusunda uygulamanın daha kaliteli, anlaşılır ve kullanıcı dostu hale getirilmesi hedeflenmektedir.
