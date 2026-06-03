@@ -119,3 +119,16 @@ Bu nedenle:
 
 ---
 
+### 4. Gölgelendirici Optimizasyonu
+
+Karmaşık shader kullanımı FPS düşüşüne neden olabilir.
+
+Bu yüzden:
+
+- Basit shaderlar tercih edilecektir.
+- Gereksiz yansıma ve parlama efektleri azaltılacaktır.
+- Mobil VR cihazlarına uygun materyaller kullanılacaktır.
+
+---
+
+
