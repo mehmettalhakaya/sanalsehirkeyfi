@@ -177,3 +177,19 @@ Kullanıcılar her soruya 1 ile 5 arasında puan verecektir.
 | 3 | Orta |
 | 4 | İyi |
 | 5 | Çok iyi |
+
+### Anket Soruları
+
+1. Uygulamayı kullanmak kolay mıydı?
+2. VR ortamında hareket etmek rahat mıydı?
+3. Bilgi panelleri anlaşılır mıydı?
+4. Yazılar ve açıklamalar okunabilir miydi?
+5. Tarihi mekanları bulmak kolay mıydı?
+6. Uygulama görsel olarak yeterli miydi?
+7. Uygulama eğlenceli miydi?
+8. Uygulama öğretici miydi?
+9. Herhangi bir donma veya takılma yaşadınız mı?
+10. Bu uygulamayı tekrar kullanmak ister misiniz?
+
+---
+
