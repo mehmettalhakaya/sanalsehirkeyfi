@@ -23,4 +23,11 @@ Ayrıca uygulamanın VR cihazlarında yüksek performansla çalışabilmesi içi
 
 Oculus cihazlarının Unity projesine entegre edilebilmesi için aşağıdaki adımlar planlanmıştır:
 
+### 1. Unity Proje Ayarlarının Hazırlanması
+
+- Unity projesinde XR desteği aktif edilecektir.
+- Oculus cihazları için gerekli paketler projeye eklenecektir.
+- Oculus SDK veya XR Interaction Toolkit kullanılacaktır.
+- Build ayarları Android platformuna göre düzenlenecektir.
+
 
