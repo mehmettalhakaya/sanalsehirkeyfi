@@ -277,10 +277,6 @@ Tablolara yaklaşıp tıklandığında açılan bilgi paneli — eser adı, ress
 | Tuş / Mouse | İşlev |
 |-------------|-------|
 | **WASD** | Yürüme |
-| **Shift** | Koşma |
-| **Space** | Zıplama / VR'da yukarı |
-| **Ctrl** | Eğilme / VR'da aşağı |
-| **F** | Uçuş modu aç/kapa |
 | **Mouse** | Bakış yönü |
 | **Sol tık** | Tabloya tıklayınca bilgi paneli |
 | **Sağ tık (basılı)** | Teleport hedefi |
