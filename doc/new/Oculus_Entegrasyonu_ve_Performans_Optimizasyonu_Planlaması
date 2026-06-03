@@ -30,4 +30,16 @@ Oculus cihazlarının Unity projesine entegre edilebilmesi için aşağıdaki ad
 - Oculus SDK veya XR Interaction Toolkit kullanılacaktır.
 - Build ayarları Android platformuna göre düzenlenecektir.
 
+### 2. Oculus SDK Kurulumu
+
+Projede Oculus cihazlarının kullanılabilmesi için Oculus SDK kurulumu yapılacaktır.
+
+Kurulumdan sonra şu sistemler kontrol edilecektir:
+
+- Baş takibi
+- Kontrolcü takibi
+- VR kamera sistemi
+- Kullanıcı hareket sistemi
+- Etkileşim sistemi
+
 
