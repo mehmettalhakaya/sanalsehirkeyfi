@@ -164,3 +164,16 @@ Test sürecinde uygulama üç ana başlık altında değerlendirilecektir:
 
 ---
 
+## 9. Anket Soruları
+
+Test sonunda kullanıcılara kısa bir anket uygulanacaktır.
+
+Kullanıcılar her soruya 1 ile 5 arasında puan verecektir.
+
+| Puan | Anlamı |
+|---|---|
+| 1 | Çok kötü |
+| 2 | Kötü |
+| 3 | Orta |
+| 4 | İyi |
+| 5 | Çok iyi |
