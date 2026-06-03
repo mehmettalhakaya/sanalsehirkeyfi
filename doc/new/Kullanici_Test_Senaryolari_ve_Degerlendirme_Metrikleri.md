@@ -126,3 +126,16 @@ Test sürecinde uygulama üç ana başlık altında değerlendirilecektir:
 3. Kullanıcı memnuniyeti metrikleri
 
 ---
+
+## 6. Kullanılabilirlik Metrikleri
+
+| Metrik | Açıklama |
+|---|---|
+| Görev Tamamlama Oranı | Kullanıcının verilen görevi başarıyla tamamlayıp tamamlamadığı |
+| Görev Tamamlama Süresi | Kullanıcının görevi ne kadar sürede tamamladığı |
+| Hata Sayısı | Kullanıcının test sırasında yaptığı yanlış işlemler |
+| Yardım İhtiyacı | Kullanıcının görevi yaparken yardım isteyip istemediği |
+| Menü Anlaşılabilirliği | Menülerin kullanıcı tarafından kolay anlaşılması |
+| Bilgi Paneli Okunabilirliği | Yazıların, başlıkların ve açıklamaların rahat okunabilmesi |
+
+---
