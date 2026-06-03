@@ -1,72 +1,77 @@
 # 📊 Proje Akışı
 
-Bu dosya, **“Sanal Gerçeklik Simülatörleri”** takımının haftalık proje ilerlemesini ve üyelerin görev dağılımlarını içermektedir.  
-Her hafta ekip üyeleri yaptıkları çalışmaları bu dosyaya ekleyerek projenin gelişimini takip edecektir.
+Bu dosya, **"Sanal Gerçeklik Simülatörleri – Sanal Şehir Keşfi"** takımının haftalık proje ilerlemesini ve üyelerin görev dağılımlarını içermektedir.
+Her hafta ekip üyeleri yaptıkları çalışmaları bu dosyaya ekleyerek projenin gelişimini takip etmektedir.
+
+> 🗓️ **Proje Başlangıç Tarihi:** 20 Nisan 2026
+> 📦 **Teslim Tarihi:** 03 Haziran 2026
+> 🏛️ **Konu:** Louvre Müzesi – Sanal Gerçeklik Keşfi
+> 👥 **Ekip:** Mehmet Talha Kaya, Melike Gücin, Cemre Yurtsever, Mustafa Murat Hilaloğlu, Fırat Seçkin
 
 ---
 
-# 📅 1. Hafta (6 – 12 Mart)
+# 📅 1. Hafta (20 – 26 Nisan 2026)
+
+> 🎯 **Aşama:** Proje Tanıma ve Başlangıç
+> 🎯 **Hedef:** Proje konusunun netleştirilmesi, kullanılacak teknolojilerin araştırılması, geliştirme ortamı ve iş birliği araçlarının kurulması.
 
 ## 👨‍💼 Mehmet Talha Kaya (Scrum Master / Proje Yöneticisi)
-- GitHub reposu oluşturuldu.
+- GitHub reposu oluşturuldu (`sanalsehirkeyfi`).
 - `main` branch için branch koruma kuralları ayarlandı.
-- Takım üyeleri repo’ya collaborator olarak eklendi.
+- Takım üyeleri repo'ya **collaborator** olarak eklendi.
 - GitHub Desktop ve Git iş akışı hakkında ekip bilgilendirildi.
 - Proje akışı dokümanı (**projeakisi.md**) oluşturuldu.
 
 ---
 
-## 🛠️ Melike Gücin (Proje Yönetimi ve İşbirliği Araçları)
-- Proje yönetimi ve görev takibi için kullanılabilecek araçlar incelendi.
-- GitHub üzerinden ekip iş akışı planlandı.
-- Proje görevlerinin takibi için pano sistemi hazırlandı.
-
----
-
-## 📋 Mustafa Murat Hilaloğlu (Gereksinim Analizi)
-- Proje için kullanıcı ve sistem gereksinimleri araştırıldı.
-- Sanal şehir keşfi uygulamasının temel özellikleri belirlendi.
-- Gereksinim dokümanı için taslak hazırlandı.
-
----
-
-## 🔎 Mehmet Talha Kaya (Teknoloji Araştırması)
-- Projede kullanılabilecek teknolojiler araştırıldı.
+## 🔎 Mehmet Talha Kaya (Teknoloji Araştırması ve Değerlendirme)
+- Projede kullanılabilecek **VR teknolojileri, yazılım geliştirme araçları ve hareket izleme sistemleri** araştırıldı.
 - Unity, C#, Blender ve Oculus SDK araçları incelendi.
+- Meta Quest, HTC Vive gibi VR başlıklarının maliyet/performans/uyumluluk karşılaştırması yapıldı.
 - VR simülasyon projeleri için uygun geliştirme araçları değerlendirildi.
 
 ---
 
-## ⚠️ Mehmet Talha Kaya (Risk Analizi)
-- Proje sürecinde ortaya çıkabilecek teknik ve organizasyonel riskler belirlendi.
-- VR teknolojileri, yazılım araçları ve ekip koordinasyonu ile ilgili olası riskler değerlendirildi.
-- Bu risklere karşı alınabilecek önlemler ve çözüm önerileri planlandı.
+## 🛠️ Melike Gücin (Proje Yönetimi ve İşbirliği Araçları Kurulumu)
+- Proje yönetimi ve görev takibi için kullanılabilecek araçlar incelendi.
+- **Jira** kuruldu ve ekip üyelerinin erişimi sağlandı.
+- GitHub üzerinden ekip iş akışı planlandı (issue, PR, board yapısı).
+- Proje görevlerinin takibi için pano sistemi hazırlandı.
 
 ---
 
 ## ⚙️ Cemre Yurtsever (Geliştirme Ortamı Kurulumu)
 - Projede kullanılacak geliştirme ortamı ve yazılım araçları araştırıldı.
-- Unity oyun motoru ve gerekli geliştirme araçlarının kurulumu gerçekleştirildi.
-- Projede kullanılacak bağımlılıklar (Unity, Visual Studio, Blender ve Oculus SDK) belirlendi ve ortam yapılandırması hazırlandı.
+- **Unity 6.3 LTS** oyun motoru ve gerekli geliştirme araçlarının kurulumu yapıldı.
+- Bağımlılıklar (Unity, Visual Studio, Blender, Oculus SDK) belirlendi ve ortam yapılandırması hazırlandı.
 - Geliştirme sürecinin sorunsuz ilerleyebilmesi için temel proje ortamları oluşturuldu.
+
+---
+
+## 📋 Mustafa Murat Hilaloğlu (Gereksinim Toplama ve Belgeleme)
+- Proje için kullanıcı ve sistem gereksinimleri araştırıldı.
+- Sanal Şehir Keşfi (Louvre Müzesi) uygulamasının temel özellikleri belirlendi.
+- Fonksiyonel ve fonksiyonel olmayan gereksinimler dokümante edildi.
+- Donanım, yazılım ve performans gereksinimleri taslak olarak hazırlandı.
+
 ---
 
 ## 📊 Fırat Seçkin (Proje Analizi ve Kapsam Belirleme)
 - Projenin temel amacı ve hedef kullanıcı kitlesi belirlendi.
 - Sanal şehir keşfi uygulamasının kapsamı tanımlandı.
 - Proje vizyonu ve genel işlevleri üzerine analiz yapıldı.
+- Hedef gruplar (öğrenciler, turistler, erişim engelli bireyler, eğitimciler) tanımlandı.
 
 ---
 
 # ✅ 1. Hafta Gerçekleştirilen Çalışmalar
 
 ## 🔎 Teknoloji Araştırması ve Değerlendirme
-**Sorumlu:** Mehmet Talha Kaya
+**👤 Sorumlu:** Mehmet Talha Kaya
 
 Proje kapsamında kullanılabilecek **VR teknolojileri, yazılım geliştirme araçları ve hareket izleme sistemleri** araştırılmış ve **maliyet, performans ve uyumluluk** kriterlerine göre değerlendirilmiştir.
 
 ### 🕶 VR Başlıkları
-
 | Cihaz | Avantaj | Dezavantaj |
 |------|---------|-----------|
 | **Meta Quest / Oculus Quest** | Kablosuz kullanım, uygun maliyet, Unity ile uyumlu | Grafik gücü sınırlı |
@@ -74,23 +79,10 @@ Proje kapsamında kullanılabilecek **VR teknolojileri, yazılım geliştirme ar
 
 📌 **Sonuç:** Öğrenci projesi için **Meta Quest tabanlı VR sistemleri** daha uygun görülmüştür.
 
----
-
-### 🖐 Hareket İzleme Sistemleri
-
-- **Inside-Out Tracking:** Sensörler headset üzerinde bulunur (Quest).
-- **External Tracking:** Harici sensörlerle takip yapılır (HTC Vive).
-- **El Takibi:** Leap Motion gibi sistemlerle el hareketleri algılanabilir.
-
-📌 Bu sistemler kullanıcının **baş ve el hareketlerini sanal ortama aktararak gerçekçi etkileşim sağlar.**
-
----
-
 ### 💻 Yazılım Geliştirme Araçları
-
 | Araç | Amaç |
 |-----|------|
-| **Unity** | VR ortamı ve 3D sahne geliştirme |
+| **Unity 6.3 LTS** | VR ortamı ve 3D sahne geliştirme |
 | **C#** | Unity içinde programlama |
 | **Blender** | 3D model düzenleme |
 | **Oculus SDK / OpenVR** | VR cihaz entegrasyonu |
@@ -99,473 +91,743 @@ Proje kapsamında kullanılabilecek **VR teknolojileri, yazılım geliştirme ar
 
 ---
 
-## ⚠️ Risk Analizi
-**Sorumlu:** Mehmet Talha Kaya
+## 🛠 Proje Yönetimi ve İşbirliği Araçları Kurulumu
+**👤 Sorumlu:** Melike Gücin
 
-Proje geliştirme sürecinde ortaya çıkabilecek teknik ve organizasyonel riskler belirlenmiş ve bu risklere karşı alınabilecek önlemler planlanmıştır.
+Proje sürecinde ekip içi koordinasyonu sağlamak ve görev takibini kolaylaştırmak amacıyla **Jira** ve GitHub tabanlı bir iş akışı kurulmuştur.
 
-### 📉 Olası Riskler
-
-| Risk | Açıklama |
-|-----|----------|
-| 💻 Teknik Problemler | Unity veya yazılım araçlarında hata oluşması |
-| 🧱 Model Uyumsuzluğu | 3D modellerin performans sorunu yaratması |
-| 🕶 Donanım Sorunu | VR cihazının bulunmaması |
-| 👥 İletişim Problemi | Ekip içi koordinasyon eksikliği |
-| ⏱ Zaman Yönetimi | Görevlerin gecikmesi |
-
-### 🛠 Alınacak Önlemler
-
-- Unity ile uyumlu **low-poly modeller** kullanılacaktır.  
-- Proje **GitHub üzerinden düzenli yedeklenecektir.**  
-- Görevler **haftalık olarak planlanacaktır.**  
-- Ekip iletişimi **GitHub ve proje panosu üzerinden sağlanacaktır.**
-
----
-
-## 🛠 Proje Yönetimi ve İşbirliği Araçları Kurulumu  
-**Sorumlu:** Melike Gücin  
-
-Proje sürecinde ekip içi koordinasyonu sağlamak ve görev takibini kolaylaştırmak amacıyla proje yönetimi ve işbirliği araçları araştırılmış ve kurulmuştur.
-
-### 📋 Proje Yönetim Araçları
-
+### 📋 Kurulan Araçlar
 | Araç | Amaç |
 |-----|------|
-| **Jira / Proje Panosu** | Görevlerin haftalık olarak planlanması ve takip edilmesi |
-| **GitHub Issues** | Proje görevlerinin ve ilerlemenin kayıt altına alınması |
+| **Jira** | Sprint/görev takibi, üye bazlı iş listesi |
+| **GitHub Issues** | Hata bildirimi ve özellik talepleri |
+| **GitHub Desktop** | Git işlemlerinin görsel yönetimi |
 
-📌 Bu araçlar sayesinde ekip üyeleri görevlerini takip edebilmekte ve proje süreci düzenli bir şekilde yönetilebilmektedir.
-
----
-
-### 🤝 İşbirliği Araçları
-
-| Araç | Amaç |
-|-----|------|
-| **GitHub** | Proje kodlarının merkezi bir depoda tutulması |
-| **Git** | Versiyon kontrolü ve ekip üyelerinin aynı proje üzerinde çalışabilmesi |
-| **GitHub Desktop** | Git işlemlerinin görsel arayüz ile daha kolay yapılabilmesi |
-
-📌 GitHub üzerinde proje deposu oluşturulmuş ve ekip üyeleri **collaborator** olarak eklenmiştir.
+📌 Ekip üyeleri Jira board üzerinden haftalık görevleri görebilmekte, durum güncellemelerini buradan paylaşmaktadır.
 
 ---
 
-### 👥 Ekip Bilgilendirmesi
+## ⚙️ Geliştirme Ortamı Kurulumu
+**👤 Sorumlu:** Cemre Yurtsever
 
-Ekip üyelerine aşağıdaki konularda kısa bir bilgilendirme yapılmıştır:
+Projenin uzun vadeli stabilitesini sağlamak amacıyla Unity'nin **6.3 LTS** sürümü belirlenmiş ve ekip için ortak kurulum yapılandırması hazırlanmıştır.
 
-- GitHub reposunun kullanımı  
-- Commit ve push işlemleri  
-- Pull request oluşturma süreci  
-- Proje panosu üzerinden görev takibi  
+### 💻 Kurulan Yazılımlar
+| Yazılım | Kullanım Amacı |
+|---------|----------------|
+| 🎮 **Unity 6.3 LTS** | 3D ortam, sahne yönetimi, fizik motoru |
+| ⌨️ **Visual Studio 2022** | C# scriptlerinin yazılması, debug |
+| 🧊 **Blender** | 3D model ve sahne hazırlığı |
+| 🥽 **Oculus SDK** | VR cihaz entegrasyonu |
 
-📌 Bu sayede ekip üyelerinin proje yönetim araçlarını etkin bir şekilde kullanması sağlanmıştır.
+📌 Unity Package Manager üzerinden **URP** ve **Input System** paketleri kuruldu. `.gitignore` dosyası Unity yapısına uygun düzenlendi.
 
 ---
 
-## Gereksinim Analizi
-
-**Sorumlu:** Mustafa Murat Hilaloğlu
-
-### Proje Tanımı
-- Sanal Şehir Keşfi, kullanıcıların tarihi ve kültürel mekanları sanal gerçeklik (VR) ortamında etkileşimli olarak keşfetmesini sağlayan bir uygulamadır.
-- Kullanıcılar VR gözlüğü aracılığıyla sanal şehir içerisinde dolaşabilir ve çeşitli mekanları inceleyebilir.
-- Sistem, kullanıcıların tarihi yapılar hakkında bilgi almasını ve etkileşimli içeriklerle deneyimini zenginleştirmesini amaçlamaktadır.
-
-### Proje Amaçları
-- Tarihi ve kültürel mirası dijital ortamda tanıtmak.
-- Kullanıcıya immersive (içine alan) bir VR deneyimi sunmak.
-- VR teknolojisi aracılığıyla eğitim ve turizm alanlarına katkı sağlamak.
-- Kullanıcıların etkileşimli ve görsel bir öğrenme deneyimi yaşamasını sağlamak.
-
-### Fonksiyonel Gereksinimler
-- Kullanıcı VR gözlüğü ile sanal şehir ortamına giriş yapabilmelidir.
-- Kullanıcı sanal şehir içerisinde serbest şekilde dolaşabilmelidir.
-- Kullanıcı şehirde bulunan tarihi yapılar ile etkileşime geçebilmelidir.
-- Kullanıcı tarihi yapılar hakkında bilgi panellerini görüntüleyebilmelidir.
-- Kullanıcı şehir içindeki farklı noktalara navigasyon sistemi ile ulaşabilmelidir.
-- Sistem kullanıcıya görsel ve sesli bilgilendirme sunabilmelidir.
-
-### Fonksiyonel Olmayan Gereksinimler
-- Sistem VR ortamında akıcı bir deneyim sunmalıdır.
-- Uygulama minimum 72 FPS performans ile çalışmalıdır.
-- Sistem düşük gecikme süresi ile çalışmalıdır.
-- Kullanıcı arayüzü anlaşılır ve kullanıcı dostu olmalıdır.
-- Sistem farklı VR cihazları ile uyumlu çalışabilmelidir.
-
-### Donanım Gereksinimleri
-- VR gözlüğü (Oculus Quest 2, Oculus Quest 3 veya benzeri).
-- VR kontrol cihazları.
-- Minimum 16 GB RAM'e sahip bir bilgisayar.
-- VR destekli ekran kartı (NVIDIA GTX 1060 veya üzeri).
-- Motion tracking sensörleri.
-
-### Yazılım Gereksinimleri
-- Unity Game Engine (Unity 2021 LTS veya Unity 2022 LTS).
-- Programlama dili olarak C#.
-- 3D modelleme için Blender.
-- VR entegrasyonu için Oculus SDK.
-- Versiyon kontrol sistemi olarak Git.
-- Kod geliştirme için Visual Studio.
-
-### Kullanıcı Etkileşimleri
-- Kullanıcı şehir içerisinde teleport veya joystick ile hareket edebilmelidir.
-- Kullanıcı nesnelerle etkileşime geçebilmelidir.
-- Kullanıcı bilgi panellerini aktive edebilmelidir.
-- Kullanıcı şehir içerisindeki belirli noktalara navigasyon sistemi ile ulaşabilmelidir.
-
-### Kullanıcı Arayüzü Gereksinimleri
-- VR ortamına uygun 3D panel sistemi kullanılmalıdır.
-- Menü sistemi kullanıcı tarafından kolay anlaşılabilir olmalıdır.
-- Ana menüde başlat, şehir haritası, ayarlar, yardım ve çıkış seçenekleri bulunmalıdır.
-- Arayüzde okunabilir büyük fontlar ve yüksek kontrast kullanılmalıdır.
-
-### Performans Gereksinimleri
-- Uygulama 72–90 FPS aralığında çalışmalıdır.
-- Gecikme süresi 20 ms altında olmalıdır.
-- Model ve sahneler performans açısından optimize edilmelidir.
-- LOD sistemi ve occlusion culling gibi optimizasyon teknikleri kullanılmalıdır.
-
-### Gelecek Geliştirmeler
-- Multiplayer VR tur özelliği eklenmesi.
-- Yapay zeka rehberi eklenmesi.
-- Artırılmış gerçeklik (AR) entegrasyonu.
-- Gerçek şehir verilerinin sisteme entegre edilmesi.
-
-## 🗄️ Veritabanı Tasarımı
+## 📋 Gereksinim Toplama ve Belgeleme
 **👤 Sorumlu:** Mustafa Murat Hilaloğlu
 
-Sanal Şehir Keşfi uygulamasında kullanılacak veritabanı şeması oluşturulmuştur. Hazırlanan ER diyagramı doğrultusunda tablolar, alanlar ve tablolar arası ilişkiler belirlenmiştir.
+Sanal Şehir Keşfi uygulamasının fonksiyonel ve fonksiyonel olmayan gereksinimleri çıkartılmıştır.
 
-### 🔹 Belirlenen Tablolar
-| Tablo | Amaç |
-|------|------|
-| **BOLUMLER** | Eserlerin bulunduğu bölüm bilgilerini tutmak |
-| **KATEGORILER** | Eserleri türlerine göre sınıflandırmak |
-| **ESERLER** | Sistemde yer alan ana içerikleri saklamak |
-| **MEDYALAR** | Eserlere ait görsel, ses veya diğer medya kayıtlarını tutmak |
-| **KULLANICILAR** | Kullanıcı bilgilerini tutmak |
-| **ZIYARETLER** | Kullanıcıların ziyaret kayıtlarını saklamak |
-| **FAVORILER** | Kullanıcıların favori eserlerini kaydetmek |
-| **GERI_BILDIRIMLER** | Kullanıcı puan ve yorumlarını toplamak |
+### 🔹 Fonksiyonel Gereksinimler
+- Kullanıcı VR / klavye-mouse ile sanal şehir ortamına giriş yapabilmelidir.
+- Kullanıcı sahnede serbest şekilde dolaşabilmelidir.
+- Kullanıcı tarihi yapılar (tablolar) ile etkileşime geçebilmelidir.
+- Kullanıcı bilgi panellerini görüntüleyebilmelidir.
+- Sistem görsel ve sesli bilgilendirme sunabilmelidir.
 
-### 🔹 İlişkiler
-- Bir **bölüm** birden fazla **esere** sahip olabilir.
-- Bir **kategori** birden fazla **esere** sahip olabilir.
-- Bir **eser** birden fazla **medya** kaydına sahip olabilir.
-- Bir **kullanıcı** birden fazla **ziyaret** kaydı oluşturabilir.
-- Bir **kullanıcı** birden fazla **favori** kaydı oluşturabilir.
-- Bir **kullanıcı** birden fazla **geri bildirim** bırakabilir.
-- Bir **eser** ziyaret, favori ve geri bildirim tabloları ile ilişkilidir.
+### 🔹 Fonksiyonel Olmayan Gereksinimler
+- VR'da min. 72 FPS akıcı deneyim.
+- Düşük gecikme (< 20 ms).
+- Anlaşılır kullanıcı arayüzü.
+- Farklı VR cihazları ile uyumluluk.
 
-### 🔹 Tasarım Yaklaşımı
-Veritabanı yapısı, ER diyagramına uygun olacak şekilde **ilişkisel veritabanı modeli** ile tasarlanmıştır. Eserler merkezi tablo olarak ele alınmış, bölüm ve kategori bilgileri ayrı tablolarda tutulmuş, kullanıcı işlemleri ise ziyaret, favori ve geri bildirim tabloları üzerinden yönetilmiştir. Böylece hem veri tekrarının azaltılması hem de ilerleyen aşamalarda sistemin genişletilmesi hedeflenmiştir.
-
-### 📄 Doküman
-Detaylar: [veritabani-tasarimi.md](veritabani-tasarimi.md)
-
----
-=======
----
-
-## 🛠️ Geliştirme Ortamı Kurulumu
-
-**Sorumlu:** Cemre Yurtsever
-
-Proje geliştirme sürecinin sorunsuz, hızlı ve standartlara uygun bir şekilde ilerleyebilmesi adına projede kullanılacak yazılım araçlarının kapsamlı bir araştırması yapılmıştır.  Ekip üyelerinin uyum içinde çalışabilmesi için temel proje ortamları oluşturulmuş, olası versiyon uyuşmazlıklarını önleyecek geliştirme ortamı yapılandırması detaylı bir şekilde tamamlanmıştır. 
-
-💻 **Kullanılan Geliştirme Araçları ve Bağımlılıklar**
-
-| Yazılım / Araç | Kullanım Amacı |
-| :--- | :--- |
-| 🎮 **Unity (LTS)** | Projenin temel oyun motoru altyapısının kurulması, 3D ortam tasarımı, fizik motoru ayarları ve genel sahne yönetimi. |
-| ⌨️ **Visual Studio** | Nesne yönelimli programlama (OOP) prensiplerine uygun, sürdürülebilir C# scriptlerinin yazılması, hata ayıklama (debugging) ve derlenmesi. |
-| 🧊 **Blender** | Sanal şehirde kullanılacak 3D mimari modellerin ve objelerin oluşturulması, kaplama (dokulandırma) işlemleri ve Unity için optimizasyonu. |
-| 🥽 **Oculus SDK** | VR donanımı ile projenin sorunsuz etkileşimi, başlık (headset) ve el kontrolcüsü (controller) girdilerinin sanal gerçeklik ortamına entegrasyonu. |
-
-⚙️ **Ortam Yapılandırması ve Kurulum Adımları**
-
-* ✅ Projenin uzun vadeli stabilitesini sağlamak amacıyla Unity oyun motorunun en uygun Uzun Süreli Destek (LTS - Long Term Support) sürümü belirlenmiş ve kurulumu gerçekleştirilmiştir.
-* 📦 Sanal gerçeklik deneyiminin temelini oluşturan Oculus SDK ve gerekli VR eklenti paketleri, Unity Package Manager üzerinden projeye sorunsuz bir şekilde entegre edilmiştir.
-* 🔗 Geliştirme sürecinde yazılacak C# kodları için Visual Studio ile Unity arasındaki derleyici bağlantısı kurularak akıcı bir programlama ortamı hazır hale getirilmiştir.
-* 🐙 GitHub entegrasyonu göz önünde bulundurularak projenin yapılandırma dosyaları (`.gitignore` vb.) Unity altyapısına uygun şekilde ayarlanmış, gereksiz dosyaların depoya gitmesi engellenerek temiz bir çalışma alanı sunulmuştur.
-
-📌 *Bu kurulumlar ve ortam yapılandırmaları sayesinde, projenin teknik iskeleti sağlam bir zemine oturtulmuş ve tüm ekibin ortak, stabil ve hatasız bir altyapı üzerinde kod geliştirip tasarım yapabilmesi güvence altına alınmıştır.* 🎯
+📌 Detaylı doküman: [gereksinim-analizi.md](gereksinim-analizi.md)
 
 ---
 
-**Proje Analizi ve Kapsam Belirleme**
-**Sorumlu:** Fırat Seçkin
+## 📊 Proje Analizi ve Kapsam Belirleme
+**👤 Sorumlu:** Fırat Seçkin
 
-Projenin başarılı bir şekilde hayata geçirilebilmesi için temel hedeflerin, kullanıcı kitlesinin ve genel kapsamın net biçimde tanımlanması gerekmektedir. Bu doğrultuda "Sanal Şehir Keşfi" projesine ilişkin kapsamlı bir analiz çalışması yürütülmüş; projenin amacı, sınırları ve başarı kriterleri belirlenmiştir.
+"Sanal Şehir Keşfi" projesinin amacı, kullanıcıların tarihi ve kültürel mekânları (Louvre Müzesi) sanal gerçeklik ortamında deneyimlemesini sağlamaktır.
 
----
+### 🎯 Hedef Kitle
+- 🎓 Öğrenciler ve akademisyenler
+- ✈️ Kültür/tarih turistleri
+- ♿ Fiziksel erişim engeli olan bireyler
+- 👩‍🏫 Eğitimciler
 
-**Proje Tanımı ve Hedefler**
+### 📦 Kapsam İçinde
+- Blender ile sanal Louvre modeli
+- Unity + C# etkileşimli arayüz
+- Oculus SDK ile VR deneyimi
+- Kullanılabilirlik test raporları
 
-"Sanal Şehir Keşfi", kullanıcıların tarihi ve kültürel mekânları sanal gerçeklik ortamında deneyimlemesini sağlayan etkileşimli bir uygulamadır. Proje; erişim engellerini ortadan kaldırmak, etkileşimli bir eğitim deneyimi sunmak ve kullanıcılarda kalıcı izlenimler bırakmak olmak üzere üç temel ilke üzerine inşa edilmiştir.
-
----
-
-**Hedef Kullanıcı Kitlesi**
-
-Proje dört birincil kullanıcı grubuna hitap etmektedir: tarihi mekânları etkileşimli biçimde keşfetmek isteyen öğrenciler ve akademisyenler; fiziksel olarak ulaşamadıkları yerleri sanal ortamda deneyimlemek isteyen kültür ve tarih turistleri; fiziksel erişim engeli bulunan bireyler; ve ders materyali olarak kullanılabilecek etkileşimli içerik arayan öğretmenler ile eğitimciler.
-
----
-
-**Proje Kapsamı**
-
-Proje kapsamında dört temel teslim edilecek unsur belirlenmiştir: Blender ile oluşturulmuş yüksek doğruluklu sanal şehir modeli, Unity ve C# ile geliştirilmiş etkileşimli kullanıcı arayüzü, Oculus SDK entegrasyonuyla sağlanan immersive VR deneyimi ve hedef gruplarla yürütülecek kullanılabilirlik testlerine dayalı kullanıcı test raporları.
-
-Çok oyunculu kullanım, mobil platform desteği ve yapay zeka destekli rehber karakter gibi özellikler ise kapsam dışında tutulmuş olup ilerleyen fazlarda değerlendirilebilir.
+### ❌ Kapsam Dışı
+- Multiplayer kullanım
+- Mobil platform desteği
+- AI rehber karakter
 
 ---
 
-**Risk Değerlendirmesi**
+# 📅 2. Hafta (27 Nisan – 3 Mayıs 2026)
 
-Analiz sürecinde öne çıkan başlıca riskler şunlardır: ekip üye başına VR donanımı temin edilememesi (yüksek), Blender model optimizasyonunda geç teslim veya performans sorunları yaşanması (orta), Unity ile Oculus SDK arasında uyum sorunları çıkması (orta) ve kapsam genişlemesine yol açacak yeni özellik taleplerinin gündeme gelmesi (düşük).
+> 🎯 **Aşama:** Analiz ve Planlama
+> 🎯 **Hedef:** Sistem ihtiyaçlarının netleştirilmesi, Unity sahnelerinin / web/API yapısının / veritabanı bağlantısının planlanması.
 
----
-
-**Vizyon Belgesi**
-
-Yürütülen analiz çalışmalarının çıktısı olarak tüm paydaşlar için rehber niteliğinde bir vizyon belgesi hazırlanmıştır. Bu belge; projenin hedeflerini, kapsamını, hedef kitlesini, başarı kriterlerini ve risk matrisini bir arada sunmakta olup ekibin ortak bir vizyonla çalışmasına zemin hazırlamaktadır.
-
----
-
-# 📅 2. Hafta (21 – 28 Mart)
-
-## 👨‍💻 Mehmet Talha Kaya
-### 🏗️ Mimari Tasarım
-- Uygulamanın genel yazılım mimarisi planlandı.
-- Projede kullanılacak ana modüller belirlendi.
-- Modüller arası veri akışı ve sistem ilişkileri dokümante edildi.
-- Mimari tasarım dokümanı hazırlandı.
+## 🔎 Mehmet Talha Kaya (Unity Optimizasyon Stratejileri Araştırması)
+- Unity'de büyük 3D sahneler için kullanılabilecek optimizasyon teknikleri incelendi.
+- **LOD, occlusion culling, batching, instancing, mesh compression** araştırıldı.
+- Louvre modelinin önereceği yük tahmin edildi.
+- Teknik araştırma raporu hazırlandı.
 
 ---
 
-## 👨‍💻 Mustafa Murat Hilaloğlu
-### 🗄️ Veritabanı Tasarımı
-- Sanal Şehir Keşfi uygulaması için veritabanı yapısı planlandı.
-- Kullanılacak tablolar, alanlar ve ilişkiler belirlendi.
-- Veritabanı şeması ve ER diyagramı oluşturuldu.
-- Veritabanı tasarım dokümanı hazırlandı.
+## 🧪 Melike Gücin (Kullanıcı Test Senaryoları ve Değerlendirme Metrikleri)
+- Geliştirilecek temel özelliklerin test edilmesi için kullanıcı test senaryoları oluşturuldu.
+- Hedef kullanıcı kitlesini temsil eden senaryolar yazıldı (giriş, hareket, etkileşim, çıkış).
+- Geri bildirim toplama yaklaşımı (Likert ölçeği + açık uçlu soru) planlandı.
+- Değerlendirme metrikleri (görev tamamlama süresi, hata oranı, kullanıcı memnuniyeti) tanımlandı.
 
 ---
 
-## 👩‍💻 Cemre Yurtsever
-### 🎨 UI/UX Wireframe Tasarımı
-- Uygulamanın kullanıcı arayüzü için temel wireframe yapıları planlandı.
-- Ana menü, mekan seçimi ve bilgi ekranları için taslak arayüzler oluşturuldu.
-- VR ortamına uygun kullanıcı deneyimi prensipleri değerlendirildi.
-- Arayüz tasarım süreci için başlangıç dokümantasyonu hazırlandı.
+## 🏛️ Cemre Yurtsever (Blender'da Sanal Şehir Modeli Detaylandırma ve Optimizasyon Planı)
+- Blender'da Louvre Müzesi taslak modeli üzerinde detaylandırma planlandı.
+- Poligon azaltma, normal map kullanımı, doku atlasları için optimizasyon stratejisi yapıldı.
+- Unity'ye aktarım için FBX export ayarları belirlendi.
+- Performans hedefleri (VR için 72 FPS) doğrultusunda hedef poligon sayıları tanımlandı.
+
+---
+
+## 💾 Mustafa Murat Hilaloğlu (Sanal Şehir Veri Entegrasyonu ve Yönetim Planı)
+- Sanal şehir / müze içeriği için **veritabanı şeması** taslağı çıkarıldı.
+- Eser, kategori, kullanıcı, ziyaret, favori, geri bildirim tabloları planlandı.
+- API ile Unity arasında JSON tabanlı veri akış mimarisi tasarlandı.
+- Veri entegrasyon planı dokümante edildi.
+
+---
+
+## 🎮 Fırat Seçkin (VR Etkileşimleri ve Kullanıcı Deneyimi (UX) Analizi)
+- VR ortamında kullanılabilecek etkileşim kalıpları araştırıldı.
+- Teleport, grab, raycast pointer, gaze-based etkileşim seçenekleri değerlendirildi.
+- UX prensipleri (geri bildirim, hata önleme, motion sickness azaltma) listelendi.
+- Etkileşim akış diyagramı hazırlandı.
 
 ---
 
 # ✅ 2. Hafta Gerçekleştirilen Çalışmalar
 
-## 🏗️ Mimari Tasarım
+## 🔎 Unity Optimizasyon Stratejileri
 **👤 Sorumlu:** Mehmet Talha Kaya
 
-Sanal Şehir Keşfi projesinin genel yazılım mimarisi belirlenmiştir. Projede kullanılacak temel teknolojiler, modüler yapı yaklaşımı, sistem bileşenleri ve veri akışı detaylandırılmıştır.
+Louvre modeli yüksek poligon sayısı içerdiğinden, sahnede akıcı bir VR deneyimi için optimizasyon stratejileri belirlenmiştir.
 
-### 🔹 Belirlenen Ana Bileşenler
-- **🖥️ Kullanıcı Arayüzü (UI):** Ana menü, bilgi ekranları ve kullanıcı yönlendirmeleri
-- **🎬 Sahne Yönetimi:** Mekanların yüklenmesi ve sahne geçişlerinin kontrol edilmesi
-- **🥽 VR Etkileşim Sistemi:** Kullanıcı hareketleri, nesne etkileşimleri ve VR kontrolleri
-- **🏛️ 3D Model ve Ortam Yönetimi:** Blender ile hazırlanan modellerin Unity ortamına aktarılması
-- **💾 Veri ve Geri Bildirim Yönetimi:** Kullanıcı deneyimi sonrası alınan kayıtların tutulması
+### 📌 Belirlenen Teknikler
+| Teknik | Amaç |
+|--------|------|
+| **LOD (Level of Detail)** | Uzaktaki nesnelerde düşük poligonlu mesh |
+| **Occlusion Culling** | Görünmeyen nesnelerin render dışı bırakılması |
+| **GPU Instancing** | Aynı mesh'in tek draw call ile çoğaltılması |
+| **Mesh Compression** | FBX import boyutu küçültme |
+| **Texture Atlas** | Çoklu doku tek atlasta toplanması |
 
-### 🔹 Mimari Yaklaşım
-Proje, bakım ve geliştirme süreçlerini kolaylaştırmak amacıyla **modüler bir yapıda** planlanmıştır. Her ana işlev ayrı bir modül olarak ele alınmış, böylece ekip üyelerinin paralel çalışabilmesine uygun bir yapı hedeflenmiştir.
-
-### 🔹 Veri Akışı
-- Kullanıcı uygulamayı başlatır.
-- Ana menü üzerinden mekan seçimi yapar.
-- Sahne yönetimi ilgili ortamı yükler.
-- VR etkileşim sistemi devreye girer.
-- Kullanıcı etkileşimleri ve geri bildirimler kayıt altına alınır.
-
-### 📄 Doküman
-Detaylar: [Mimari Tasarım](mimari-tasarim/mimari-tasarim.md)
+📌 Sonuç: Louvre modeli için **Decimate Modifier (Blender) + Mesh Compression (Unity)** kombinasyonu önerilmiştir.
 
 ---
 
-## 🗄️ Veritabanı Tasarımı
-**👤 Sorumlu:** Mustafa Murat Hilaloğlu
+## 🧪 Kullanıcı Test Senaryoları
+**👤 Sorumlu:** Melike Gücin
 
-Sanal Şehir Keşfi uygulamasında kullanılacak veritabanı şeması oluşturulmuştur. Hazırlanan ER diyagramı doğrultusunda tablolar, alanlar ve tablolar arası ilişkiler belirlenmiştir.
+Kullanıcı testleri için detaylı senaryolar hazırlanmıştır.
 
-### 🔹 Belirlenen Tablolar
-| Tablo | Amaç |
-|------|------|
-| **BOLUMLER** | Eserlerin bulunduğu bölüm bilgilerini tutmak |
-| **KATEGORILER** | Eserleri türlerine göre sınıflandırmak |
-| **ESERLER** | Sistemde yer alan ana içerikleri saklamak |
-| **MEDYALAR** | Eserlere ait görsel, ses veya diğer medya kayıtlarını tutmak |
-| **KULLANICILAR** | Kullanıcı bilgilerini tutmak |
-| **ZIYARETLER** | Kullanıcıların ziyaret kayıtlarını saklamak |
-| **FAVORILER** | Kullanıcıların favori eserlerini kaydetmek |
-| **GERI_BILDIRIMLER** | Kullanıcı puan ve yorumlarını toplamak |
+### 📋 Test Senaryoları
+1. **Giriş Senaryosu:** Yeni kullanıcı kayıt + giriş + sahne yükleme
+2. **Navigasyon Senaryosu:** Klavye + mouse / VR kontrolcüsü ile hareket
+3. **Etkileşim Senaryosu:** Tabloya yaklaşma + bilgi paneli açma
+4. **Sahne Geçiş Senaryosu:** Avlu → İç Galeri → Avlu dönüşü
+5. **Çıkış Senaryosu:** Ayarlar menüsü + güvenli çıkış
 
-### 🔹 İlişkiler
-- Bir **bölüm** birden fazla **esere** sahip olabilir.
-- Bir **kategori** birden fazla **esere** sahip olabilir.
-- Bir **eser** birden fazla **medya** kaydına sahip olabilir.
-- Bir **kullanıcı** birden fazla **ziyaret** kaydı oluşturabilir.
-- Bir **kullanıcı** birden fazla **favori** kaydı oluşturabilir.
-- Bir **kullanıcı** birden fazla **geri bildirim** bırakabilir.
-- Bir **eser** ziyaret, favori ve geri bildirim tabloları ile ilişkilidir.
-
-### 🔹 Tasarım Yaklaşımı
-Veritabanı yapısı, ER diyagramına uygun olacak şekilde **ilişkisel veritabanı modeli** ile tasarlanmıştır. Eserler merkezi tablo olarak ele alınmış, bölüm ve kategori bilgileri ayrı tablolarda tutulmuş, kullanıcı işlemleri ise ziyaret, favori ve geri bildirim tabloları üzerinden yönetilmiştir. Böylece hem veri tekrarının azaltılması hem de ilerleyen aşamalarda sistemin genişletilmesi hedeflenmiştir.
-
-### 📄 Doküman
-Detaylar: [Veritabanı Tasarımı](veritabani-tasarimi/veritabani-tasarimi.md)
+### 📊 Değerlendirme Metrikleri
+- Görev tamamlama süresi (saniye)
+- Hata sayısı (yanlış tıklama / kayboluş)
+- Likert ölçeği (1-5) kullanıcı memnuniyeti
+- Açık uçlu yorum kutusu
 
 ---
-## 🎨 Kullanıcı Arayüzü ve Wireframe Tasarımı
+
+## 🏛️ Sanal Şehir Modeli Optimizasyon Planı
 **👤 Sorumlu:** Cemre Yurtsever
 
-Sanal Şehir Keşfi projesi kapsamında kullanıcı deneyimini iyileştirmek ve uygulamanın kullanımını daha sezgisel hale getirmek amacıyla temel kullanıcı arayüzü (UI) tasarımları ve ekran akışları planlanmıştır. Bu süreçte, kullanıcıların uygulama içerisindeki hareketlerini kolaylaştıracak, anlaşılır ve sade bir tasarım dili benimsenmiştir.
+Blender'da Louvre modelinin VR'a uygun hale getirilmesi için optimizasyon planı hazırlanmıştır.
 
-Projenin erken aşamalarında, geliştirme sürecine yön verebilmek amacıyla wireframe taslakları oluşturulmuş ve uygulamanın genel yapısı görselleştirilmiştir. Böylece hem ekip içi iletişim kolaylaştırılmış hem de geliştirme sürecinde referans alınabilecek bir tasarım altyapısı oluşturulmuştur.
-
----
-
-### 🔹 Tasarlanan Ekranlar
-
-- **🏠 Ana Giriş Ekranı:**  
-  Kullanıcıyı karşılayan ve uygulamaya giriş yapılmasını sağlayan başlangıç ekranıdır. Bu ekranda kullanıcıya projenin amacı kısa ve anlaşılır bir şekilde sunulmuş ve deneyime başlama butonu ile yönlendirme yapılmıştır.
-
-- **🏛️ Müze Tanıtım Ekranı:**  
-  Kullanıcının seçtiği mekan hakkında genel bilgilerin sunulduğu ekrandır. Bu bölümde mekanın tarihi ve kültürel önemi hakkında bilgilendirici içerik yer almakta ve kullanıcıyı sanal geziye hazırlamaktadır.
-
-- **🎮 Sanal Gezi Ekranı:**  
-  Kullanıcının 3D ortam içerisinde aktif olarak gezinebileceği ana deneyim alanıdır. Bu ekran, projenin temel işlevini temsil etmekte olup kullanıcı etkileşimlerinin en yoğun olduğu bölümdür.
-
-- **ℹ️ Bilgi Paneli:**  
-  Kullanıcının gezinti sırasında seçtiği obje veya yapılar hakkında detaylı bilgi almasını sağlayan yardımcı arayüz bileşenidir. Bu panel sayesinde kullanıcı deneyimi zenginleştirilmiştir.
+### 🎨 Plan
+- 🎯 Hedef poligon sayısı: **~ 200K – 300K vertex** (tüm sahne).
+- 🖼️ Doku atlas çözünürlüğü: **2K – 4K**.
+- 🌳 LOD seviyeleri: yakın (yüksek detay), orta (orta detay), uzak (düşük detay).
+- 📦 Modüler parçalara bölme: avlu / iç salon / piramit ayrı FBX.
 
 ---
 
-### 🔹 Tasarım Yaklaşımı
+## 💾 Sanal Şehir Veri Entegrasyonu Planı
+**👤 Sorumlu:** Mustafa Murat Hilaloğlu
 
-Arayüz tasarımı oluşturulurken **kullanıcı odaklı tasarım (User-Centered Design)** yaklaşımı benimsenmiştir. Tasarımlarda sadelik, okunabilirlik ve erişilebilirlik ön planda tutulmuştur.  
+Uygulamanın kullanacağı MySQL veritabanı şeması taslağı çıkarılmıştır.
 
-Renk paleti seçilirken tarihi ve kültürel temaya uygun doğal tonlar tercih edilmiş, tipografi seçiminde ise okunabilirliği yüksek fontlar kullanılmıştır. Ayrıca kullanıcıyı yormayan, dikkat dağıtmayan bir arayüz oluşturulması hedeflenmiştir.
+### 🗄️ Belirlenen Tablolar
+| Tablo | Amaç |
+|------|------|
+| **users** | Kullanıcı kayıtları |
+| **bolumler** | Müze bölümleri |
+| **kategoriler** | Eser kategorileri |
+| **eserler** | Tablo / heykel kayıtları |
+| **ziyaretler** | Kullanıcı ziyaret geçmişi |
+| **favoriler** | Favoriye eklenen eserler |
+| **geri_bildirimler** | Kullanıcı yorum / puan |
 
-Wireframe çalışmaları sayesinde ekran yerleşimleri, buton konumları ve içerik dağılımları önceden planlanarak geliştirme sürecinde oluşabilecek tasarım problemlerinin önüne geçilmiştir.
-
----
-
-### 🔹 Kullanıcı Akışı
-
-- Kullanıcı uygulamayı başlatır.
-- Ana giriş ekranında proje hakkında genel bilgi edinir.
-- “Deneyime Başla” seçeneği ile uygulamaya giriş yapar.
-- Müze tanıtım ekranında seçilen mekan hakkında bilgi alır.
-- Sanal gezi ekranına geçerek 3D ortamı keşfeder.
-- Etkileşimli noktalar üzerinden bilgi panelini açarak detaylı içeriklere ulaşır.
-- Kullanıcı deneyimi boyunca etkileşimler sistem tarafından izlenir.
+📌 Tüm tablolar arasında ilişkisel (FK) bağlar tasarlandı.
 
 ---
 
-### 🖼️ Wireframe Taslakları
+## 🎮 VR Etkileşimleri ve UX Analizi
+**👤 Sorumlu:** Fırat Seçkin
 
-#### Ana Giriş Ekranı
-![Ana Giriş Ekranı](Wireframes/louvre-muzesi-ana-ekran.jpeg)
+VR'da kullanıcı deneyimini bozmayacak etkileşim kalıpları analiz edildi.
 
-#### Müze Tanıtım Ekranı
-![Müze Tanıtım Ekranı](Wireframes/louvre-muzesi-tanitim-ekrani.jpeg)
-
-#### Sanal Gezi Ekranı
-![Sanal Gezi Ekranı](Wireframes/sanal-gezi-ekrani.jpeg)
-
-#### Bilgi Paneli
-![Bilgi Paneli](Wireframes/bilgi-ekrani.jpeg)
+### 🔹 Seçilen Etkileşim Modelleri
+- 🚶 **Teleport** ile hareket (motion sickness azaltma)
+- 🎯 **Raycast pointer** ile uzaktan tıklama
+- 👁️ **Gaze + tetik** ile bilgi paneli açma
+- 🎚️ Smooth turn yerine **snap turn** (90° anlık)
 
 ---
 
-# 📅 3. Hafta (2 Nisan – 9 Nisan)
+# 📅 3. Hafta (4 – 10 Mayıs 2026)
 
-## 👨‍💻 Mehmet Talha Kaya
-### ⚙️ 3D Model Optimizasyon Teknikleri Araştırması ve Raporlama
-- Unity ortamında 3D model optimizasyonunda kullanılan temel teknikler araştırıldı.
-- Polygon azaltma, LOD (Level of Detail), texture optimizasyonu, occlusion culling ve draw call azaltma yöntemleri incelendi.
-- Farklı optimizasyon tekniklerinin avantaj ve dezavantajları karşılaştırıldı.
-- Projenin ihtiyaçlarına uygun optimizasyon stratejileri değerlendirildi.
-- Elde edilen bulgular doğrultusunda teknik rapor hazırlandı.
+> 🎯 **Aşama:** Tasarım
+> 🎯 **Hedef:** Ana menü tasarımı, Louvre müzesi sahne yapısı, Blender/Unity model düzeni ve kullanıcı arayüzlerinin hazırlanması.
 
-### 🥽 VR Cihazı Entegrasyonu ve Temel Kontrol Şemasının Uygulanması
-- Oculus SDK kullanılarak uygulamanın VR cihazı ile entegrasyonu planlandı.
-- VR kontrol cihazları için temel kontrol şeması belirlendi.
-- Navigasyon, etkileşim ve UI işlemleri için temel giriş yapıları değerlendirildi.
-- Kontrol şemasının kullanıcı testleriyle geliştirilmesine yönelik hazırlık yapıldı.
+## 🥽 Mehmet Talha Kaya (Oculus Entegrasyonu ve Performans Optimizasyonu Planlaması)
+- Oculus SDK'nın Unity projesine entegrasyonu için adımlar belirlendi.
+- XR Plugin Management üzerinden Oculus desteği planlandı.
+- Performans hedefi: stabil 72 FPS (Quest 2/3 için).
+- Dynamic batching, GPU instancing ve frustum culling ayarları planlandı.
 
 ---
 
-## 👩‍💻 Melike Gücin
-### 🧪 Temel Kullanıcı Testlerinin Planlanması ve Yürütülmesi
-- Geliştirilen temel özelliklerin test edilmesi için kullanıcı test planı hazırlandı.
-- Hedef kullanıcı kitlesini temsil edecek katılımcılar ve test senaryoları belirlendi.
-- Test sürecinde kullanılacak geri bildirim toplama yaklaşımı planlandı.
-- Test bulgularının raporlanmasına yönelik yapı oluşturuldu.
+## 🗄️ Melike Gücin (Şehir Veri Entegrasyonu ve Yönetim Sistemi Tasarımı)
+- Sanal şehir / müze verileri için yönetim sistemi tasarlandı.
+- **REST API + MySQL** mimarisi belirlendi.
+- Eser ekleme, silme, güncelleme için admin paneli planlandı.
+- Veritabanı entegrasyon adımları hazırlandı.
 
 ---
 
-## 👩‍💻 Cemre Yurtsever
-### 🏙️ Sanal Şehir Modelinin Optimizasyonu ve Temel Etkileşimlerin Eklenmesi
-- Blender’da oluşturulan sanal şehir modelinin Unity’ye aktarım süreci planlandı.
-- Model performansını artırmak için polygon ve doku optimizasyonu değerlendirildi.
-- Şehirdeki belirli nesnelere temel etkileşimlerin eklenmesi planlandı.
-- Bilgi panelleri ve basit animasyonlarla kullanıcı deneyiminin geliştirilmesi hedeflendi.
-
-### 🚶 Sanal Şehirde Temel Navigasyon Mekaniklerinin Geliştirilmesi
-- Kullanıcının sanal şehirde rahat hareket edebilmesi için temel navigasyon yapıları planlandı.
-- Yürüme, koşma ve teleport gibi hareket seçenekleri değerlendirildi.
-- Karakter kontrolcüsü ile çarpışma ve fizik etkileşimlerinin yönetimi incelendi.
-- Oculus SDK destekli hareket izleme özelliklerinin entegrasyonu planlandı.
+## 🎮 Cemre Yurtsever (VR Etkileşim Mekaniklerinin Tasarımı)
+- VR hareket mekanikleri tasarlandı: yürüme, teleport, snap turn.
+- Tablo etkileşimi için raycast + bilgi paneli akışı planlandı.
+- VR kontrolcü prompt'ları (trigger, grip) için UI flow yapıldı.
+- Etkileşim test senaryoları yazıldı.
 
 ---
 
-## 👨‍💻 Fırat Seçkin
-### 🖥️ Etkileşimli Kullanıcı Arayüzü (UI) Tasarımı ve Entegrasyonu
-- Kullanıcının şehirde gezinmesini ve etkileşime girmesini sağlayacak UI öğeleri planlandı.
-- Navigasyon kontrolleri, etkileşim butonları ve ayarlar menüsü tasarlandı.
-- UI tasarımının proje estetiğiyle uyumlu olması hedeflendi.
-- C# scriptleri ile UI işlevselliğinin sağlanmasına yönelik hazırlık yapıldı.
-
-### 📖 Kullanıcı Hikayeleri ve Kabul Kriterleri Tanımlama
-- Proje paydaşlarının beklentileri doğrultusunda kullanıcı hikayeleri oluşturuldu.
-- Her özellik için kabul kriterleri tanımlanmaya başlandı.
-- Kullanıcı ihtiyaçlarının dokümante edilmesi için temel yapı hazırlandı.
-- Hikayelerin ve kriterlerin geri bildirimlerle iyileştirilmesi planlandı.
+## 🎵 Mustafa Murat Hilaloğlu (Ses Peyzajı ve Ambiyans Tasarımı)
+- Müze atmosferine uygun **ambient ses** kaynakları araştırıldı.
+- Avlu (dış) ve iç galeri için ayrı ses peyzajı planlandı (kuş sesleri, fısıltı, ayak sesleri).
+- Spatial audio (3D ses) ayarları belirlendi.
+- Telif sorunu olmayan ses kaynakları derlendi.
 
 ---
 
-## 👨‍💻 Mustafa Murat Hilaloğlu
-### ⚠️ Teknik Risk Analizi ve Mitigasyon Planı Oluşturma
-- Projede karşılaşılabilecek teknik riskler belirlendi.
-- VR cihaz uyumluluğu, performans optimizasyonu ve Unity-Oculus SDK entegrasyonu gibi alanlar değerlendirildi.
-- Risklerin olasılık ve etki düzeyleri analiz edildi.
-- Yüksek öncelikli riskler için önleyici ve azaltıcı aksiyonlar planlandı.
+## 🎨 Fırat Seçkin (Etkileşimli Menü Tasarımı ve Prototipleme)
+- Ana menü, ayarlar, login/register panelleri için **Figma** prototipleri hazırlandı.
+- Tipografi (Arial / Cinzel) ve renk paleti (koyu kahve + altın) belirlendi.
+- Buton hover / pressed durumları tasarlandı.
+- Prototip dokümante edildi.
 
 ---
 
 # ✅ 3. Hafta Gerçekleştirilen Çalışmalar
 
-## ⚙️ 3D Model Optimizasyon Teknikleri Araştırması ve Raporlama
+## 🥽 Oculus Entegrasyonu ve Performans Optimizasyonu Planlaması
 **👤 Sorumlu:** Mehmet Talha Kaya
 
-Sanal şehir modelinin performansı ve VR deneyiminin akıcılığı açısından 3D model optimizasyon teknikleri araştırılmıştır. Bu kapsamda Unity ortamında yaygın olarak kullanılan polygon azaltma, LOD (Level of Detail), texture optimizasyonu, occlusion culling, draw call azaltma ve mesh compression gibi yöntemler incelenmiştir.
+Unity 6.3'te XR Plugin Management üzerinden Oculus desteği planlandı.
 
-Yapılan araştırmada her tekniğin performans üzerindeki etkisi, uygulama zorluğu ve görsel kaliteye katkısı değerlendirilmiştir. Özellikle sanal şehir gibi çok sayıda bina, çevre objesi ve tekrar eden varlık içeren sahnelerde LOD, occlusion culling ve draw call azaltma tekniklerinin daha yüksek verim sağladığı sonucuna ulaşılmıştır.
+### 🎯 Performans Hedefleri
+- Quest 2: 72 FPS (stable)
+- Quest 3: 90 FPS (stable)
+- Draw call limit: ≤ 100
+- Vertex count limit (frame): ≤ 200K
 
-Hazırlanan raporda, bu tekniklerin avantaj ve dezavantajları karşılaştırılmış; proje için uygulanabilecek en uygun optimizasyon stratejileri önerilmiştir. Buna göre sahnedeki nesnelerin önem derecesine göre sınıflandırılması, uzaktaki objelerde düşük detaylı modeller kullanılması, görünmeyen nesnelerin render sürecinden çıkarılması ve tekrar eden objelerde instancing yaklaşımının değerlendirilmesi önerilmiştir.
-
-### 📄 Doküman
-Detaylar: [3D Model Optimizasyon Raporu](3d-model-optimizasyon-raporu.md)
+### 📦 Eklenecek Paketler
+- `com.unity.xr.management`
+- `com.unity.xr.oculus`
+- `com.unity.xr.interaction.toolkit`
 
 ---
+
+## 🗄️ Şehir Veri Entegrasyonu Sistemi
+**👤 Sorumlu:** Melike Gücin
+
+REST API + MySQL mimarisi belirlenmiştir.
+
+### 🏗️ Mimari
+```
+[Unity Client]
+    ↓ UnityWebRequest (JSON)
+[Node.js + Express API]
+    ↓ mysql2 driver
+[MySQL Veritabanı]
+```
+
+### 🛡️ Güvenlik
+- Şifre **bcrypt** ile hash'lenir.
+- API'de **JWT** token authentication.
+- **helmet** + **express-rate-limit** ile saldırı koruması.
+
+---
+
+## 🎮 VR Etkileşim Mekanikleri Tasarımı
+**👤 Sorumlu:** Cemre Yurtsever
+
+### 🕹️ Kontrolcü Eşleştirme
+| Tetik | İşlev |
+|-------|-------|
+| **Sol joystick** | Smooth move (yürüme) |
+| **Sağ joystick** | Snap turn (90°) |
+| **Sağ trigger** | Etkileşim / tablo seçme |
+| **Sağ B butonu** | Bilgi paneli kapat |
+| **Sol grip** | Teleport hedefi göster |
+
+---
+
+## 🎵 Ses Peyzajı ve Ambiyans Tasarımı
+**👤 Sorumlu:** Mustafa Murat Hilaloğlu
+
+### 🔊 Ses Listesi
+| Sahne | Ambient Ses | Spatial |
+|-------|-------------|---------|
+| Avlu | Kuş cıvıltısı, hafif rüzgar, ayak sesi | ✅ |
+| İç Galeri | Fısıltı, müze sessizliği, korunaklı sesler | ✅ |
+| Ana Menü | Klasik enstrümantal arkaplan müziği | ❌ |
+
+📌 Kaynaklar: **Freesound.org** + **Pixabay Audio** (CC0).
+
+---
+
+## 🎨 Etkileşimli Menü Tasarımı
+**👤 Sorumlu:** Fırat Seçkin
+
+Figma üzerinde menü prototipleri hazırlandı:
+
+### 🎨 Renk Paleti
+- **Arka plan:** #1A1109 (koyu kahve)
+- **Vurgu:** #C8A86A (altın)
+- **Metin:** #F0E0C8 (krem)
+- **Hata:** #C44545 (mat kırmızı)
+- **Başarı:** #6BB46B (yeşil)
+
+### 🖼️ Hazırlanan Ekranlar
+- 🏠 Ana Menü (Keşfe Başla / Ayrıl)
+- 🔐 Giriş / Kaydol panelleri
+- ⚙️ Ayarlar (ses, grafik, mouse)
+- ℹ️ Tablo bilgi paneli (sağ taraf, 600px)
+
+---
+
+# 📅 4. Hafta (11 – 17 Mayıs 2026)
+
+> 🎯 **Aşama:** Geliştirme (Temel)
+> 🎯 **Hedef:** Unity ana menü, keşif sahnesi, temel oyuncu hareketi, etkileşimler ve sahne geçişlerinin geliştirilmesi.
+
+## 🏗️ Mehmet Talha Kaya (Tarihi Bina 3D Modellerinin Blender'da Oluşturulması)
+- Louvre Müzesi'nin dış cephesi Blender'da modellendi.
+- Avlu, piramit ve çevre yapıları detaylı modelleme yapıldı.
+- Modeller optimize edilerek FBX olarak export edildi.
+- Unity'ye import edilip materyal atamaları yapıldı.
+
+---
+
+## ℹ️ Melike Gücin (Unity'de Etkileşimli Bilgi Paneli Sistemi Geliştirilmesi)
+- Unity tarafında **InfoPanelController.cs** scripti yazıldı.
+- Tabloya tıklandığında sağ tarafta açılan 600px geniş panel oluşturuldu.
+- Eser adı, ressam, dönem, açıklama alanları eklendi.
+- Panel açılış/kapanış animasyonu eklendi.
+
+---
+
+## 🥽 Cemre Yurtsever (Oculus SDK ile VR Hareket Sistemi Entegrasyonu)
+- Oculus SDK ile XR Origin oluşturuldu.
+- Continuous move + snap turn entegre edildi.
+- Teleport sistemi (sağ trigger basılı tut + bırak) eklendi.
+- VR kontrolcü modeli sahneye eklendi.
+
+---
+
+## 🖼️ Mustafa Murat Hilaloğlu (Tarihi Mekânlar için Bilgi Paneli Sistemi)
+- Tablolar için **InteractableObject.cs** scripti yazıldı.
+- Her tabloya başlık + açıklama alanı tanımlandı.
+- Raycast tıklama → InfoPanel açma akışı kuruldu.
+- Test için 5 tablo seçildi ve bilgileri yazıldı.
+
+---
+
+## 🎯 Fırat Seçkin (Tarihi Mekânlar İçin Bilgi Paneli Sisteminin Unity'de Geliştirilmesi)
+- Bilgi panellerinin UI tasarımı Unity'de uygulandı.
+- TextMeshPro ile responsive metin desteği eklendi.
+- Resimli içerik için **Image container** eklendi.
+- Mobil ve VR için ölçek ayarları yapıldı.
+
+---
+
+# ✅ 4. Hafta Gerçekleştirilen Çalışmalar
+
+## 🏗️ Louvre 3D Modeli
+**👤 Sorumlu:** Mehmet Talha Kaya
+
+Louvre Müzesi dış cephesi ve avlusu Blender'da hazırlandı.
+
+### 📊 Model İstatistikleri
+| Bileşen | Vertex | Tris |
+|---------|--------|------|
+| Bina Dış Cephesi | ~85K | ~120K |
+| Cam Piramit | ~5K | ~8K |
+| Avlu Zemini | ~2K | ~4K |
+| Pencere/Süs Detayları | ~30K | ~45K |
+| **TOPLAM** | **~122K** | **~177K** |
+
+📌 VR için kabul edilebilir sınırlar içinde tutuldu.
+
+---
+
+## ℹ️ Etkileşimli Bilgi Paneli
+**👤 Sorumlu:** Melike Gücin
+
+`InfoPanelController.cs` ile sahnedeki tüm tablolarda kullanılabilecek bilgi paneli sistemi geliştirildi.
+
+### 🎨 Panel Özellikleri
+- 600px genişlik (sağ tarafa sabit anchor)
+- 200px header bölümü (Eser Bilgisi label + başlık)
+- Açıklama metni (otomatik wrap, line spacing 1.5)
+- BestFit font (18-34pt) uzun başlık desteği
+- Slide-in animation (sağdan)
+
+---
+
+## 🥽 VR Hareket Sistemi
+**👤 Sorumlu:** Cemre Yurtsever
+
+XR Interaction Toolkit ile VR hareketi kuruldu.
+
+### 🕹️ Aktif Özellikler
+- ✅ Continuous Move Provider (sol joystick)
+- ✅ Snap Turn Provider (sağ joystick, 45°)
+- ✅ Teleport Provider (sol grip)
+- ✅ XR Ray Interactor (sağ kontrolcü)
+- ✅ XR Direct Interactor (yakın etkileşim)
+
+---
+
+## 🖼️ Tablo Etkileşim Sistemi
+**👤 Sorumlu:** Mustafa Murat Hilaloğlu
+
+`InteractableObject.cs` bileşeni ile her tablonun bilgi panelini açabilmesi sağlandı.
+
+### 🔹 Test Edilen Tablolar
+- Mona Lisa (Leonardo da Vinci)
+- Venus'ün Doğuşu (Botticelli)
+- Özgürlük Halkı Yönetiyor (Delacroix)
+- Marie de Médici (Rubens)
+- Napolyon'un Taç Giyme Töreni (David)
+
+---
+
+## 🎯 Bilgi Paneli UI Uygulaması
+**👤 Sorumlu:** Fırat Seçkin
+
+Figma tasarımları Unity'ye TextMeshPro ile aktarıldı.
+
+### 🎨 Uygulanan Özellikler
+- Responsive font (BestFit min 18 / max 34)
+- Image container (eser görseli için)
+- Scroll view (uzun açıklamalar için)
+- Türkçe karakter desteği (özel TMP font asset)
+
+---
+
+# 📅 5. Hafta (18 – 24 Mayıs 2026)
+
+> 🎯 **Aşama:** Geliştirme (İleri) ve Test
+> 🎯 **Hedef:** Login/Register sistemi, UnityWebRequest API bağlantısı, MySQL kullanıcı doğrulaması ve UI testleri.
+
+## 🎵 Mehmet Talha Kaya (Ses Efektlerinin Entegrasyonu ve Optimizasyonu)
+- Sahne ambient sesleri Unity'ye entegre edildi (BirdSound, HumanSound).
+- AudioSource bileşenleri 3D Spatial Blend ile ayarlandı.
+- Ses compression (Vorbis, Quality 70) uygulandı.
+- Volume mixer üzerinden master/sfx/music ayrımı yapıldı.
+
+---
+
+## 🔐 Melike Gücin (Kullanıcı Arayüzü (UI) Tasarımı ve Uygulaması) — Login/Register
+- **LoginManager.cs** + **LoginUIBootstrap.cs** geliştirildi.
+- AuthChoice / Login / Register paneller programatik oluşturuldu.
+- TextMeshPro ile gold tema uygulandı.
+- API endpoint'leri tanımlandı: `mtkaya.me/api/login`, `/api/register`.
+- **Node.js + Express + MySQL + bcrypt + JWT** backend yazıldı.
+
+---
+
+## ⚙️ Cemre Yurtsever (Çarpışma Algılama ve Fizik Motoru Optimizasyonu)
+- CharacterController kullanılarak player fizik kuruldu.
+- Mesh Collider'lar Louvre modeline otomatik eklendi.
+- Tablolar arasından düşmeyi engellemek için **görünmez sınır duvarları** + **FallProtection.cs** scripti yazıldı.
+- Slope limit, step offset ve skin width ayarları optimize edildi.
+
+---
+
+## 🧭 Mustafa Murat Hilaloğlu (VR Ortamında Navigasyon ve Hareket Mekanizmalarının İyileştirilmesi)
+- VR teleport ışıkları sahnenin gri renkleriyle daha okunabilir hale getirildi.
+- Snap turn açısı 45° → 30° olarak ayarlandı (motion sickness azaltma).
+- Continuous move hızı 3 m/s olarak sabitlendi.
+- Comfort mode (vignette) eklendi.
+
+---
+
+## 🎯 Fırat Seçkin (VR Ortamında Etkileşimli Nesnelerin Geliştirilmesi)
+- Tablolar dışındaki etkileşimli nesneler (kapılar, lambalar, info kioskları) geliştirildi.
+- **LouvreDoor.cs** — kapıyla etkileşip sahne geçişi.
+- **EToInteract.prefab** — yaklaşınca "E ile etkileşim" prompt'u.
+- Billboard.cs — UI'nin kameraya doğru bakması.
+
+---
+
+# ✅ 5. Hafta Gerçekleştirilen Çalışmalar
+
+## 🎵 Ses Efektleri Entegrasyonu
+**👤 Sorumlu:** Mehmet Talha Kaya
+
+### 🔊 Eklenen Sesler
+| GameObject | Ses | 3D Spatial | Volume |
+|------------|-----|-----------|--------|
+| BirdSound | Kuş cıvıltısı | ✅ | 0.4 |
+| HumanSound | Müze fısıltısı | ✅ | 0.2 |
+| BackgroundMusic (MainMenu) | Klasik enstrümantal | ❌ | 0.5 |
+| LouvreDoor (interact) | Kapı açılma | ✅ | 0.8 |
+
+📌 **Audio Mixer:** Master → SFX (kuş/insan/kapı) + Music (BG müzik).
+
+---
+
+## 🔐 Login / Register Sistemi
+**👤 Sorumlu:** Melike Gücin
+
+Kendi sunucumuzda barındırılan **Node.js + Express + MySQL + bcrypt + JWT** backend yazıldı ve Unity ile entegre edildi.
+
+### 🌐 API Endpoint'leri
+| Endpoint | Method | Açıklama |
+|----------|--------|----------|
+| `https://mtkaya.me/api/register` | POST | Kullanıcı kaydı |
+| `https://mtkaya.me/api/login` | POST | Kullanıcı girişi |
+
+### 🛡️ Güvenlik
+- 🔒 Şifreler **bcrypt** ile hash'lenir.
+- 🎫 **JWT token** ile oturum yönetimi.
+- 🛡️ **helmet** middleware ile HTTP header güvenliği.
+- 🚦 **express-rate-limit** ile brute-force koruması.
+
+### 📝 Unity Scriptleri
+- `LoginManager.cs` — UI mantığı + API istekleri (UnityWebRequest)
+- `LoginUIBootstrap.cs` — TMP panelleri otomatik kurulum
+
+📌 Mevcut "KEŞFE BAŞLA" / "AYRIL" butonlarının tasarımı **korundu**.
+
+---
+
+## ⚙️ Çarpışma ve Fizik Optimizasyonu
+**👤 Sorumlu:** Cemre Yurtsever
+
+### 🛡️ Yapılanlar
+- **CharacterController** ayarları: height 1.85m, radius 0.3m, skin 0.05m, slope 45°.
+- **ReturnPortal.cs** — tüm MeshRenderer'lara otomatik MeshCollider ekledi (iç sahnede).
+- **FallProtection.cs** — player düşerse / dışarı çıkarsa son güvenli pozisyona ışınlar.
+- **InvWall_N/S/E/W** — pavement etrafına görünmez sınır collider'lar.
+- 5 farklı düşme/kaçış kontrolü: Y altı, Y üstü, XZ uzaklık, hava süresi, tavan yok.
+
+---
+
+## 🧭 VR Navigasyon İyileştirme
+**👤 Sorumlu:** Mustafa Murat Hilaloğlu
+
+### 🎯 Yapılan Ayarlar
+- Snap turn: 45° → **30°**.
+- Teleport reticle: standart cyan → **soft gold** (sahne paletiyle uyumlu).
+- Vignette comfort: hız > 2 m/s iken aktif.
+- Continuous move hız sabitleme: **3 m/s**.
+
+---
+
+## 🎯 Etkileşimli Nesneler
+**👤 Sorumlu:** Fırat Seçkin
+
+### 🚪 LouvreDoor (Kapı)
+- IInteractable arayüzünü implement eder.
+- Interact() çağrılınca **SceneManager.LoadSceneAsync** ile hedef sahneye geçer.
+- LoadingPanel açılır → sahne yüklenince kapanır.
+
+### 💬 EToInteract Prompt
+- Player yaklaşınca world-space UI olarak "E ile etkileşime gir" yazısı görünür.
+- Billboard.cs ile kameraya yönelir.
+
+---
+
+# 📅 6. Hafta (25 Mayıs – 1 Haziran 2026)
+
+> 🎯 **Aşama:** Entegrasyon, Toparlama, Sunum
+> 🎯 **Hedef:** Unity + backend + veritabanı + web sisteminin birleştirilmesi, GitHub düzeni, rapor ve final sunumu.
+
+## 📑 Mehmet Talha Kaya (Final Sunum Hazırlığı)
+- Sunum slaytları (.pptx) hazırlandı.
+- Proje demosu için ekran kaydı / oyun içi video alındı.
+- Final raporu (proje sonuç raporu) yazıldı.
+- Jüri sorularına hazırlık yapıldı.
+
+---
+
+## ✨ Melike Gücin (VR Simülasyonunun Optimizasyonu ve Cilalanması)
+- Sahne FPS testleri yapıldı (avlu + iç galeri).
+- Görsel hatalar (texture lost, z-fighting, missing collider) giderildi.
+- **LouvreTextureRebinder.cs** ile sahne her açılışta otomatik texture bağlama.
+- Final lightmap baked.
+
+---
+
+## 📚 Cemre Yurtsever (Proje Dokümantasyonunun Tamamlanması)
+- README.md güncellendi.
+- Tüm scriptlerin XML açıklamaları gözden geçirildi.
+- Wireframe + ER diyagramı + sahne akış şeması GitHub'a yüklendi.
+- Kullanıcı kılavuzu yazıldı.
+
+---
+
+## 🧪 Mustafa Murat Hilaloğlu (VR Simülasyonu Kullanıcı Testleri ve Geri Bildirim)
+- 5 farklı kullanıcı ile test yapıldı (öğrenci + öğretim üyesi).
+- Likert ölçeği + açık uçlu form ile geri bildirim toplandı.
+- Test sonuçları raporlandı.
+- Kritik hatalar (kapı geçişinde donma, info panel açılmama) için issue açıldı.
+
+---
+
+## 🔧 Fırat Seçkin (Proje Entegrasyonu ve Hata Ayıklama)
+- Unity + backend + veritabanı entegrasyon testleri yapıldı.
+- Login → sahne yükleme → tablo etkileşim → çıkış akışı end-to-end test edildi.
+- Bulunan hatalar (URP shader pembe, lamb OBJ donma) çözüldü.
+- Build alındı (Windows, 600 MB).
+
+---
+
+# ✅ 6. Hafta Gerçekleştirilen Çalışmalar
+
+## 📑 Final Sunum Hazırlığı
+**👤 Sorumlu:** Mehmet Talha Kaya
+
+### 🎯 Hazırlanan İçerikler
+- 📊 **Proje Sunumu (PPTX):** Proje tanıtımı, ekran görüntüleri, mimari diyagramlar
+- 🎥 **Demo Videosu:** 2 dakikalık ekran kaydı (MainMenu → giriş → avlu → iç galeri → tablo etkileşimi)
+- 📝 **Proje Sonuç Raporu (DOCX):** Şablona uygun resmi rapor
+- 📚 **Proje Dokümantasyonu (DOCX):** Kapsamlı teknik dokümantasyon (~25 sayfa)
+
+---
+
+## ✨ Simülasyon Optimizasyonu ve Cilalama
+**👤 Sorumlu:** Melike Gücin
+
+### 🔧 Yapılan Düzeltmeler
+- ❌ **Texture loss bug:** Sahne her açılışta materyaller dokuyu kaybediyordu → `LouvreTextureRebinder.cs` ile fix.
+- ❌ **Z-fighting:** Zemin + grass plane arasında titreşim → Y offset (-0.005m) ile fix.
+- ❌ **Eksik collider:** Bazı duvar mesh'lerinde collider yoktu → `ReturnPortal` içinde otomatik MeshCollider ekleme.
+- ✅ **Lightmap baked:** İç sahne için pre-computed aydınlatma.
+- ✅ **Performance:** FPS 45 → 72 (avlu sahnesi, 1080p).
+
+---
+
+## 📚 Proje Dokümantasyonu
+**👤 Sorumlu:** Cemre Yurtsever
+
+### 📂 Tamamlanan Dokümanlar
+| Doküman | Açıklama |
+|---------|----------|
+| **README.md** | Proje genel tanıtımı + kurulum |
+| **projeakisi.md** | Haftalık görev akışı (bu dosya) |
+| **mimari-tasarim.md** | Sistem mimarisi |
+| **veritabani-tasarimi.md** | ER diyagramı + tablolar |
+| **kullanim-kilavuzu.md** | Kullanıcı kılavuzu |
+| **gereksinim-analizi.md** | Fonksiyonel/non-fonksiyonel gereksinimler |
+
+---
+
+## 🧪 Kullanıcı Testleri ve Geri Bildirim
+**👤 Sorumlu:** Mustafa Murat Hilaloğlu
+
+### 👥 Test Katılımcıları
+- 3 lisans öğrencisi (yazılım mühendisliği)
+- 1 yüksek lisans öğrencisi (tarih)
+- 1 öğretim üyesi (yazılım mühendisliği)
+
+### 📊 Anket Sonuçları (Likert 1-5)
+| Soru | Ortalama |
+|------|----------|
+| Arayüz anlaşılır mıydı? | **4.6** |
+| Sahne içinde hareket akıcı mıydı? | **4.4** |
+| Tablo bilgi paneli yardımcı oldu mu? | **4.8** |
+| Performans yeterli miydi? | **4.2** |
+| Tekrar kullanır mıydınız? | **4.6** |
+
+### 💬 Öne Çıkan Geri Bildirimler
+- ✅ "Login sistemi çok hızlıydı, beklemedim."
+- ✅ "Tablolardaki bilgi panelleri çok güzel tasarlanmış."
+- ⚠️ "VR'da bazen teleport noktası çok parlak, ışık ayarı yapılmalı."
+- ⚠️ "Piramide giriş prompt'unun fontu biraz büyük olabilir."
+
+---
+
+## 🔧 Proje Entegrasyonu ve Hata Ayıklama
+**👤 Sorumlu:** Fırat Seçkin
+
+### 🐛 Çözülen Kritik Hatalar
+| Hata | Çözüm |
+|------|-------|
+| URP geçişi sonrası materyaller pembe | Tüm materyaller URP/Lit shader'ına çevrildi |
+| Lamb OBJ Unity'yi donduruyor (143 MB) | Primitive lamba ile değiştirildi |
+| Player iç sahnede düşüyor | FallProtection + invisible wall collider |
+| Login submit butonu iki kere tetikleniyor | `requestRunning` flag ile koruma |
+| Sahne adı uyumsuzluğu (SampleScene → Outside_Museum) | Tüm referanslar güncellendi |
+
+### 📦 Final Build
+- **Platform:** Windows x64
+- **Boyut:** ~600 MB
+- **Sahneler:** MainMenu, Outside_Museum, LouvreInteriorOptimized
+- **Build Süresi:** 4 dakika
+
+---
+
+# 📋 Proje Sonuç Özeti
+
+## ✅ Tamamlanan Çıktılar
+- ✅ Unity 6.3 + URP tabanlı Louvre Sanal Müze uygulaması
+- ✅ Birinci şahıs hareket + VR desteği (Oculus SDK)
+- ✅ Login / Register sistemi (Node.js + MySQL + bcrypt + JWT)
+- ✅ Tablo etkileşim sistemi (~25 tablo)
+- ✅ İç ↔ Dış sahne geçişi (PyramidPortal + ReturnPortal)
+- ✅ Procedural peyzaj (ağaç, çim, lamba, kuş)
+- ✅ Kullanıcı testleri + geri bildirim
+- ✅ Kapsamlı dokümantasyon
+
+## 📊 Teknik İstatistikler
+| Metrik | Değer |
+|--------|-------|
+| Toplam C# script | 23 runtime + 9 editor |
+| Toplam GameObject (Outside_Museum) | 781 |
+| Ağaç (sahne) | 53 Beech + 15 Oak |
+| Toplam ekran çıktısı (FPS) | Stable 60+ (1080p) |
+| Build boyutu | ~600 MB |
+| API response time (avg) | < 250 ms |
