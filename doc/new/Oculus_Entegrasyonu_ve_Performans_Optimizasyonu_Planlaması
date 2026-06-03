@@ -11,3 +11,35 @@
 
 ---
 
+## Görevin Amacı
+
+Bu görevin amacı, geliştirilen sanal şehir keşfi uygulamasının Oculus VR cihazları ile uyumlu şekilde çalışabilmesi için gerekli entegrasyon planını hazırlamaktır.
+
+Ayrıca uygulamanın VR cihazlarında yüksek performansla çalışabilmesi için gerekli optimizasyon stratejileri belirlenmiştir.
+
+---
+
+## Oculus Entegrasyon Planı
+
+Oculus cihazlarının Unity projesine entegre edilebilmesi için aşağıdaki adımlar planlanmıştır:
+
+### 1. Unity Proje Ayarlarının Hazırlanması
+
+- Unity projesinde XR desteği aktif edilecektir.
+- Oculus cihazları için gerekli paketler projeye eklenecektir.
+- Oculus SDK veya XR Interaction Toolkit kullanılacaktır.
+- Build ayarları Android platformuna göre düzenlenecektir.
+
+### 2. Oculus SDK Kurulumu
+
+Projede Oculus cihazlarının kullanılabilmesi için Oculus SDK kurulumu yapılacaktır.
+
+Kurulumdan sonra şu sistemler kontrol edilecektir:
+
+- Baş takibi
+- Kontrolcü takibi
+- VR kamera sistemi
+- Kullanıcı hareket sistemi
+- Etkileşim sistemi
+
+
