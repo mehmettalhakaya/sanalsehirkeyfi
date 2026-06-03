@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ccf40ec42b2761944adacc5e0a002457
+timeCreated: 1510833404
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102334
+  packageName: Easy-Population
+  packageVersion: 1.0
+  assetPath: Assets/Resources/EasyPopulation/population.xml
+  uploadId: 222219
