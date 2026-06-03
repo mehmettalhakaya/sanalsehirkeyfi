@@ -206,3 +206,17 @@ Test sonuçları aşağıdaki tabloya göre kayıt altına alınacaktır.
 
 ---
 
+## 11. Gözlem Formu
+
+Test sırasında gözlem yapan kişi aşağıdaki noktaları dikkate alacaktır:
+
+- Kullanıcı menüyü kolay anlayabildi mi?
+- Kullanıcı hareket kontrollerini hızlı kavradı mı?
+- Kullanıcı bilgi panellerini fark etti mi?
+- Kullanıcı gereksiz yere bekledi mi?
+- Kullanıcı herhangi bir noktada takıldı mı?
+- Kullanıcı VR ortamında rahatsızlık yaşadı mı?
+- Kullanıcı uygulamayı eğlenceli buldu mu?
+
+---
+
