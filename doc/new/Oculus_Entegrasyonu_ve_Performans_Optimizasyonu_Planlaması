@@ -66,3 +66,16 @@ Kontrolcü ile yapılabilecek işlemler:
 
 ---
 
+## Performans Optimizasyonu Planı
+
+VR uygulamalarında performans çok önemlidir. Çünkü düşük FPS kullanıcıda baş dönmesi, gecikme ve kötü deneyim oluşturabilir.
+
+Bu nedenle hedef performans değeri:
+
+**90 FPS**
+
+olarak belirlenmiştir.
+
+---
+
+## Optimizasyon Stratejileri
