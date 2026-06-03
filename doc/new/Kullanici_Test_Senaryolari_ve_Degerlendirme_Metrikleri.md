@@ -220,3 +220,17 @@ Test sırasında gözlem yapan kişi aşağıdaki noktaları dikkate alacaktır:
 
 ---
 
+## 12. Başarı Kriterleri
+
+Uygulamanın başarılı sayılabilmesi için aşağıdaki kriterlerin büyük ölçüde karşılanması beklenir:
+
+| Kriter | Hedef |
+|---|---|
+| Görev tamamlama oranı | En az %80 |
+| Ortalama memnuniyet puanı | En az 4 / 5 |
+| Bilgi paneli anlaşılabilirliği | En az 4 / 5 |
+| Ortalama FPS | 60 FPS ve üzeri |
+| Kullanıcı yardım ihtiyacı | Düşük seviyede |
+| VR rahatsızlık bildirimi | Minimum seviyede |
+
+---
