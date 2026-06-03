@@ -176,12 +176,12 @@ Tablolara yaklaşıp tıklandığında açılan bilgi paneli — eser adı, ress
 | Doküman | İçerik |
 |---------|--------|
 | 📄 [Proje Akışı](projeakisi.md) | Hafta hafta ilerleme ve görev dağılımı |
-| 🏗️ [Mimari Tasarım](mimaritasarim.md) | Sistem mimarisi ve modül yapısı |
-| 🗄️ [Veritabanı Tasarımı](veritabani-tasarimi.md) | ER diyagramı ve tablo şemaları |
-| 📝 [Gereksinim Analizi](gereksinim-analizi.md) | Fonksiyonel/Non-fonksiyonel gereksinimler |
-| 🎨 [Wireframe Tasarımları](Wireframes/) | UI ekran taslakları |
-| 📚 [Kullanım Kılavuzu](kullanim-kilavuzu.md) | Son kullanıcı dökümanı |
-| 📊 [Proje Sonuç Raporu](Proje_Sonuc_Raporu.docx) | Resmi sonuç raporu |
+| 🎯 [Unity Optimizasyon Stratejileri Raporu](doc/new/Unity_Optimizasyon_Stratejileri_Raporu.md) | LOD, occlusion culling, batching, instancing analizi |
+| 🧪 [Kullanıcı Test Senaryoları ve Değerlendirme Metrikleri](doc/new/Kullanici_Test_Senaryolari_ve_Degerlendirme_Metrikleri.md) | Test senaryoları + Likert ölçeği |
+| 🏛️ [Sanal Şehir Modeli Detaylandırma ve Optimizasyon Planı](doc/new/Sanal_Sehir_Modeli_Detaylandırma_Ve_Optimizasyon_Planı.md) | Blender model + poligon optimizasyon planı |
+| 💾 [Sanal Şehir Veri Entegrasyonu ve Yönetim Planı](doc/new/Sanal_Şehir_Veri_Entegrasyonu_ve_Yönetim%20Planı.md) | REST API + MySQL veri akışı |
+| 🥽 [Oculus Entegrasyonu ve Performans Optimizasyonu Planlaması](doc/new/Oculus_Entegrasyonu_ve_Performans_Optimizasyonu_Planlaması) | XR Plugin + 72/90 FPS hedefleri |
+| 🎮 [VR Etkileşimleri ve UX Analiz Raporu](doc/new/VR_UX_Analiz_Raporu_FiratSeckin.md) | Teleport, snap turn, motion sickness analizi |
 
 ---
 
