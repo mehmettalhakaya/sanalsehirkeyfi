@@ -73,3 +73,18 @@ Kullanıcı hareket kontrollerini anlayabilmeli ve çevrede rahatça gezinebilme
 Kullanıcı tarihi yapıya yaklaştığında bilgi paneli otomatik olarak açılmalıdır.
 
 ---
+
+### Senaryo 4: Bilgi Panelini Kullanma
+
+**Amaç:** Bilgi panellerinin okunabilirliğini ve anlaşılabilirliğini değerlendirmek.
+
+**Adımlar:**
+1. Kullanıcı bilgi panelini görüntüler.
+2. Paneldeki yapı adını ve açıklamayı okur.
+3. Panelin tasarımını ve okunabilirliğini değerlendirir.
+
+**Beklenen Sonuç:**  
+Bilgi paneli açık, sade ve okunabilir olmalıdır.
+
+---
+
