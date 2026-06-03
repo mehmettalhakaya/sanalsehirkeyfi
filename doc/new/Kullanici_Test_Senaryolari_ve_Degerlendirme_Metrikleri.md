@@ -139,3 +139,16 @@ Test sürecinde uygulama üç ana başlık altında değerlendirilecektir:
 | Bilgi Paneli Okunabilirliği | Yazıların, başlıkların ve açıklamaların rahat okunabilmesi |
 
 ---
+
+## 7. Performans Metrikleri
+
+| Metrik | Açıklama |
+|---|---|
+| FPS Değeri | Uygulamanın saniyedeki kare hızı |
+| Yükleme Süresi | Sahnenin veya uygulamanın açılma süresi |
+| Gecikme | Kullanıcı hareketleri ile sistem tepkisi arasındaki gecikme |
+| Donma / Takılma | Uygulamada yaşanan performans sorunları |
+| VR Rahatlığı | Kullanıcının baş dönmesi veya rahatsızlık yaşayıp yaşamadığı |
+
+---
+
