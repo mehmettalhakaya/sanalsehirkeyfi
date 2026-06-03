@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cfe2b668c3d753f44bc92e5893ebcf2d
+timeCreated: 1514912460
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102334
+  packageName: Easy-Population
+  packageVersion: 1.0
+  assetPath: Assets/Resources/EasyPopulation/Materials/EthanAlbedo.mat
+  uploadId: 222219
