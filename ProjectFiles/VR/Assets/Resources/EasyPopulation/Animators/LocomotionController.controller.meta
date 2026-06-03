@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 4ff1f17465438493daaeed8275d7457c
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102334
+  packageName: Easy-Population
+  packageVersion: 1.0
+  assetPath: Assets/Resources/EasyPopulation/Animators/LocomotionController.controller
+  uploadId: 222219
