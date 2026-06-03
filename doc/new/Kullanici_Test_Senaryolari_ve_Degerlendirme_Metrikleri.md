@@ -117,3 +117,12 @@ Kullanıcı uygulamadan sorunsuz şekilde çıkabilmelidir.
 
 ---
 
+## 5. Değerlendirme Metrikleri
+
+Test sürecinde uygulama üç ana başlık altında değerlendirilecektir:
+
+1. Kullanılabilirlik metrikleri
+2. Performans metrikleri
+3. Kullanıcı memnuniyeti metrikleri
+
+---
