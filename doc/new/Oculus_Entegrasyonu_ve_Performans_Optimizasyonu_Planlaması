@@ -93,3 +93,17 @@ Yapılacak işlemler:
 
 ---
 
+### 2. Texture Optimizasyonu
+
+Yüksek çözünürlüklü dokular VR cihazlarında performans kaybına neden olabilir.
+
+Bu yüzden:
+
+- Gereksiz yüksek çözünürlüklü texture kullanılmayacaktır.
+- Texture boyutları optimize edilecektir.
+- Tekrarlayan materyaller birleştirilecektir.
+- Mümkün olduğunda texture compression kullanılacaktır.
+
+---
+
+
