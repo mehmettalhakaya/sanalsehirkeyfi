@@ -106,4 +106,16 @@ Bu yüzden:
 
 ---
 
+### 3. Işıklandırma Optimizasyonu
+
+Gerçek zamanlı ışıklar VR performansını düşürebilir.
+
+Bu nedenle:
+
+- Gereksiz ışık kaynakları azaltılacaktır.
+- Mümkün olduğunca baked lighting kullanılacaktır.
+- Gölge kalitesi optimize edilecektir.
+- Çok fazla dinamik ışık kullanımından kaçınılacaktır.
+
+---
 
