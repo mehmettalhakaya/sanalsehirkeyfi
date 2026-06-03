@@ -11,3 +11,16 @@
 
 ---
 
+## Görevin Amacı
+
+Bu görevin amacı, geliştirilen sanal şehir keşfi uygulamasının Oculus VR cihazları ile uyumlu şekilde çalışabilmesi için gerekli entegrasyon planını hazırlamaktır.
+
+Ayrıca uygulamanın VR cihazlarında yüksek performansla çalışabilmesi için gerekli optimizasyon stratejileri belirlenmiştir.
+
+---
+
+## Oculus Entegrasyon Planı
+
+Oculus cihazlarının Unity projesine entegre edilebilmesi için aşağıdaki adımlar planlanmıştır:
+
+
