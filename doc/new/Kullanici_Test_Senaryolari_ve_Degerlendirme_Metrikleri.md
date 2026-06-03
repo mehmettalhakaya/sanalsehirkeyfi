@@ -103,3 +103,17 @@ Etkileşimler anlaşılır olmalı ve kullanıcı ne yaptığını kolayca fark 
 
 ---
 
+### Senaryo 6: Uygulamadan Çıkış
+
+**Amaç:** Kullanıcının uygulamadan kolayca çıkıp çıkamadığını test etmek.
+
+**Adımlar:**
+1. Kullanıcı ana menüye döner.
+2. “Çıkış” veya “Ayrıl” butonuna basar.
+3. Uygulamadan çıkış yapar.
+
+**Beklenen Sonuç:**  
+Kullanıcı uygulamadan sorunsuz şekilde çıkabilmelidir.
+
+---
+
