@@ -302,7 +302,7 @@ cd sanalsehirkeyfi
 
 ### Son Kullanıcı Olarak
 1. [Releases](https://github.com/mehmettalhakaya/sanalsehirkeyfi/releases) sayfasından son sürümü indir
-2. ZIP'i aç → `sanalsehirkeyfi.exe` çalıştır
+2. ZIP'i aç → `sanalsehirkeyfi build` çalıştır
 3. Kaydol veya giriş yap → "Keşfe Başla"
 
 ---
