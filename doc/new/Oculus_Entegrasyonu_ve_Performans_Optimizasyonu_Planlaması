@@ -11,3 +11,152 @@
 
 ---
 
+## Görevin Amacı
+
+Bu görevin amacı, geliştirilen sanal şehir keşfi uygulamasının Oculus VR cihazları ile uyumlu şekilde çalışabilmesi için gerekli entegrasyon planını hazırlamaktır.
+
+Ayrıca uygulamanın VR cihazlarında yüksek performansla çalışabilmesi için gerekli optimizasyon stratejileri belirlenmiştir.
+
+---
+
+## Oculus Entegrasyon Planı
+
+Oculus cihazlarının Unity projesine entegre edilebilmesi için aşağıdaki adımlar planlanmıştır:
+
+### 1. Unity Proje Ayarlarının Hazırlanması
+
+- Unity projesinde XR desteği aktif edilecektir.
+- Oculus cihazları için gerekli paketler projeye eklenecektir.
+- Oculus SDK veya XR Interaction Toolkit kullanılacaktır.
+- Build ayarları Android platformuna göre düzenlenecektir.
+
+### 2. Oculus SDK Kurulumu
+
+Projede Oculus cihazlarının kullanılabilmesi için Oculus SDK kurulumu yapılacaktır.
+
+Kurulumdan sonra şu sistemler kontrol edilecektir:
+
+- Baş takibi
+- Kontrolcü takibi
+- VR kamera sistemi
+- Kullanıcı hareket sistemi
+- Etkileşim sistemi
+
+### 3. Kamera ve Oyuncu Kontrolü
+
+VR ortamında kullanıcının sahneyi gerçekçi şekilde deneyimleyebilmesi için kamera sistemi Oculus cihazına uygun hale getirilecektir.
+
+Bunun için:
+
+- OVR Camera Rig veya XR Rig kullanılacaktır.
+- Kullanıcının baş hareketleri kameraya aktarılacaktır.
+- Kontrol cihazları ile etkileşim sağlanacaktır.
+
+### 4. Kontrolcü Entegrasyonu
+
+Oculus kontrol cihazları ile kullanıcının sahne içerisinde etkileşim kurması sağlanacaktır.
+
+Kontrolcü ile yapılabilecek işlemler:
+
+- Nesnelere bakma
+- Menüleri seçme
+- Butonlara basma
+- Teleport veya yürüme hareketi
+- Bilgi panellerini açma
+
+---
+
+## Performans Optimizasyonu Planı
+
+VR uygulamalarında performans çok önemlidir. Çünkü düşük FPS kullanıcıda baş dönmesi, gecikme ve kötü deneyim oluşturabilir.
+
+Bu nedenle hedef performans değeri:
+
+**90 FPS**
+
+olarak belirlenmiştir.
+
+---
+
+## Optimizasyon Stratejileri
+
+### 1. Model Optimizasyonu
+
+Sanal şehir ortamında kullanılan 3D modellerin performansı düşürmemesi için model optimizasyonu yapılacaktır.
+
+Yapılacak işlemler:
+
+- Gereksiz polygon sayıları azaltılacaktır.
+- Low-poly modeller tercih edilecektir.
+- Kullanılmayan objeler sahneden kaldırılacaktır.
+- Aynı tür objelerde tekrar kullanılabilir prefab yapısı oluşturulacaktır.
+
+---
+
+### 2. Texture Optimizasyonu
+
+Yüksek çözünürlüklü dokular VR cihazlarında performans kaybına neden olabilir.
+
+Bu yüzden:
+
+- Gereksiz yüksek çözünürlüklü texture kullanılmayacaktır.
+- Texture boyutları optimize edilecektir.
+- Tekrarlayan materyaller birleştirilecektir.
+- Mümkün olduğunda texture compression kullanılacaktır.
+
+---
+
+### 3. Işıklandırma Optimizasyonu
+
+Gerçek zamanlı ışıklar VR performansını düşürebilir.
+
+Bu nedenle:
+
+- Gereksiz ışık kaynakları azaltılacaktır.
+- Mümkün olduğunca baked lighting kullanılacaktır.
+- Gölge kalitesi optimize edilecektir.
+- Çok fazla dinamik ışık kullanımından kaçınılacaktır.
+
+---
+
+### 4. Gölgelendirici Optimizasyonu
+
+Karmaşık shader kullanımı FPS düşüşüne neden olabilir.
+
+Bu yüzden:
+
+- Basit shaderlar tercih edilecektir.
+- Gereksiz yansıma ve parlama efektleri azaltılacaktır.
+- Mobil VR cihazlarına uygun materyaller kullanılacaktır.
+
+---
+
+### 5. Çizim Çağrısı Azaltma
+
+Çizim çağrıları arttıkça performans düşer. Bu yüzden draw call sayısı azaltılmalıdır.
+
+Bunun için:
+
+- Benzer materyaller birleştirilecektir.
+- Static batching kullanılacaktır.
+- Gereksiz objeler sahneden kaldırılacaktır.
+- Uzakta kalan objeler için LOD sistemi kullanılacaktır.
+
+---
+
+## Performans Test Planı
+
+Uygulamanın Oculus cihazında düzgün çalışıp çalışmadığını anlamak için performans testleri yapılacaktır.
+
+Testlerde kontrol edilecek noktalar:
+
+- FPS değeri
+- Sahne geçiş performansı
+- Kullanıcı hareketlerinde gecikme olup olmadığı
+- Kontrolcülerin düzgün çalışması
+- Bilgi panellerinin sorunsuz açılması
+- VR cihazında baş takibinin doğru çalışması
+
+---
+
+
