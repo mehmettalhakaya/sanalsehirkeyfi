@@ -152,3 +152,15 @@ Test sürecinde uygulama üç ana başlık altında değerlendirilecektir:
 
 ---
 
+## 8. Kullanıcı Memnuniyeti Metrikleri
+
+| Metrik | Açıklama |
+|---|---|
+| Genel Memnuniyet | Kullanıcının uygulamadan genel olarak memnun kalma düzeyi |
+| Eğlence Değeri | Uygulamanın kullanıcıya eğlenceli gelip gelmediği |
+| Öğrenme Katkısı | Kullanıcının tarihi/kültürel bilgiler öğrenip öğrenmediği |
+| Görsel Kalite | Ortamın görsel olarak yeterli bulunması |
+| Tekrar Kullanma İsteği | Kullanıcının uygulamayı tekrar kullanmak isteyip istemediği |
+
+---
+
