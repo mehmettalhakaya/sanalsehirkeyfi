@@ -185,35 +185,35 @@ Tablolara yaklaşıp tıklandığında açılan bilgi paneli — eser adı, ress
   <tr>
     <td align="center" width="20%">
       <a href="https://github.com/mehmettalhakaya">
-        <img src="https://github.com/mehmettalhakaya.png" width="120" style="border-radius:50%" alt="Mehmet Talha Kaya"/>
+        <img src="https://images.weserv.nl/?url=github.com/mehmettalhakaya.png&h=140&w=140&fit=cover&mask=circle" width="140" height="140" alt="Mehmet Talha Kaya"/>
         <br/>
         <b>Mehmet Talha Kaya</b>
       </a>
     </td>
     <td align="center" width="20%">
       <a href="https://github.com/melikegcncodes">
-        <img src="https://github.com/melikegcncodes.png" width="120" style="border-radius:50%" alt="Melike Gücin"/>
+        <img src="https://images.weserv.nl/?url=github.com/melikegcncodes.png&h=140&w=140&fit=cover&mask=circle" width="140" height="140" alt="Melike Gücin"/>
         <br/>
         <b>Melike Gücin</b>
       </a>
     </td>
     <td align="center" width="20%">
       <a href="https://github.com/cemreeyrtsvr">
-        <img src="https://github.com/cemreeyrtsvr.png" width="120" style="border-radius:50%" alt="Cemre Yurtsever"/>
+        <img src="https://images.weserv.nl/?url=github.com/cemreeyrtsvr.png&h=140&w=140&fit=cover&mask=circle" width="140" height="140" alt="Cemre Yurtsever"/>
         <br/>
         <b>Cemre Yurtsever</b>
       </a>
     </td>
     <td align="center" width="20%">
       <a href="https://github.com/murathilaloglu">
-        <img src="https://github.com/murathilaloglu.png" width="120" style="border-radius:50%" alt="Mustafa Murat Hilaloğlu"/>
+        <img src="https://images.weserv.nl/?url=github.com/murathilaloglu.png&h=140&w=140&fit=cover&mask=circle" width="140" height="140" alt="Mustafa Murat Hilaloğlu"/>
         <br/>
         <b>Mustafa Murat Hilaloğlu</b>
       </a>
     </td>
     <td align="center" width="20%">
       <a href="https://github.com/firatseckin">
-        <img src="https://github.com/firatseckin.png" width="120" style="border-radius:50%" alt="Fırat Seçkin"/>
+        <img src="https://images.weserv.nl/?url=github.com/firatseckin.png&h=140&w=140&fit=cover&mask=circle" width="140" height="140" alt="Fırat Seçkin"/>
         <br/>
         <b>Fırat Seçkin</b>
       </a>
