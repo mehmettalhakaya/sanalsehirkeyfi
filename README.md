@@ -215,13 +215,6 @@ Bu proje, ekip üyelerinin farklı alanlardaki katkılarıyla geliştirilmiştir
     <td align="center" valign="top"><strong>Mustafa Murat Hilaloğlu</strong></td>
     <td align="center" valign="top"><strong>Fırat Seçkin</strong></td>
   </tr>
-  <tr>
-    <td align="center" valign="top">Proje yönetimi<br />Unity optimizasyonu<br />Dokümantasyon</td>
-    <td align="center" valign="top">3B modelleme<br />Optimizasyon<br />Final hazırlığı</td>
-    <td align="center" valign="top">UI panelleri<br />Ambiyans<br />Fizik sistemi</td>
-    <td align="center" valign="top">Veri entegrasyonu<br />Backend<br />Test süreci</td>
-    <td align="center" valign="top">VR hareket<br />Etkileşim<br />Entegrasyon</td>
-  </tr>
 </table>
 
 ---
