@@ -183,39 +183,39 @@ Tablolara yaklaşıp tıklandığında açılan bilgi paneli — eser adı, ress
 
 Bu projeye emeği geçen tüm ekibe teşekkürler! 💙
 
-<table>
+<table width="100%">
   <tr>
-    <td align="center" width="20%">
+    <td align="center" width="20%" valign="top">
       <a href="https://github.com/mehmettalhakaya">
-        <img src="https://images.weserv.nl/?url=github.com/mehmettalhakaya.png&h=140&w=140&fit=cover&mask=circle" width="140" height="140" alt="Mehmet Talha Kaya"/>
+        <img src="https://images.weserv.nl/?url=github.com/mehmettalhakaya.png&h=120&w=120&fit=cover&mask=circle&bg=ffffff" width="120" height="120" alt="Mehmet Talha Kaya"/>
         <br/>
         <b>Mehmet Talha Kaya</b>
       </a>
     </td>
-    <td align="center" width="20%">
+    <td align="center" width="20%" valign="top">
       <a href="https://github.com/melikegcncodes">
-        <img src="https://images.weserv.nl/?url=github.com/melikegcncodes.png&h=140&w=140&fit=cover&mask=circle" width="140" height="140" alt="Melike Gücin"/>
+        <img src="https://images.weserv.nl/?url=github.com/melikegcncodes.png&h=120&w=120&fit=cover&mask=circle&bg=ffffff" width="120" height="120" alt="Melike Gücin"/>
         <br/>
         <b>Melike Gücin</b>
       </a>
     </td>
-    <td align="center" width="20%">
+    <td align="center" width="20%" valign="top">
       <a href="https://github.com/cemreeyrtsvr">
-        <img src="https://images.weserv.nl/?url=github.com/cemreeyrtsvr.png&h=140&w=140&fit=cover&mask=circle" width="140" height="140" alt="Cemre Yurtsever"/>
+        <img src="https://images.weserv.nl/?url=github.com/cemreeyrtsvr.png&h=120&w=120&fit=cover&mask=circle&bg=ffffff" width="120" height="120" alt="Cemre Yurtsever"/>
         <br/>
         <b>Cemre Yurtsever</b>
       </a>
     </td>
-    <td align="center" width="20%">
+    <td align="center" width="20%" valign="top">
       <a href="https://github.com/murathilaloglu">
-        <img src="https://images.weserv.nl/?url=github.com/murathilaloglu.png&h=140&w=140&fit=cover&mask=circle" width="140" height="140" alt="Mustafa Murat Hilaloğlu"/>
+        <img src="https://images.weserv.nl/?url=github.com/murathilaloglu.png&h=120&w=120&fit=cover&mask=circle&bg=ffffff" width="120" height="120" alt="Mustafa Murat Hilaloğlu"/>
         <br/>
-        <b>Mustafa Murat Hilaloğlu</b>
+        <b>Mustafa Murat<br/>Hilaloğlu</b>
       </a>
     </td>
-    <td align="center" width="20%">
+    <td align="center" width="20%" valign="top">
       <a href="https://github.com/firatseckin">
-        <img src="https://images.weserv.nl/?url=github.com/firatseckin.png&h=140&w=140&fit=cover&mask=circle" width="140" height="140" alt="Fırat Seçkin"/>
+        <img src="https://images.weserv.nl/?url=github.com/firatseckin.png&h=120&w=120&fit=cover&mask=circle&bg=ffffff" width="120" height="120" alt="Fırat Seçkin"/>
         <br/>
         <b>Fırat Seçkin</b>
       </a>
