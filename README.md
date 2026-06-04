@@ -18,12 +18,6 @@
 
 ---
 
-## 🎥 Müze Gezim Videosu
-
-🔗 **Video Linki:** [Louvre Müzesi’ni Sanal Gerçeklikte Geziyoruz!](https://youtu.be/2y1aoaK_zDw)
-
----
-
 ## 📌 Proje Hakkında
 
 **Sanal Şehir Keşfi**, kullanıcıların Paris Louvre Müzesi'nin dış avlusunu ve iç galerisini birinci şahıs bakış açısıyla keşfedebildiği sanal gerçeklik destekli bir simülasyon projesidir.
@@ -150,6 +144,12 @@ Tablolara yaklaşıp tıklandığında eser adı, ressam, dönem ve açıklama b
 
 ![Tablo Etkileşim 1](images/Table1.png)
 ![Tablo Etkileşim 2](images/Table2.png)
+
+---
+
+## 🎥 Müze Gezim Videosu
+
+🔗 **Video Linki:** [Louvre Müzesi’ni Sanal Gerçeklikte Geziyoruz!](https://youtu.be/2y1aoaK_zDw)
 
 ---
 
