@@ -147,7 +147,7 @@ Tablolara yaklaşıp tıklandığında eser adı, ressam, dönem ve açıklama b
 
 ---
 
-## 🎥 Müze Gezim Videosu
+## 🏛️ Louvre Müzesi Sanal Gezi Videosu
 
 🔗 **Video Linki:** [Louvre Müzesi’ni Sanal Gerçeklikte Geziyoruz!](https://youtu.be/2y1aoaK_zDw)
 
