@@ -178,7 +178,7 @@ Tablolara yaklaşıp tıklandığında eser adı, ressam, dönem ve açıklama b
 
 ## 👥 Proje Ekibi
 
-Bu proje, ekip üyelerinin farklı alanlardaki katkılarıyla geliştirilmiştir.
+Bu proje için emeği geçen tüm ekibe teşekkürler! 💙
 
 <table>
   <tr>
