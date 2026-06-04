@@ -18,11 +18,7 @@
 
 ---
 
-## 🎥 Proje Tanıtım Videosu
-
-Aşağıdaki görsele tıklayarak projemizin tanıtım videosunu izleyebilirsiniz.
-
-[![Sanal Şehir Keşfi - Louvre Müzesi Tanıtım Videosu](https://img.youtube.com/vi/2y1aoaK_zDw/maxresdefault.jpg)](https://youtu.be/2y1aoaK_zDw)
+## 🎥 Müze Gezim Videosu
 
 🔗 **Video Linki:** [Louvre Müzesi’ni Sanal Gerçeklikte Geziyoruz!](https://youtu.be/2y1aoaK_zDw)
 
