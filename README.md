@@ -179,6 +179,10 @@ Tablolara yaklaşıp tıklandığında açılan bilgi paneli — eser adı, ress
 
 ---
 
+## 👥 Proje Ekibi
+
+Bu projeye emeği geçen tüm ekibe teşekkürler! 💙
+
 <table>
   <tr>
     <td align="center" width="20%">
