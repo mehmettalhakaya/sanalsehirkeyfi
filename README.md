@@ -11,6 +11,10 @@
 ![Status](https://img.shields.io/badge/Durum-Tamamland%C4%B1-success)
 ![License](https://img.shields.io/badge/Lisans-Akademik-lightgrey)
 
+[![Latest Release](https://img.shields.io/github/v/release/mehmettalhakaya/sanalsehirkeyfi?label=S%C3%BCr%C3%BCm&color=blue)](https://github.com/mehmettalhakaya/sanalsehirkeyfi/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/mehmettalhakaya/sanalsehirkeyfi/total?label=%C4%B0ndirme&color=brightgreen)](https://github.com/mehmettalhakaya/sanalsehirkeyfi/releases)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?logo=windows)
+
 ![Ana Ekran](images/MainScreen.png)
 
 ---
@@ -22,6 +26,22 @@ Bu proje, kullanıcıların **Paris Louvre Müzesi'nin hem dış avlusunu hem de
 Kullanıcılar; gerçekçi 3B sanal şehir/müze ortamında dolaşarak ünlü tabloları inceleyebilir, etkileşimli bilgi panelleri ile eserler hakkında bilgi alabilir, klasik klavye-mouse veya VR başlığı ile akıcı bir keşif deneyimi yaşayabilir.
 
 Proje aynı zamanda kullanıcıya özel deneyim sunabilmek için kendi sunucumuzda barındırılan **PHP/Node.js + MySQL** tabanlı bir **kullanıcı kayıt ve giriş sistemi** içerir.
+
+---
+
+## 📥 İndir (Hazır Build'ler)
+
+Projeyi hemen denemek istiyorsan, **Unity kurmadan** çalıştırılabilir derlenmiş sürümleri aşağıdaki bağlantılardan indirebilirsin:
+
+| Platform | İndirme Bağlantısı | Açıklama |
+|----------|-------------------|----------|
+| 🪟 **Windows** | [📥 Latest Release](https://github.com/mehmettalhakaya/sanalsehirkeyfi/releases/latest) | `.exe` çalıştırılabilir paket |
+| 🍎 **macOS** | [📥 Latest Release](https://github.com/mehmettalhakaya/sanalsehirkeyfi/releases/latest) | `.app` paketi (Apple Silicon + Intel) |
+| 🐧 **Linux** | [📥 Latest Release](https://github.com/mehmettalhakaya/sanalsehirkeyfi/releases/latest) | x86_64 çalıştırılabilir |
+
+> 📌 Tüm platform build'leri **tek release sayfasında** — sistemine uygun ZIP'i indir, arşivden çıkar, çalıştırılabilir dosyayı başlat. İnternet bağlantısı gereklidir (login/register API için).
+
+🔗 **Sürüm Notları:** [v1.0.0 - Final Build](https://github.com/mehmettalhakaya/sanalsehirkeyfi/releases/tag/v1.0.0)
 
 ---
 
@@ -161,13 +181,13 @@ Tablolara yaklaşıp tıklandığında açılan bilgi paneli — eser adı, ress
 
 ## 👥 Proje Ekibi
 
-| Rol | Üye | Numara |
-|-----|-----|--------|
-| 👨‍💼 **Proje Yöneticisi / Scrum Master** | **Mehmet Talha Kaya** | 250542009 |
-| 👩‍💻 **Veri Entegrasyonu / Ses–Ambiyans / Veritabanı** | **Melike Gücin** | 240541081 |
-| 👩‍💻 **VR Hareket / Etkileşim / UI-UX** | **Cemre Yurtsever** | 250541127 |
-| 👨‍💻 **VR Fizik / Oculus / 3D Modelleme** | **Mustafa Murat Hilaloğlu** | 240541025 |
-| 👨‍💻 **UI-UX Tasarımcı / VR Deneyim** | **Fırat Seçkin** | 250541042 |
+| Avatar | Üye | GitHub | Numara | Rol |
+|:------:|-----|--------|--------|-----|
+| <a href="https://github.com/mehmettalhakaya"><img src="https://github.com/mehmettalhakaya.png" width="60" style="border-radius:50%"/></a> | **Mehmet Talha Kaya** | [@mehmettalhakaya](https://github.com/mehmettalhakaya) | 250542009 | 👨‍💼 Proje Yöneticisi / Scrum Master |
+| <a href="https://github.com/melikegcncodes"><img src="https://github.com/melikegcncodes.png" width="60" style="border-radius:50%"/></a> | **Melike Gücin** | [@melikegcncodes](https://github.com/melikegcncodes) | 240541081 | 👩‍💻 Veri Entegrasyonu / Ses–Ambiyans / Veritabanı |
+| <a href="https://github.com/cemreeyrtsvr"><img src="https://github.com/cemreeyrtsvr.png" width="60" style="border-radius:50%"/></a> | **Cemre Yurtsever** | [@cemreeyrtsvr](https://github.com/cemreeyrtsvr) | 250541127 | 👩‍💻 VR Hareket / Etkileşim / UI-UX |
+| <a href="https://github.com/murathilaloglu"><img src="https://github.com/murathilaloglu.png" width="60" style="border-radius:50%"/></a> | **Mustafa Murat Hilaloğlu** | [@murathilaloglu](https://github.com/murathilaloglu) | 240541025 | 👨‍💻 VR Fizik / Oculus / 3D Modelleme |
+| <a href="https://github.com/firatseckin"><img src="https://github.com/firatseckin.png" width="60" style="border-radius:50%"/></a> | **Fırat Seçkin** | [@firatseckin](https://github.com/firatseckin) | 250541042 | 👨‍💻 UI-UX Tasarımcı / VR Deneyim |
 
 ---
 
@@ -182,7 +202,6 @@ Tablolara yaklaşıp tıklandığında açılan bilgi paneli — eser adı, ress
 | 💾 [Sanal Şehir Veri Entegrasyonu ve Yönetim Planı](doc/new/Sanal_Şehir_Veri_Entegrasyonu_ve_Yönetim%20Planı.md) | REST API + MySQL veri akışı |
 | 🥽 [Oculus Entegrasyonu ve Performans Optimizasyonu Planlaması](doc/new/Oculus_Entegrasyonu_ve_Performans_Optimizasyonu_Planlaması) | XR Plugin + 72/90 FPS hedefleri |
 | 🎮 [VR Etkileşimleri ve UX Analiz Raporu](doc/new/VR_UX_Analiz_Raporu_FiratSeckin.md) | Teleport, snap turn, motion sickness analizi |
-| 📄 [Proje Dokümantasyonu](doc/documentation.docx) | Proje dokümantasyonu |
 
 ---
 
@@ -247,7 +266,7 @@ Tablolara yaklaşıp tıklandığında açılan bilgi paneli — eser adı, ress
 - Proje dokümantasyonunun tamamlanması (README, mimari, ER diyagramı, kullanım kılavuzu)
 - Kullanıcı testleri ve geri bildirim toplama (5 katılımcı, Likert ölçeği)
 - Proje entegrasyonu ve hata ayıklama (URP shader, sahne geçiş, login flow)
-- Final build alımı (Windows x64, ~600 MB)
+- Final build alımı (Windows + macOS + Linux çoklu platform)
 
 ---
 
@@ -255,7 +274,7 @@ Tablolara yaklaşıp tıklandığında açılan bilgi paneli — eser adı, ress
 
 ✅ **TAMAMLANDI**
 
-> 🎉 Tüm hedeflenen özellikler başarıyla geliştirilmiş, kullanıcı testleri tamamlanmış ve uygulamanın **final sürümü** alınmıştır.
+> 🎉 Tüm hedeflenen özellikler başarıyla geliştirilmiş, kullanıcı testleri tamamlanmış ve uygulamanın **final sürümü Windows, macOS ve Linux** platformları için yayınlanmıştır.
 
 ### 📊 Proje İstatistikleri
 | Metrik | Değer |
@@ -266,6 +285,7 @@ Tablolara yaklaşıp tıklandığında açılan bilgi paneli — eser adı, ress
 | 🌳 Sahnedeki ağaç | 68 (53 Beech + 15 Oak) |
 | 🖼️ Etkileşimli tablo | ~25 |
 | 🐦 Uçan kuş sürüsü | 6–8 |
+| 🖥️ Desteklenen platform | Windows · macOS · Linux |
 | ⭐ Kullanıcı memnuniyeti | 4.6 / 5 (5 katılımcı ortalaması) |
 | 🎯 FPS performansı | Stable 60+ (1080p) |
 | 📦 Build boyutu | ~600 MB |
@@ -278,6 +298,10 @@ Tablolara yaklaşıp tıklandığında açılan bilgi paneli — eser adı, ress
 | Tuş / Mouse | İşlev |
 |-------------|-------|
 | **WASD** | Yürüme |
+| **Shift** | Koşma |
+| **Space** | Zıplama / VR'da yukarı |
+| **Ctrl** | Eğilme / VR'da aşağı |
+| **F** | Uçuş modu aç/kapa |
 | **Mouse** | Bakış yönü |
 | **Sol tık** | Tabloya tıklayınca bilgi paneli |
 | **Sağ tık (basılı)** | Teleport hedefi |
@@ -289,21 +313,25 @@ Tablolara yaklaşıp tıklandığında açılan bilgi paneli — eser adı, ress
 
 ## 🚀 Kurulum
 
-### Geliştirici Olarak
+### 🎮 Son Kullanıcı Olarak (Önerilen)
+1. [Releases](https://github.com/mehmettalhakaya/sanalsehirkeyfi/releases/latest) sayfasından işletim sistemine uygun ZIP'i indir
+2. Arşivi aç
+3. Çalıştırılabilir dosyayı başlat:
+   - **Windows:** `sanalsehirkeyfi.exe`
+   - **macOS:** `sanalsehirkeyfi.app` (ilk açılışta Gatekeeper uyarısı çıkarsa: System Preferences → Security & Privacy → "Open Anyway")
+   - **Linux:** `chmod +x sanalsehirkeyfi.x86_64 && ./sanalsehirkeyfi.x86_64`
+4. Kaydol veya giriş yap → **"KEŞFE BAŞLA"**
+
+### 🧑‍💻 Geliştirici Olarak
 ```bash
 git clone https://github.com/mehmettalhakaya/sanalsehirkeyfi.git
 cd sanalsehirkeyfi
 ```
-1. **Unity Hub** → Open → bu klasörü seç
+1. **Unity Hub** → Open → `ProjectFiles/Desktop` klasörünü seç
 2. **Unity 6.3 LTS** sürümünü kullan
 3. İlk açılışta asset import 5–15 dakika sürer
 4. `Edit → Project Settings → Player → Allow downloads over HTTP: Always Allowed`
 5. **Play** → MainMenu sahnesi açılır
-
-### Son Kullanıcı Olarak
-1. [Releases](https://github.com/mehmettalhakaya/sanalsehirkeyfi/releases) sayfasından son sürümü indir
-2. ZIP'i aç → `sanalsehirkeyfi build` çalıştır
-3. Kaydol veya giriş yap → "Keşfe Başla"
 
 ---
 
@@ -337,8 +365,21 @@ Bu proje **Fırat Üniversitesi Yazılım Mühendisliği Temelleri (YMT1104)** d
 ## 🔗 Bağlantılar
 
 - 🐙 **GitHub:** [github.com/mehmettalhakaya/sanalsehirkeyfi](https://github.com/mehmettalhakaya/sanalsehirkeyfi)
+- 📥 **Releases:** [v1.0.0 Final Build](https://github.com/mehmettalhakaya/sanalsehirkeyfi/releases/latest)
 - 📄 **Proje Akışı:** [projeakisi.md](projeakisi.md)
 - 🌐 **API Sunucusu:** [mtkaya.me](https://mtkaya.me)
+
+---
+
+## 🤝 Katkıda Bulunanlar
+
+Bu projeye emeği geçen tüm ekibe teşekkürler! 💙
+
+<a href="https://github.com/mehmettalhakaya/sanalsehirkeyfi/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mehmettalhakaya/sanalsehirkeyfi" alt="Contributors" />
+</a>
+
+> *Yukarıdaki grafik repo'daki tüm contributor'ları otomatik olarak gösterir ve her yeni commit ile güncellenir.*
 
 ---
 
