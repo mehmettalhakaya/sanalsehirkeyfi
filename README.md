@@ -209,11 +209,21 @@ Bu proje, ekip üyelerinin farklı alanlardaki katkılarıyla geliştirilmiştir
     </td>
   </tr>
   <tr>
-    <td align="center" valign="top"><strong>Mehmet Talha Kaya</strong></td>
-    <td align="center" valign="top"><strong>Melike Gücin</strong></td>
-    <td align="center" valign="top"><strong>Cemre Yurtsever</strong></td>
-    <td align="center" valign="top"><strong>Mustafa Murat Hilaloğlu</strong></td>
-    <td align="center" valign="top"><strong>Fırat Seçkin</strong></td>
+    <td align="center" valign="top">
+      <a href="https://github.com/mehmettalhakaya"><strong>Mehmet Talha Kaya</strong></a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/melikegcncodes"><strong>Melike Gücin</strong></a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/cemreeyrtsvr"><strong>Cemre Yurtsever</strong></a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/murathilaloglu"><strong>Mustafa Murat Hilaloğlu</strong></a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/firatseckin"><strong>Fırat Seçkin</strong></a>
+    </td>
   </tr>
 </table>
 
