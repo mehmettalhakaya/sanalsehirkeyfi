@@ -403,18 +403,6 @@ Bu proje **Fırat Üniversitesi Yazılım Mühendisliği Temelleri (YMT1104)** d
 
 ---
 
-## 🤝 Katkıda Bulunanlar
-
-Bu projeye emeği geçen tüm ekibe teşekkürler! 💙
-
-<a href="https://github.com/mehmettalhakaya/sanalsehirkeyfi/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mehmettalhakaya/sanalsehirkeyfi" alt="Contributors" />
-</a>
-
-> *Yukarıdaki grafik repo'daki tüm contributor'ları otomatik olarak gösterir ve her yeni commit ile güncellenir.*
-
----
-
 > ⭐ Bu proje **Fırat Üniversitesi Yazılım Mühendisliği Temelleri (YMT1104)** dersi kapsamında geliştirilmiş, **2025–2026 Bahar Yarıyılı** sonunda başarıyla tamamlanmıştır.
 >
 > 💙 Beğendiyseniz GitHub'da ⭐ vermeyi unutmayın!
