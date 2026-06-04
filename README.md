@@ -185,68 +185,38 @@ Tablolara yaklaşıp tıklandığında açılan bilgi paneli — eser adı, ress
   <tr>
     <td align="center" width="20%">
       <a href="https://github.com/mehmettalhakaya">
-        <img src="https://github.com/mehmettalhakaya.png" width="110" style="border-radius:50%" alt="Mehmet Talha Kaya"/>
+        <img src="https://github.com/mehmettalhakaya.png" width="120" style="border-radius:50%" alt="Mehmet Talha Kaya"/>
         <br/>
-        <sub><b>Mehmet Talha Kaya</b></sub>
+        <b>Mehmet Talha Kaya</b>
       </a>
-      <br/>
-      <sub>👨‍💼 Proje Yöneticisi</sub>
-      <br/>
-      <sub>Scrum Master</sub>
-      <br/>
-      <sub><code>250542009</code></sub>
     </td>
     <td align="center" width="20%">
       <a href="https://github.com/melikegcncodes">
-        <img src="https://github.com/melikegcncodes.png" width="110" style="border-radius:50%" alt="Melike Gücin"/>
+        <img src="https://github.com/melikegcncodes.png" width="120" style="border-radius:50%" alt="Melike Gücin"/>
         <br/>
-        <sub><b>Melike Gücin</b></sub>
+        <b>Melike Gücin</b>
       </a>
-      <br/>
-      <sub>👩‍💻 Veri Entegrasyonu</sub>
-      <br/>
-      <sub>Veritabanı / Ses</sub>
-      <br/>
-      <sub><code>240541081</code></sub>
     </td>
     <td align="center" width="20%">
       <a href="https://github.com/cemreeyrtsvr">
-        <img src="https://github.com/cemreeyrtsvr.png" width="110" style="border-radius:50%" alt="Cemre Yurtsever"/>
+        <img src="https://github.com/cemreeyrtsvr.png" width="120" style="border-radius:50%" alt="Cemre Yurtsever"/>
         <br/>
-        <sub><b>Cemre Yurtsever</b></sub>
+        <b>Cemre Yurtsever</b>
       </a>
-      <br/>
-      <sub>👩‍💻 VR Hareket</sub>
-      <br/>
-      <sub>Etkileşim / UI-UX</sub>
-      <br/>
-      <sub><code>250541127</code></sub>
     </td>
     <td align="center" width="20%">
       <a href="https://github.com/murathilaloglu">
-        <img src="https://github.com/murathilaloglu.png" width="110" style="border-radius:50%" alt="Mustafa Murat Hilaloğlu"/>
+        <img src="https://github.com/murathilaloglu.png" width="120" style="border-radius:50%" alt="Mustafa Murat Hilaloğlu"/>
         <br/>
-        <sub><b>Mustafa Murat Hilaloğlu</b></sub>
+        <b>Mustafa Murat Hilaloğlu</b>
       </a>
-      <br/>
-      <sub>👨‍💻 VR Fizik</sub>
-      <br/>
-      <sub>Oculus / 3D Modelleme</sub>
-      <br/>
-      <sub><code>240541025</code></sub>
     </td>
     <td align="center" width="20%">
       <a href="https://github.com/firatseckin">
-        <img src="https://github.com/firatseckin.png" width="110" style="border-radius:50%" alt="Fırat Seçkin"/>
+        <img src="https://github.com/firatseckin.png" width="120" style="border-radius:50%" alt="Fırat Seçkin"/>
         <br/>
-        <sub><b>Fırat Seçkin</b></sub>
+        <b>Fırat Seçkin</b>
       </a>
-      <br/>
-      <sub>👨‍💻 UI-UX Tasarımcı</sub>
-      <br/>
-      <sub>VR Deneyim</sub>
-      <br/>
-      <sub><code>250541042</code></sub>
     </td>
   </tr>
 </table>
